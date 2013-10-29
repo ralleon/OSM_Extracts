@@ -1,0 +1,103 @@
+﻿2013-10-28 09:48:32,296  INFO [BackgroundTaskThread 3] Maperitive.Updating.CheckForUpdatesTask - Checking for updates will be skipped.
+2013-10-28 09:48:32,437  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > use-ruleset alias=default
+2013-10-28 09:48:33,375  WARN [AsyncCmdLogTaskThread 4] Maperitive.Services.PersistedUserSettings - User setting 'map.rendering.shape-def' value read from the store was incompatible and was removed. Reason: Empty shape definition (line=1, col=1)
+2013-10-28 09:48:33,500  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: Running the script 'D:\DATA\rally\My Documents\Dropbox\OSM_Extracts\Maperitive\Scripts\load_riz_taytay.mscript'...
+2013-10-28 09:48:33,500  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > // clear-map
+2013-10-28 09:48:33,500  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > // Source 1
+2013-10-28 09:48:33,515  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > load-source maps/map_riz_taytay.osm
+2013-10-28 09:48:33,562  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: Started reading OSM data
+2013-10-28 09:48:34,015  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: Read 26053 nodes, 5224 ways and 54 relations in total
+2013-10-28 09:48:34,046  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > // Source 2
+2013-10-28 09:48:34,046  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > //load-source maps/rasters/rizal/riz_hillshading.png
+2013-10-28 09:48:34,046  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > // Source 3
+2013-10-28 09:48:34,046  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > //load-source maps/rasters/rizal/riz_slopes.png
+2013-10-28 09:48:34,046  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > use-ruleset location=Rules/OSM_PH.mrules as-alias=osmph
+2013-10-28 09:48:36,046  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:48:36,093  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:48:36,093  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:48:38,171  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > apply-ruleset 1
+2013-10-28 09:48:38,687  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: Running the script 'D:\DATA\rally\My Documents\Dropbox\OSM_Extracts\Maperitive\Scripts\load_ELECTION.mscript'...
+2013-10-28 09:48:38,687  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > // Source
+2013-10-28 09:48:38,703  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > load-source maps/custom_extracts/riz_taytay_poi_sanjuan-precincts.osm
+2013-10-28 09:48:38,718  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: Started reading OSM data
+2013-10-28 09:48:38,734  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: Read 228 nodes, 21 ways and 0 relations in total
+2013-10-28 09:48:41,187  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:48:41,203  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:48:41,203  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:48:41,843  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > set-source index=2
+2013-10-28 09:48:41,859  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > use-ruleset location=Rules/Election.mrules as-alias=election
+2013-10-28 09:48:41,921  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:48:41,921  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:48:41,921  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:48:43,171  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: > apply-ruleset 2
+2013-10-28 09:48:43,703  INFO [AsyncCmdLogTaskThread 4] Maperitive.Gui.Views.CommanderView - Info: READY
+2013-10-28 09:48:43,750  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:48:43,765  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:48:43,765  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:49:23,250  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:49:23,250  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:49:23,265  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:49:34,484  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:49:34,500  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:49:34,500  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:50:21,937  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:50:21,937  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:50:21,953  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:51:17,812  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:51:17,812  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:51:17,812  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:51:38,593  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:51:38,593  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:51:38,593  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:52:05,031  WARN [Main] Karta.Infrastructure.DefaultResourceFetcher - Cannot load resource from file 'D:\DATA\rally\My Documents\Dropbox\OSM_Extracts\Maperitive\icons/SJJB/png/barrier_gate.p.32.png': System.IO.FileNotFoundException: Could not find file 'D:\DATA\rally\My Documents\Dropbox\OSM_Extracts\Maperitive\icons\SJJB\png\barrier_gate.p.32.png'.
+File name: 'D:\DATA\rally\My Documents\Dropbox\OSM_Extracts\Maperitive\icons\SJJB\png\barrier_gate.p.32.png'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.ReadAllBytes(String path)
+   at Brejc.Common.FileSystem.WindowsFileSystem.ReadFileAsBytes(String fileName)
+   at Karta.Infrastructure.DefaultResourceFetcher.FetchFileResource(ResourceData& resourceData, IResourcePolicy resourcePolicy)
+2013-10-28 09:52:06,421  WARN [Main] Brejc.Geometry.Algorithms.Polygons.BrekiPolygonCenterPointFinder - Error in the icon placement algorithm.
+System.NotImplementedException: There are an odd number of crossings, they should be even.
+   at Brejc.Geometry.Algorithms.Polygons.BrekiPolygonCenterPointFinder.FindPointInsidePolygon(Double depth, Double startPointX, Double startPointY, IPointD2List polygonPoints, Boolean searchInsideSameSliceOnly, Boolean searchHorizontally)
+   at Brejc.Geometry.Algorithms.Polygons.BrekiPolygonCenterPointFinder.FindCenterPoint(IPointD2List polygonPoints)
+2013-10-28 09:52:06,421  WARN [Main] Brejc.Geometry.Algorithms.Polygons.BrekiPolygonCenterPointFinder - Error in the icon placement algorithm.
+System.NotImplementedException: There are an odd number of crossings, they should be even.
+   at Brejc.Geometry.Algorithms.Polygons.BrekiPolygonCenterPointFinder.FindPointInsidePolygon(Double depth, Double startPointX, Double startPointY, IPointD2List polygonPoints, Boolean searchInsideSameSliceOnly, Boolean searchHorizontally)
+   at Brejc.Geometry.Algorithms.Polygons.BrekiPolygonCenterPointFinder.FindCenterPoint(IPointD2List polygonPoints)
+2013-10-28 09:54:16,390  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:54:16,390  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:54:16,390  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:54:46,046  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:54:46,046  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:54:46,046  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:54:55,187  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:54:55,187  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:54:55,187  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:55:32,515  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:55:32,515  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:55:32,515  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:55:42,015  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:55:42,015  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:55:42,015  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:55:50,703  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:55:50,703  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:55:50,703  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:56:45,125  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:56:45,125  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:56:45,125  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 09:56:54,203  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 09:56:54,203  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 09:56:54,218  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 10:22:59,093  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 10:22:59,093  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 10:22:59,093  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 10:23:46,031  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 10:23:46,031  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 10:23:46,031  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 10:24:01,812  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Starting coastline processor...
+2013-10-28 10:24:01,812  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - All coastlines are closed
+2013-10-28 10:24:01,812  INFO [Main] Brejc.OsmLibrary.CoastlinesProcessing.CoastlineProcessor - Finished coastline processing.
+2013-10-28 10:24:27,921  INFO [Main] Maperitive.Gui.Forms.MaperitiveMainForm - Main window is closing.
+2013-10-28 10:24:27,921  INFO [Main] Maperitive.Gui.Forms.MaperitiveMainForm - Main window has been closed.
+2013-10-28 10:24:27,953  INFO [Main]   Maperitive.Program - Application shell has finished its work.

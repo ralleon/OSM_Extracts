@@ -1,0 +1,6 @@
+﻿// Source 
+load-source maps/custom_extracts/riz_taytay_poi_sanjuan-precincts.osm 
+set-source index=2
+
+use-ruleset location=Rules/Election.mrules as-alias=election
+apply-ruleset 2

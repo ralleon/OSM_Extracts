@@ -1,0 +1,1 @@
+find point[amenity=hospital OR amenity=clinic OR amenity=health_centre OR amenity=health_center] area[amenity=hospital OR amenity=clinic OR amenity=health_centre OR amenity=health_center]

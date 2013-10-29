@@ -1,0 +1,24 @@
+1. Make sure to extract boundary (which creates BOUNDARY_xxx_xxx.osm, then convert to extract_xxx_xxx.poly)
+
+2. create a filter parameter-file: "filter_<poi_name>.txt"
+eg. filter_schools.txt
+how?? just copy any existing filter file, edit (the required tags), rename, save using notepad
+
+3. get an update from GEOFABRIK (DOWNLOAD_philippines-latest.bat)
+   create & run EXTRACT_xxx_xxx_from_GEOFRABRIK.bat (this will create or update the source file)
+
+4. copy any existing "EXTRACT_<iso>_<lgu>_<poi_name>.bat"
+eg. EXTRACT_riz_taytay_schools.bat
+copy, rename file, save, using Notepad (or any text editor)
+edit the following lines inside:
+	set TOWN_NAME=taytay
+	set POI_NAME=schools
+	set CSV_FORMAT="@lat @lon name addr:street addr:city amenity"
+save
+
+4. test by clicking your new EXTRACT_<townname>_<poi_name>.bat
+5. check folder "..\poi_extracts" if the corresponding poi-extract files are generated:
+		a. csv (eg. taytay_poi_tricycles.csv)
+		b. kml (eg. taytay_poi_tricycles.kml)
+		c. nodes-only osm format (eg. taytay_poi_tricycles.osm)
+		d. nodes and polygons osm format (eg. update_taytay_schools.osm)

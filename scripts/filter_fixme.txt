@@ -1,0 +1,9 @@
+--verbose
+
+--keep=
+fixme=
+FIXME=
+
+--drop-relations
+
+-o=temp1.osm

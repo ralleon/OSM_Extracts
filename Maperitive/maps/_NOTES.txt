@@ -1,0 +1,67 @@
+user:Rally
+MY NOTES (needs to be updated) 
+
+SAMPLE DATA:
+taytay_raw.osm	this can be easily downloaded from JOSM using Download > Slippy map, Bookmarks or "Area around places"
+
+SAMPLE windows batch scripts:
+
+__make_taytay_extract.bat			creates taytay_extract.osm (from taytay_raw.osm) (within administrative boundary)
+
+_filter_taytay_covered_court.bat	extracts poi from taytay_extract.osm to create 3 output files:
+									taytay_covered_court.csv (node only) Spreadsheet
+									taytay_covered_court.kml (node only) Google Earth	
+									update_my_covered_court.osm	(node & polygon) for JOSM updating/reuploading	
+
+									
+----------------------
+POLY FORMAT
+*.poly are bounding-polygons created using JOSM's poly plugin
+How-to-make? remove all tags on your bounding polygon. "File save As" poly format. Done
+
+Samples of poly formats used here: 
+-make_taytay_extract.poly is a bounding-polygon that uses administrative boundary 
+-make_taytay_map.poly is slightly larger than extract poly, for use in rendering towns in Maperitive.
+
+===========================
+MAPERITIVE DOESN'T WORK?! (OH I FORGOT HOW TO DO IT ...AGAIN :-) MY PANIC NOTES
+
+Maperitive is looking for location of your personalized ruleset?
+
+Try Listing all your Registered Rulesets:
+	list-rulesets
+	 eg.
+	1: D:\Programs\Maperitive\Rules\Default.mrules (default)
+	2: D:\Programs\Maperitive\Rules\Wireframe.mrules (wireframe)
+	3: D:\Programs\Maperitive\Rules\GoogleMaps.mrules (googlemaps)
+	4: Rules/MyOwn.mrules - ACTIVE
+	Done
+
+Switching Between Rulesets:::
+
+	use-ruleset alias=googlemaps
+	apply-ruleset
+
+
+Assigning Aliases for Personalized Ruleset: (but this is not reliable for portable maperitive)
+	
+	use-ruleset location=Rules/MyOwn.mrules as-alias=myrules
+	
+	example:
+	use-ruleset location=Rules/Default_PH.mrules as-alias=osmph
+
+Changing Aliases - change the alias of your registered ruleset any time, example:
+
+	use-ruleset index=4 as-alias=newalias
+
+	NOTE:
+	You can also reassign the alias from one ruleset to another using the same technique.
+	You cannot use or change aliases for built-in rulesets. 
+		eg. use-ruleset index=2 as-alias=osmph (will not work!)
+TRICK to make Maperitive portable (and not look for that missing personalized msctipt: Reinstall it every time on default mscript. 
+
+
+-------
+When Making/Extracting Maps from philippines-latest.osm.pbf, 
+wait for the osmconvert* temporary files to delete themselves from ..\maps\raw_osm   --->just to be sure :-)
+

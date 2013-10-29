@@ -1,0 +1,14 @@
+--verbose
+
+--keep=
+amenity=hospital
+amenity=clinic
+amenity=health_centre
+amenity=health_center
+amenity=doctors
+health_facility=
+health_amenity=
+
+--drop-relations
+
+-o=temp1.osm

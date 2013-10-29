@@ -1,0 +1,63 @@
+// Default rendering rules for Maperitive resembling that of OSM Mapnik
+// http://maperitive.net
+
+// PH-Customized by user:Rally for OSMPH - SHOW ELECTION PRECINCTS
+// Released under the Creative Commons Attribution-ShareAlike 3.0 License (http://creativecommons.org/licenses/by-sa/3.0/)
+
+
+// ==========================================================================
+features
+	points
+		name : name
+
+	lines
+		boundary : boundary=administrative		
+		
+// note: it is assumed that the layer is pre-filtered to show only the node-equivalent of polygons
+		
+// ==========================================================================
+properties
+
+	font-weight : bold
+	font-family : Verdana
+	text-max-width : 12
+	text-halo-width : 25%
+	text-halo-opacity : 0.75
+	text-align-horizontal : center
+	text-align-vertical : center
+	font-stretch : 0.9
+	map.rendering.lflp.min-buffer-space : 5
+	map.rendering.lflp.max-allowed-corner-angle : 40
+
+	
+// ==========================================================================
+rules
+
+	target : name
+		define
+			icon-image : icons/mapicons/health-education/school.png
+			min-zoom : 12
+			icon-width : 14:12;19:24
+			placement-value : 1000
+		draw : icon
+		define
+			min-zoom : 14
+			font-weight : bold
+			font-size : 14:9;18:14
+			text-offset-vertical : -250%
+			text-color : red
+		draw : text
+
+	target : boundary
+		define
+			line-color : #9E1A99
+//			line-color : red
+			line-opacity : 0.8
+			min-zoom : 14
+			line-width : 12:2;14:3
+			line-style : dash
+			placement-value : 1000
+		draw : line	
+
+		
+	

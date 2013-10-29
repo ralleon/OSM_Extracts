@@ -1,0 +1,1653 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <bounds minlat='14.52607' minlon='121.104035' maxlat='14.591518' maxlon='121.168945' origin='osmfilter 1.2S' />
+  <node id='-33114' visible='true' lat='14.540037' lon='121.1142723' />
+  <node id='-33113' visible='true' lat='14.5401878' lon='121.1145756' />
+  <node id='-33112' visible='true' lat='14.5403948' lon='121.1150542' />
+  <node id='-33111' visible='true' lat='14.5405558' lon='121.1151956' />
+  <node id='-33110' visible='true' lat='14.540801' lon='121.115242' />
+  <node id='-33109' visible='true' lat='14.5413592' lon='121.1151723' />
+  <node id='-33108' visible='true' lat='14.5416483' lon='121.1151398' />
+  <node id='-33107' visible='true' lat='14.5421444' lon='121.1150736' />
+  <node id='-33106' visible='true' lat='14.5425801' lon='121.1149686' />
+  <node id='-33104' visible='true' lat='14.5304016' lon='121.1170877' />
+  <node id='-33103' visible='true' lat='14.5310545' lon='121.1164564' />
+  <node id='-33102' visible='true' lat='14.5317036' lon='121.1158727' />
+  <node id='-33101' visible='true' lat='14.5322461' lon='121.1154727' />
+  <node id='-33100' visible='true' lat='14.532449' lon='121.115161' />
+  <node id='-33099' visible='true' lat='14.5324851' lon='121.1147097' />
+  <node id='-33098' visible='true' lat='14.5326397' lon='121.1143438' />
+  <node id='-33097' visible='true' lat='14.532903' lon='121.114228' />
+  <node id='-33096' visible='true' lat='14.533443' lon='121.114026' />
+  <node id='-33095' visible='true' lat='14.535317' lon='121.112867' />
+  <node id='-33094' visible='true' lat='14.536159' lon='121.112376' />
+  <node id='-33093' visible='true' lat='14.536682' lon='121.112245' />
+  <node id='-33092' visible='true' lat='14.537067' lon='121.112316' />
+  <node id='-33091' visible='true' lat='14.537699' lon='121.112649' />
+  <node id='-33090' visible='true' lat='14.5397207' lon='121.1140437' />
+  <node id='-33089' visible='true' lat='14.5398249' lon='121.1141156' />
+  <node id='-33087' visible='true' lat='14.5333722' lon='121.1183558' />
+  <node id='-33086' visible='true' lat='14.5332872' lon='121.1181166' />
+  <node id='-33085' visible='true' lat='14.5330902' lon='121.117988' />
+  <node id='-33084' visible='true' lat='14.5328614' lon='121.1179099' />
+  <node id='-33083' visible='true' lat='14.5325875' lon='121.1179274' />
+  <node id='-33082' visible='true' lat='14.5322768' lon='121.1177719' />
+  <node id='-33081' visible='true' lat='14.5321036' lon='121.1175213' />
+  <node id='-33080' visible='true' lat='14.5320279' lon='121.1171985' />
+  <node id='-33079' visible='true' lat='14.5316274' lon='121.1170632' />
+  <node id='-33078' visible='true' lat='14.5312944' lon='121.1170888' />
+  <node id='-33076' visible='true' lat='14.5327093' lon='121.1295657' />
+  <node id='-33075' visible='true' lat='14.5317939' lon='121.1292096' />
+  <node id='-33074' visible='true' lat='14.5314883' lon='121.1289812' />
+  <node id='-33073' visible='true' lat='14.5301134' lon='121.1282827' />
+  <node id='-33072' visible='true' lat='14.5284114' lon='121.1264541' />
+  <node id='-33071' visible='true' lat='14.5293684' lon='121.1244113' />
+  <node id='-33070' visible='true' lat='14.5317752' lon='121.1232065' />
+  <node id='-33069' visible='true' lat='14.5330801' lon='121.1224302' />
+  <node id='-33068' visible='true' lat='14.5333561' lon='121.1223521' />
+  <node id='-33067' visible='true' lat='14.5337037' lon='121.1224443' />
+  <node id='-33066' visible='true' lat='14.5343425' lon='121.1228034' />
+  <node id='-33065' visible='true' lat='14.5346978' lon='121.1227863' />
+  <node id='-33064' visible='true' lat='14.5352016' lon='121.1229416' />
+  <node id='-33063' visible='true' lat='14.53551' lon='121.1231402' />
+  <node id='-33062' visible='true' lat='14.5360391' lon='121.1229489' />
+  <node id='-33061' visible='true' lat='14.5363587' lon='121.1228059' />
+  <node id='-33060' visible='true' lat='14.5365353' lon='121.1226604' />
+  <node id='-33059' visible='true' lat='14.5365719' lon='121.1222691' />
+  <node id='-33058' visible='true' lat='14.5365354' lon='121.121963' />
+  <node id='-33057' visible='true' lat='14.5365919' lon='121.1216525' />
+  <node id='-33056' visible='true' lat='14.5365565' lon='121.1214' />
+  <node id='-33055' visible='true' lat='14.5364968' lon='121.1211104' />
+  <node id='-33054' visible='true' lat='14.5363469' lon='121.1209456' />
+  <node id='-33053' visible='true' lat='14.5360612' lon='121.1209108' />
+  <node id='-33052' visible='true' lat='14.5355837' lon='121.120822' />
+  <node id='-33051' visible='true' lat='14.5350654' lon='121.1206101' />
+  <node id='-33050' visible='true' lat='14.534544' lon='121.1203846' />
+  <node id='-33049' visible='true' lat='14.5341566' lon='121.1202391' />
+  <node id='-33048' visible='true' lat='14.5338774' lon='121.1199366' />
+  <node id='-33047' visible='true' lat='14.533738' lon='121.1195996' />
+  <node id='-33046' visible='true' lat='14.5336201' lon='121.1192066' />
+  <node id='-33045' visible='true' lat='14.5334853' lon='121.1188009' />
+  <node id='-33043' visible='true' lat='14.5338945' lon='121.1302391' />
+  <node id='-33042' visible='true' lat='14.5329159' lon='121.1295354' />
+  <node id='-33040' visible='true' lat='14.5369787' lon='121.1334351' />
+  <node id='-33039' visible='true' lat='14.5362109' lon='121.1318939' />
+  <node id='-33038' visible='true' lat='14.5346274' lon='121.131009' />
+  <node id='-33036' visible='true' lat='14.5373457' lon='121.1347553' />
+  <node id='-33035' visible='true' lat='14.5373317' lon='121.1346023' />
+  <node id='-33034' visible='true' lat='14.5372657' lon='121.1344943' />
+  <node id='-33033' visible='true' lat='14.5367077' lon='121.1345413' />
+  <node id='-33032' visible='true' lat='14.5365797' lon='121.1344883' />
+  <node id='-33031' visible='true' lat='14.5366742' lon='121.1342327' />
+  <node id='-33030' visible='true' lat='14.5367077' lon='121.1341453' />
+  <node id='-33029' visible='true' lat='14.536715' lon='121.1339866' />
+  <node id='-33028' visible='true' lat='14.5369607' lon='121.1339743' />
+  <node id='-33026' visible='true' lat='14.5368812' lon='121.1354474' />
+  <node id='-33025' visible='true' lat='14.537136' lon='121.135533' />
+  <node id='-33024' visible='true' lat='14.537588' lon='121.135697' />
+  <node id='-33023' visible='true' lat='14.538769' lon='121.136128' />
+  <node id='-33022' visible='true' lat='14.539256' lon='121.136539' />
+  <node id='-33021' visible='true' lat='14.539774' lon='121.136842' />
+  <node id='-33020' visible='true' lat='14.540782' lon='121.13757' />
+  <node id='-33019' visible='true' lat='14.541584' lon='121.138212' />
+  <node id='-33018' visible='true' lat='14.54164' lon='121.138313' />
+  <node id='-33017' visible='true' lat='14.542376' lon='121.138877' />
+  <node id='-33016' visible='true' lat='14.5425499' lon='121.138982' />
+  <node id='-33015' visible='true' lat='14.5432101' lon='121.1394966' />
+  <node id='-33014' visible='true' lat='14.5436553' lon='121.1398843' />
+  <node id='-33013' visible='true' lat='14.5437837' lon='121.1399902' />
+  <node id='-33012' visible='true' lat='14.543514' lon='121.1403689' />
+  <node id='-33011' visible='true' lat='14.5433145' lon='121.1406757' />
+  <node id='-33010' visible='true' lat='14.543176' lon='121.1407276' />
+  <node id='-33009' visible='true' lat='14.5429411' lon='121.1410576' />
+  <node id='-33008' visible='true' lat='14.5435806' lon='121.141511' />
+  <node id='-33007' visible='true' lat='14.5439246' lon='121.1417659' />
+  <node id='-33006' visible='true' lat='14.5442574' lon='121.1420417' />
+  <node id='-33005' visible='true' lat='14.5449475' lon='121.142587' />
+  <node id='-33004' visible='true' lat='14.545553' lon='121.1430688' />
+  <node id='-33003' visible='true' lat='14.5456977' lon='121.1431567' />
+  <node id='-33002' visible='true' lat='14.5459125' lon='121.1432995' />
+  <node id='-33001' visible='true' lat='14.5462679' lon='121.1435292' />
+  <node id='-32999' visible='true' lat='14.5536675' lon='121.1583334' />
+  <node id='-32998' visible='true' lat='14.5543163' lon='121.1572294' />
+  <node id='-32997' visible='true' lat='14.5557858' lon='121.1558558' />
+  <node id='-32996' visible='true' lat='14.5562616' lon='121.1547136' />
+  <node id='-32995' visible='true' lat='14.5572273' lon='121.1538894' />
+  <node id='-32994' visible='true' lat='14.5580669' lon='121.1527616' />
+  <node id='-32993' visible='true' lat='14.5581929' lon='121.1516772' />
+  <node id='-32992' visible='true' lat='14.5573252' lon='121.1512145' />
+  <node id='-32991' visible='true' lat='14.5565415' lon='121.1506073' />
+  <node id='-32990' visible='true' lat='14.5555759' lon='121.1495952' />
+  <node id='-32989' visible='true' lat='14.5553176' lon='121.1493291' />
+  <node id='-32988' visible='true' lat='14.5555059' lon='121.1487999' />
+  <node id='-32987' visible='true' lat='14.5556039' lon='121.1485541' />
+  <node id='-32986' visible='true' lat='14.5550441' lon='121.1486553' />
+  <node id='-32985' visible='true' lat='14.5544143' lon='121.1485397' />
+  <node id='-32984' visible='true' lat='14.5540924' lon='121.1483372' />
+  <node id='-32983' visible='true' lat='14.5536866' lon='121.1477444' />
+  <node id='-32982' visible='true' lat='14.5531268' lon='121.1466456' />
+  <node id='-32981' visible='true' lat='14.5524147' lon='121.1454278' />
+  <node id='-32980' visible='true' lat='14.5521768' lon='121.1451241' />
+  <node id='-32979' visible='true' lat='14.5503735' lon='121.1447253' />
+  <node id='-32978' visible='true' lat='14.5500145' lon='121.145379' />
+  <node id='-32977' visible='true' lat='14.5466231' lon='121.1437253' />
+  <node id='-32975' visible='true' lat='14.556985' lon='121.1630784' />
+  <node id='-32974' visible='true' lat='14.5553811' lon='121.1620212' />
+  <node id='-32973' visible='true' lat='14.5545054' lon='121.160163' />
+  <node id='-32971' visible='true' lat='14.5655839' lon='121.1443482' />
+  <node id='-32970' visible='true' lat='14.5654428' lon='121.1445042' />
+  <node id='-32969' visible='true' lat='14.5651394' lon='121.1446994' />
+  <node id='-32968' visible='true' lat='14.5649879' lon='121.1449426' />
+  <node id='-32967' visible='true' lat='14.5645959' lon='121.1455224' />
+  <node id='-32966' visible='true' lat='14.56452' lon='121.1485635' />
+  <node id='-32965' visible='true' lat='14.5643691' lon='121.1502626' />
+  <node id='-32964' visible='true' lat='14.5642162' lon='121.1506416' />
+  <node id='-32963' visible='true' lat='14.5639648' lon='121.1507501' />
+  <node id='-32962' visible='true' lat='14.5635569' lon='121.1513041' />
+  <node id='-32961' visible='true' lat='14.5633722' lon='121.1516209' />
+  <node id='-32960' visible='true' lat='14.5629475' lon='121.152363' />
+  <node id='-32959' visible='true' lat='14.5629545' lon='121.1529269' />
+  <node id='-32958' visible='true' lat='14.5628915' lon='121.1532884' />
+  <node id='-32957' visible='true' lat='14.5624297' lon='121.1531438' />
+  <node id='-32956' visible='true' lat='14.5620379' lon='121.1531727' />
+  <node id='-32955' visible='true' lat='14.5614361' lon='121.1537077' />
+  <node id='-32954' visible='true' lat='14.5611422' lon='121.1546186' />
+  <node id='-32953' visible='true' lat='14.5610722' lon='121.1564259' />
+  <node id='-32952' visible='true' lat='14.5606244' lon='121.1564549' />
+  <node id='-32951' visible='true' lat='14.5606384' lon='121.1577706' />
+  <node id='-32950' visible='true' lat='14.561758' lon='121.1579297' />
+  <node id='-32949' visible='true' lat='14.5623037' lon='121.15832' />
+  <node id='-32948' visible='true' lat='14.5618419' lon='121.1589996' />
+  <node id='-32947' visible='true' lat='14.56173' lon='121.1592454' />
+  <node id='-32946' visible='true' lat='14.561772' lon='121.1597081' />
+  <node id='-32945' visible='true' lat='14.5618839' lon='121.1600262' />
+  <node id='-32944' visible='true' lat='14.5619119' lon='121.1603009' />
+  <node id='-32943' visible='true' lat='14.561674' lon='121.160778' />
+  <node id='-32942' visible='true' lat='14.5589503' lon='121.1653476' />
+  <node id='-32940' visible='true' lat='14.5662474' lon='121.1353529' />
+  <node id='-32939' visible='true' lat='14.5661633' lon='121.1356258' />
+  <node id='-32938' visible='true' lat='14.5661435' lon='121.1357723' />
+  <node id='-32937' visible='true' lat='14.5661015' lon='121.1359525' />
+  <node id='-32936' visible='true' lat='14.5661063' lon='121.136117' />
+  <node id='-32935' visible='true' lat='14.566048' lon='121.1363867' />
+  <node id='-32934' visible='true' lat='14.5661258' lon='121.136458' />
+  <node id='-32933' visible='true' lat='14.5661332' lon='121.1366205' />
+  <node id='-32932' visible='true' lat='14.5659033' lon='121.1368' />
+  <node id='-32931' visible='true' lat='14.5655921' lon='121.137056' />
+  <node id='-32930' visible='true' lat='14.5655052' lon='121.1372909' />
+  <node id='-32929' visible='true' lat='14.5653428' lon='121.1373529' />
+  <node id='-32928' visible='true' lat='14.5651664' lon='121.1374469' />
+  <node id='-32927' visible='true' lat='14.5650519' lon='121.1373873' />
+  <node id='-32926' visible='true' lat='14.5647181' lon='121.1371708' />
+  <node id='-32925' visible='true' lat='14.5646964' lon='121.137261' />
+  <node id='-32924' visible='true' lat='14.5646802' lon='121.1373241' />
+  <node id='-32923' visible='true' lat='14.5644406' lon='121.1372914' />
+  <node id='-32922' visible='true' lat='14.5643215' lon='121.1372716' />
+  <node id='-32921' visible='true' lat='14.5642303' lon='121.1371261' />
+  <node id='-32920' visible='true' lat='14.5641648' lon='121.137103' />
+  <node id='-32919' visible='true' lat='14.5641009' lon='121.1371744' />
+  <node id='-32918' visible='true' lat='14.5639859' lon='121.1373243' />
+  <node id='-32917' visible='true' lat='14.5638878' lon='121.1373754' />
+  <node id='-32916' visible='true' lat='14.5637938' lon='121.1374223' />
+  <node id='-32915' visible='true' lat='14.56345' lon='121.1375249' />
+  <node id='-32914' visible='true' lat='14.5633584' lon='121.1376462' />
+  <node id='-32913' visible='true' lat='14.5633605' lon='121.1377274' />
+  <node id='-32912' visible='true' lat='14.5632833' lon='121.1378388' />
+  <node id='-32911' visible='true' lat='14.5631945' lon='121.1379595' />
+  <node id='-32910' visible='true' lat='14.563159' lon='121.1381241' />
+  <node id='-32909' visible='true' lat='14.5630941' lon='121.1382505' />
+  <node id='-32908' visible='true' lat='14.5630484' lon='121.1384078' />
+  <node id='-32907' visible='true' lat='14.5630708' lon='121.138451' />
+  <node id='-32906' visible='true' lat='14.5631497' lon='121.1388147' />
+  <node id='-32905' visible='true' lat='14.5630702' lon='121.1392428' />
+  <node id='-32904' visible='true' lat='14.5630914' lon='121.139492' />
+  <node id='-32903' visible='true' lat='14.5630628' lon='121.1395237' />
+  <node id='-32902' visible='true' lat='14.5629565' lon='121.1395111' />
+  <node id='-32901' visible='true' lat='14.5628639' lon='121.139574' />
+  <node id='-32900' visible='true' lat='14.5628283' lon='121.1398203' />
+  <node id='-32899' visible='true' lat='14.5628106' lon='121.1399506' />
+  <node id='-32898' visible='true' lat='14.5627898' lon='121.1400816' />
+  <node id='-32897' visible='true' lat='14.5624518' lon='121.1407058' />
+  <node id='-32896' visible='true' lat='14.5625625' lon='121.1409429' />
+  <node id='-32895' visible='true' lat='14.5631712' lon='121.1412703' />
+  <node id='-32894' visible='true' lat='14.5632269' lon='121.1414828' />
+  <node id='-32893' visible='true' lat='14.5633566' lon='121.1417016' />
+  <node id='-32892' visible='true' lat='14.5633986' lon='121.1419257' />
+  <node id='-32891' visible='true' lat='14.5634261' lon='121.1419974' />
+  <node id='-32890' visible='true' lat='14.5634397' lon='121.1420896' />
+  <node id='-32889' visible='true' lat='14.5632917' lon='121.142134' />
+  <node id='-32888' visible='true' lat='14.5633233' lon='121.1423712' />
+  <node id='-32887' visible='true' lat='14.5638553' lon='121.142829' />
+  <node id='-32886' visible='true' lat='14.5639645' lon='121.1428017' />
+  <node id='-32885' visible='true' lat='14.5641033' lon='121.1428002' />
+  <node id='-32884' visible='true' lat='14.5641503' lon='121.1426908' />
+  <node id='-32883' visible='true' lat='14.5642034' lon='121.1426426' />
+  <node id='-32882' visible='true' lat='14.5642894' lon='121.1426402' />
+  <node id='-32881' visible='true' lat='14.5644011' lon='121.1426459' />
+  <node id='-32880' visible='true' lat='14.5645192' lon='121.1428361' />
+  <node id='-32879' visible='true' lat='14.5645392' lon='121.1428093' />
+  <node id='-32878' visible='true' lat='14.5646659' lon='121.1426755' />
+  <node id='-32877' visible='true' lat='14.5647142' lon='121.1426575' />
+  <node id='-32876' visible='true' lat='14.5647578' lon='121.1426901' />
+  <node id='-32875' visible='true' lat='14.5648242' lon='121.1430002' />
+  <node id='-32874' visible='true' lat='14.5650226' lon='121.14316' />
+  <node id='-32873' visible='true' lat='14.5650867' lon='121.1432109' />
+  <node id='-32872' visible='true' lat='14.5652328' lon='121.143237' />
+  <node id='-32871' visible='true' lat='14.5653125' lon='121.1432954' />
+  <node id='-32870' visible='true' lat='14.5653879' lon='121.1434856' />
+  <node id='-32869' visible='true' lat='14.5655114' lon='121.1436245' />
+  <node id='-32868' visible='true' lat='14.5655749' lon='121.1437363' />
+  <node id='-32867' visible='true' lat='14.5655798' lon='121.1437444' />
+  <node id='-32866' visible='true' lat='14.5657485' lon='121.1440238' />
+  <node id='-32864' visible='true' lat='14.566317' lon='121.1348512' />
+  <node id='-32863' visible='true' lat='14.5663284' lon='121.1349085' />
+  <node id='-32862' visible='true' lat='14.5663544' lon='121.1351173' />
+  <node id='-32860' visible='true' lat='14.5663628' lon='121.1348482' />
+  <node id='-32858' visible='true' lat='14.5667137' lon='121.1334622' />
+  <node id='-32857' visible='true' lat='14.5668688' lon='121.1328219' />
+  <node id='-32856' visible='true' lat='14.5668907' lon='121.1327582' />
+  <node id='-32854' visible='true' lat='14.5669959' lon='121.1325346' />
+  <node id='-32853' visible='true' lat='14.5672493' lon='121.132107' />
+  <node id='-32851' visible='true' lat='14.5675124' lon='121.1316708' />
+  <node id='-32850' visible='true' lat='14.5677739' lon='121.1312211' />
+  <node id='-32849' visible='true' lat='14.568038' lon='121.130773' />
+  <node id='-32847' visible='true' lat='14.5682765' lon='121.1303994' />
+  <node id='-32845' visible='true' lat='14.5685189' lon='121.1300193' />
+  <node id='-32843' visible='true' lat='14.5676523' lon='121.1295074' />
+  <node id='-32842' visible='true' lat='14.5677675' lon='121.1295664' />
+  <node id='-32841' visible='true' lat='14.5680542' lon='121.1297961' />
+  <node id='-32840' visible='true' lat='14.5684953' lon='121.1300562' />
+  <node id='-32838' visible='true' lat='14.5538653' lon='121.1206087' />
+  <node id='-32837' visible='true' lat='14.553869' lon='121.1209265' />
+  <node id='-32836' visible='true' lat='14.5537445' lon='121.1211554' />
+  <node id='-32835' visible='true' lat='14.553712' lon='121.1212848' />
+  <node id='-32834' visible='true' lat='14.5537837' lon='121.1214842' />
+  <node id='-32833' visible='true' lat='14.554174' lon='121.1217256' />
+  <node id='-32832' visible='true' lat='14.5542972' lon='121.1217938' />
+  <node id='-32831' visible='true' lat='14.5543592' lon='121.1219694' />
+  <node id='-32830' visible='true' lat='14.5543759' lon='121.1222626' />
+  <node id='-32829' visible='true' lat='14.5544467' lon='121.1225485' />
+  <node id='-32828' visible='true' lat='14.5546069' lon='121.1226039' />
+  <node id='-32827' visible='true' lat='14.5548818' lon='121.1225991' />
+  <node id='-32826' visible='true' lat='14.5551027' lon='121.1227414' />
+  <node id='-32825' visible='true' lat='14.5553029' lon='121.1229957' />
+  <node id='-32824' visible='true' lat='14.5554549' lon='121.1233368' />
+  <node id='-32823' visible='true' lat='14.5555553' lon='121.123649' />
+  <node id='-32822' visible='true' lat='14.5556593' lon='121.1237732' />
+  <node id='-32821' visible='true' lat='14.5562404' lon='121.124241' />
+  <node id='-32820' visible='true' lat='14.5570605' lon='121.1249549' />
+  <node id='-32819' visible='true' lat='14.5575996' lon='121.1253769' />
+  <node id='-32818' visible='true' lat='14.5578389' lon='121.1255827' />
+  <node id='-32817' visible='true' lat='14.5582034' lon='121.1259142' />
+  <node id='-32816' visible='true' lat='14.5587998' lon='121.1263618' />
+  <node id='-32815' visible='true' lat='14.5590268' lon='121.126465' />
+  <node id='-32814' visible='true' lat='14.5591876' lon='121.1264711' />
+  <node id='-32813' visible='true' lat='14.5594954' lon='121.1264112' />
+  <node id='-32812' visible='true' lat='14.5601284' lon='121.1263949' />
+  <node id='-32811' visible='true' lat='14.5602957' lon='121.1263767' />
+  <node id='-32810' visible='true' lat='14.560623' lon='121.1262909' />
+  <node id='-32809' visible='true' lat='14.5608113' lon='121.1262889' />
+  <node id='-32808' visible='true' lat='14.5613498' lon='121.1265648' />
+  <node id='-32807' visible='true' lat='14.5614473' lon='121.1266607' />
+  <node id='-32806' visible='true' lat='14.5614755' lon='121.1267661' />
+  <node id='-32805' visible='true' lat='14.5613957' lon='121.1272085' />
+  <node id='-32804' visible='true' lat='14.5614569' lon='121.1272564' />
+  <node id='-32803' visible='true' lat='14.5616978' lon='121.1273263' />
+  <node id='-32802' visible='true' lat='14.5618245' lon='121.1273853' />
+  <node id='-32801' visible='true' lat='14.5624176' lon='121.1278322' />
+  <node id='-32800' visible='true' lat='14.5628038' lon='121.1279456' />
+  <node id='-32799' visible='true' lat='14.5629035' lon='121.1280203' />
+  <node id='-32798' visible='true' lat='14.5629384' lon='121.1280734' />
+  <node id='-32797' visible='true' lat='14.5629492' lon='121.1282708' />
+  <node id='-32796' visible='true' lat='14.5629629' lon='121.1286391' />
+  <node id='-32795' visible='true' lat='14.5630373' lon='121.1287087' />
+  <node id='-32794' visible='true' lat='14.5631796' lon='121.128763' />
+  <node id='-32793' visible='true' lat='14.5633187' lon='121.1288045' />
+  <node id='-32792' visible='true' lat='14.564668' lon='121.1291122' />
+  <node id='-32791' visible='true' lat='14.565048' lon='121.1292014' />
+  <node id='-32790' visible='true' lat='14.5654791' lon='121.1294142' />
+  <node id='-32789' visible='true' lat='14.5659011' lon='121.1295925' />
+  <node id='-32788' visible='true' lat='14.5662857' lon='121.1296417' />
+  <node id='-32787' visible='true' lat='14.5664131' lon='121.1296427' />
+  <node id='-32786' visible='true' lat='14.566648' lon='121.129556' />
+  <node id='-32785' visible='true' lat='14.5669423' lon='121.1294644' />
+  <node id='-32784' visible='true' lat='14.5671798' lon='121.1294317' />
+  <node id='-32783' visible='true' lat='14.567383' lon='121.1293808' />
+  <node id='-32781' visible='true' lat='14.553205' lon='121.11976' />
+  <node id='-32780' visible='true' lat='14.553344' lon='121.119913' />
+  <node id='-32779' visible='true' lat='14.5535752' lon='121.1203291' />
+  <node id='-32777' visible='true' lat='14.5531402' lon='121.1195739' />
+  <node id='-32776' visible='true' lat='14.5530541' lon='121.1195902' />
+  <node id='-32775' visible='true' lat='14.5529334' lon='121.1193821' />
+  <node id='-32774' visible='true' lat='14.5525961' lon='121.1188878' />
+  <node id='-32772' visible='true' lat='14.5518009' lon='121.1175762' />
+  <node id='-32770' visible='true' lat='14.5493332' lon='121.1193467' />
+  <node id='-32768' visible='true' lat='14.5433777' lon='121.114608' />
+  <node id='-32767' visible='true' lat='14.5435843' lon='121.1150496' />
+  <node id='-32766' visible='true' lat='14.5437807' lon='121.11545' />
+  <node id='-32765' visible='true' lat='14.5441078' lon='121.1158464' />
+  <node id='-32764' visible='true' lat='14.5443008' lon='121.1160314' />
+  <node id='-32763' visible='true' lat='14.5446364' lon='121.1162856' />
+  <node id='-32762' visible='true' lat='14.5451362' lon='121.1165646' />
+  <node id='-32761' visible='true' lat='14.5453305' lon='121.1166741' />
+  <node id='-32760' visible='true' lat='14.5458688' lon='121.117015' />
+  <node id='-32759' visible='true' lat='14.5465713' lon='121.1177595' />
+  <node id='-32758' visible='true' lat='14.5467131' lon='121.1178294' />
+  <node id='-32757' visible='true' lat='14.5472879' lon='121.1180466' />
+  <node id='-32756' visible='true' lat='14.5474258' lon='121.118083' />
+  <node id='-32754' visible='true' lat='14.5302747' lon='121.1174642' />
+  <node id='-32753' visible='true' lat='14.5296055' lon='121.1176132' />
+  <node id='-32751' visible='true' lat='14.5664808' lon='121.1343485' />
+  <node id='-32750' visible='true' lat='14.5666006' lon='121.1338724' />
+  <node id='-32749' visible='true' lat='14.566631' lon='121.1337614' />
+  <node id='-32747' visible='true' lat='14.5461119' lon='121.1172491' />
+  <node id='-32746' visible='true' lat='14.5623119' lon='121.1277887' />
+  <node id='-32745' visible='true' lat='14.5668139' lon='121.13305' />
+  <node id='-32744' visible='true' lat='14.5635811' lon='121.137425' />
+  <node id='-32743' visible='true' lat='14.542836' lon='121.139212' />
+  <node id='-32742' visible='true' lat='14.563553' lon='121.1288652' />
+  <node id='-32741' visible='true' lat='14.5680836' lon='121.1307015' />
+  <node id='-32740' visible='true' lat='14.566034' lon='121.1363063' />
+  <node id='-32739' visible='true' lat='14.5584448' lon='121.1520242' />
+  <node id='-32737' visible='true' lat='14.534382' lon='121.113498' />
+  <node id='-32736' visible='true' lat='14.5596981' lon='121.12638' />
+  <node id='-32735' visible='true' lat='14.5647854' lon='121.1371086' />
+  <node id='-32487' action='modify' visible='true' lat='14.5468981' lon='121.135894'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='community_centre' />
+    <tag k='building' v='roof' />
+    <tag k='name' v='Dividend Homes Covered Court' />
+    <tag k='sport' v='basketball' />
+  </node>
+  <node id='-32485' action='modify' visible='true' lat='14.544450801576673' lon='121.12031164316012'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Bagong Pag-asa Elementary School' />
+  </node>
+  <node id='251085466' action='delete' timestamp='2011-04-02T06:05:24Z' uid='5541' user='Ian Haylock' visible='true' version='12' changeset='7741205' lat='14.5329096' lon='121.1293832' />
+  <node id='304233467' action='delete' timestamp='2010-12-18T14:07:26Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5541907' lon='121.114169' />
+  <node id='304233470' action='delete' timestamp='2010-12-18T14:06:13Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5531987' lon='121.114878' />
+  <node id='304233471' action='delete' timestamp='2009-04-03T00:44:21Z' uid='102963' user='denz' visible='true' version='11' changeset='146407' lat='14.5530242' lon='121.1150028' />
+  <node id='304233472' action='delete' timestamp='2010-12-18T14:07:35Z' uid='24338' user='Rally' visible='true' version='3' changeset='6696126' lat='14.552853' lon='121.1151252' />
+  <node id='304233474' action='delete' timestamp='2010-12-18T14:07:05Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5523959' lon='121.115452' />
+  <node id='304233477' action='delete' timestamp='2010-12-18T14:07:29Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5522262' lon='121.115573' />
+  <node id='304233490' action='delete' timestamp='2010-12-18T14:07:31Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5515172' lon='121.11608' />
+  <node id='304233503' action='delete' timestamp='2010-12-18T14:07:36Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5509437' lon='121.11649' />
+  <node id='304233506' action='delete' timestamp='2010-12-18T14:06:21Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5504714' lon='121.116828' />
+  <node id='304233523' action='delete' timestamp='2010-12-18T14:07:02Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5499529' lon='121.117199' />
+  <node id='304233527' action='delete' timestamp='2010-12-18T14:06:30Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5497789' lon='121.117323' />
+  <node id='304233536' action='delete' timestamp='2010-12-18T14:07:07Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5490369' lon='121.117854' />
+  <node id='304233542' action='delete' timestamp='2010-12-18T14:06:16Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5488247' lon='121.118006' />
+  <node id='304233554' action='delete' timestamp='2010-12-18T14:07:03Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5483184' lon='121.118368' />
+  <node id='304233559' action='delete' timestamp='2010-12-18T14:06:57Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5481572' lon='121.118483' />
+  <node id='304233570' action='delete' timestamp='2010-12-18T14:07:30Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5475815' lon='121.118895' />
+  <node id='304465436' action='delete' timestamp='2010-12-18T14:06:13Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5469225' lon='121.119366' />
+  <node id='304465437' action='delete' timestamp='2010-12-18T14:06:41Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5466674' lon='121.119548' />
+  <node id='304465438' action='delete' timestamp='2010-12-18T14:07:17Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5464347' lon='121.119715' />
+  <node id='304465439' action='delete' timestamp='2010-12-18T14:06:27Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5462037' lon='121.11988' />
+  <node id='304465441' action='delete' timestamp='2010-12-18T14:06:09Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5457222' lon='121.120224' />
+  <node id='304465443' action='delete' timestamp='2010-12-18T14:07:07Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.545235' lon='121.120572' />
+  <node id='304465444' action='delete' timestamp='2010-12-18T14:06:22Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5449929' lon='121.120745' />
+  <node id='304465445' action='delete' timestamp='2010-12-18T14:06:47Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5447498' lon='121.120919' />
+  <node id='304465446' action='delete' timestamp='2010-12-18T14:07:30Z' uid='24338' user='Rally' visible='true' version='13' changeset='6696126' lat='14.5445701' lon='121.1210479' />
+  <node id='304465452' action='delete' timestamp='2010-12-18T14:06:29Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5429671' lon='121.122194' />
+  <node id='304465454' action='delete' timestamp='2010-12-18T14:06:12Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5427823' lon='121.122326' />
+  <node id='304465457' action='delete' timestamp='2010-12-18T14:06:25Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5422723' lon='121.122691' />
+  <node id='304465459' action='delete' timestamp='2010-12-18T14:07:33Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5419051' lon='121.122953' />
+  <node id='304465460' action='delete' timestamp='2010-12-18T14:06:35Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5417364' lon='121.123074' />
+  <node id='304465461' action='delete' timestamp='2010-12-18T14:07:03Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5415523' lon='121.123206' />
+  <node id='304465462' action='delete' timestamp='2010-12-18T14:06:20Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5413704' lon='121.123336' />
+  <node id='304465464' action='delete' timestamp='2013-10-17T04:32:20Z' uid='1775618' user='Romanuscaesarea' visible='true' version='5' changeset='18396821' lat='14.5410366' lon='121.1235695' />
+  <node id='304465465' action='delete' timestamp='2010-12-18T14:06:30Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5408576' lon='121.123702' />
+  <node id='304465467' action='delete' timestamp='2010-12-18T14:06:14Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5404999' lon='121.123958' />
+  <node id='304465468' action='delete' timestamp='2011-04-02T06:05:29Z' uid='5541' user='Ian Haylock' visible='true' version='5' changeset='7741205' lat='14.5403303' lon='121.1240796' />
+  <node id='304465469' action='delete' timestamp='2010-12-18T14:07:18Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5401399' lon='121.124216' />
+  <node id='304465470' action='delete' timestamp='2010-12-18T14:06:27Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5399677' lon='121.124339' />
+  <node id='304465472' action='delete' timestamp='2010-12-18T14:06:09Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5396107' lon='121.124594' />
+  <node id='304465475' action='delete' timestamp='2010-12-18T14:06:22Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5390797' lon='121.124974' />
+  <node id='304465477' action='delete' timestamp='2010-12-18T14:07:30Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5387302' lon='121.125224' />
+  <node id='304465479' action='delete' timestamp='2010-12-18T14:07:01Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5383726' lon='121.125479' />
+  <node id='304465480' action='delete' timestamp='2013-09-06T14:31:57Z' uid='24338' user='Rally' visible='true' version='5' changeset='17704195' lat='14.5382307' lon='121.1255808' />
+  <node id='304465482' action='delete' timestamp='2010-12-18T14:07:23Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5376639' lon='121.125986' />
+  <node id='304465486' action='delete' timestamp='2010-12-18T14:06:39Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5373277' lon='121.126227' />
+  <node id='304465487' action='delete' timestamp='2010-12-18T14:07:13Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5371612' lon='121.126345' />
+  <node id='304465490' action='delete' timestamp='2010-12-18T14:07:34Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.53661' lon='121.12674' />
+  <node id='304465491' action='delete' timestamp='2010-12-18T14:06:35Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5364273' lon='121.12687' />
+  <node id='304465492' action='delete' timestamp='2010-12-18T14:07:04Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5362478' lon='121.126999' />
+  <node id='304465495' action='delete' timestamp='2010-12-18T14:07:28Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5357282' lon='121.12737' />
+  <node id='304465504' action='delete' timestamp='2010-12-18T14:06:37Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5346564' lon='121.128136' />
+  <node id='304465506' action='delete' timestamp='2010-12-18T14:06:23Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5342872' lon='121.1284' />
+  <node id='304465507' action='delete' timestamp='2010-12-18T14:06:49Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5341108' lon='121.128527' />
+  <node id='304465516' action='delete' timestamp='2010-12-18T14:06:12Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5339306' lon='121.128655' />
+  <node id='304465518' action='delete' timestamp='2010-12-18T14:07:14Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5335919' lon='121.128898' />
+  <node id='304465519' action='delete' timestamp='2010-12-18T14:06:26Z' uid='24338' user='Rally' visible='true' version='5' changeset='6696126' lat='14.5334106' lon='121.129027' />
+  <node id='306330312' action='delete' timestamp='2010-12-18T14:06:08Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5431469' lon='121.122066' />
+  <node id='306330861' action='delete' timestamp='2012-07-13T07:35:01Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.5435522' lon='121.119814' />
+  <node id='306330977' action='delete' timestamp='2010-12-18T14:06:59Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5471262' lon='121.11922' />
+  <node id='306331550' action='delete' timestamp='2012-07-13T07:35:31Z' uid='24338' user='Rally' visible='true' version='4' changeset='12203519' lat='14.5444444' lon='121.1193822' />
+  <node id='306331730' action='delete' timestamp='2012-07-13T07:35:39Z' uid='24338' user='Rally' visible='true' version='4' changeset='12203519' lat='14.544235' lon='121.1195646' />
+  <node id='306332009' action='delete' timestamp='2012-07-13T07:35:49Z' uid='24338' user='Rally' visible='true' version='4' changeset='12203519' lat='14.5446255' lon='121.1191857' />
+  <node id='306332052' action='delete' timestamp='2013-09-07T08:01:23Z' uid='24338' user='Rally' visible='true' version='4' changeset='17714282' lat='14.5430226' lon='121.1202539' />
+  <node id='306332250' action='delete' timestamp='2012-07-13T07:36:00Z' uid='24338' user='Rally' visible='true' version='4' changeset='12203519' lat='14.5438715' lon='121.1199952' />
+  <node id='306332910' action='delete' timestamp='2010-12-18T14:07:31Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5486295' lon='121.118145' />
+  <node id='306333389' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='4' changeset='17469822' lat='14.5445128' lon='121.1205144' />
+  <node id='306333390' action='delete' timestamp='2010-12-18T14:07:20Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5389199' lon='121.125088' />
+  <node id='306333758' action='delete' timestamp='2012-07-13T07:37:16Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.544014' lon='121.120574' />
+  <node id='306333787' action='delete' timestamp='2010-12-18T14:07:05Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5332673' lon='121.12913' />
+  <node id='306333793' action='delete' timestamp='2010-12-18T14:06:16Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5350403' lon='121.127862' />
+  <node id='306334269' action='delete' timestamp='2010-12-18T14:06:40Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.537858' lon='121.125847' />
+  <node id='306334379' action='delete' timestamp='2010-12-18T14:07:24Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5511432' lon='121.116348' />
+  <node id='306334431' action='delete' timestamp='2013-09-07T08:01:23Z' uid='24338' user='Rally' visible='true' version='4' changeset='17714282' lat='14.5431466' lon='121.1205884' />
+  <node id='306335031' action='delete' timestamp='2012-07-13T07:38:12Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.543782' lon='121.120617' />
+  <node id='306335386' action='delete' timestamp='2011-04-02T06:05:30Z' uid='5541' user='Ian Haylock' visible='true' version='5' changeset='7741205' lat='14.5360836' lon='121.1271161' />
+  <node id='306335452' action='delete' timestamp='2013-10-17T04:29:50Z' uid='1775618' user='Romanuscaesarea' visible='true' version='5' changeset='18396810' lat='14.5412165' lon='121.1234433' />
+  <node id='306335882' action='delete' timestamp='2010-12-18T14:06:28Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5534854' lon='121.114673' />
+  <node id='306336226' action='delete' timestamp='2010-12-18T14:06:43Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5513394' lon='121.116208' />
+  <node id='306336230' action='delete' timestamp='2010-12-18T14:06:11Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5459498' lon='121.120061' />
+  <node id='306336451' action='delete' timestamp='2012-07-13T07:39:39Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.545278' lon='121.119523' />
+  <node id='306336799' action='delete' timestamp='2010-12-18T14:06:48Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5392684' lon='121.124839' />
+  <node id='306336872' action='delete' timestamp='2010-12-18T14:07:15Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5380249' lon='121.125728' />
+  <node id='306336910' action='delete' timestamp='2010-12-18T14:06:37Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5426224' lon='121.12244' />
+  <node id='306336934' action='delete' timestamp='2013-09-07T08:01:24Z' uid='24338' user='Rally' visible='true' version='4' changeset='17714282' lat='14.5434252' lon='121.1210162' />
+  <node id='306337443' action='delete' timestamp='2013-09-07T08:01:24Z' uid='24338' user='Rally' visible='true' version='4' changeset='17714282' lat='14.5429924' lon='121.1198663' />
+  <node id='306337789' action='delete' timestamp='2010-12-18T14:07:15Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5442228' lon='121.121296' />
+  <node id='306337957' action='delete' timestamp='2010-12-18T14:07:25Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5348536' lon='121.127996' />
+  <node id='306338059' action='delete' timestamp='2010-12-18T14:06:47Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5344657' lon='121.128273' />
+  <node id='306338075' action='delete' timestamp='2010-12-18T14:07:03Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5385674' lon='121.12534' />
+  <node id='306338888' action='delete' timestamp='2012-07-13T07:41:57Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.545514' lon='121.119338' />
+  <node id='306339628' action='delete' timestamp='2010-12-18T14:06:27Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5493847' lon='121.117605' />
+  <node id='306340120' action='delete' timestamp='2012-07-13T07:42:45Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.543637' lon='121.120848' />
+  <node id='306340165' action='delete' timestamp='2010-12-18T14:07:31Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5352048' lon='121.127744' />
+  <node id='306340181' action='delete' timestamp='2010-12-18T14:06:21Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5472817' lon='121.119109' />
+  <node id='306340359' action='delete' timestamp='2010-12-18T14:06:16Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5437989' lon='121.121599' />
+  <node id='306340464' action='delete' timestamp='2010-12-18T14:07:04Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5337718' lon='121.128769' />
+  <node id='306340713' action='delete' timestamp='2010-12-18T14:06:24Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.549617' lon='121.117439' />
+  <node id='306341977' action='delete' timestamp='2010-12-18T14:07:02Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5355565' lon='121.127493' />
+  <node id='306342028' action='delete' timestamp='2012-07-13T07:44:01Z' uid='24338' user='Rally' visible='true' version='5' changeset='12203519' lat='14.5429505' lon='121.1198279' />
+  <node id='306342046' action='delete' timestamp='2012-07-13T07:44:04Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.544113' lon='121.119677' />
+  <node id='306342232' action='delete' timestamp='2010-12-18T14:06:44Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5353794' lon='121.12762' />
+  <node id='306342567' action='delete' timestamp='2010-12-18T14:06:16Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.540683' lon='121.123827' />
+  <node id='306342628' action='delete' timestamp='2010-12-18T14:07:01Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5420983' lon='121.122815' />
+  <node id='306342683' action='delete' timestamp='2010-12-18T14:06:22Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5375071' lon='121.126098' />
+  <node id='306342719' action='delete' timestamp='2011-04-02T06:05:24Z' uid='5541' user='Ian Haylock' visible='true' version='5' changeset='7741205' lat='14.5359128' lon='121.1272381' />
+  <node id='306342901' action='delete' timestamp='2010-12-18T14:06:41Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5433352' lon='121.121931' />
+  <node id='306343081' action='delete' timestamp='2010-12-18T14:06:22Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5440314' lon='121.121433' />
+  <node id='306343440' action='delete' timestamp='2010-12-18T14:06:35Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5424488' lon='121.122565' />
+  <node id='306343464' action='delete' timestamp='2012-07-13T07:45:17Z' uid='24338' user='Rally' visible='true' version='3' changeset='12203519' lat='14.543285' lon='121.1198884' />
+  <node id='306343890' action='delete' timestamp='2010-12-18T14:06:44Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5394463' lon='121.124712' />
+  <node id='306344327' action='delete' timestamp='2010-12-18T14:07:35Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5507526' lon='121.116627' />
+  <node id='306344391' action='delete' timestamp='2010-12-18T14:07:08Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5501432' lon='121.117063' />
+  <node id='306344624' action='delete' timestamp='2010-12-18T14:06:10Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5369645' lon='121.126486' />
+  <node id='306344881' action='delete' timestamp='2010-12-18T14:06:48Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5526833' lon='121.115247' />
+  <node id='306345387' action='delete' timestamp='2010-12-18T14:06:45Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5454795' lon='121.120398' />
+  <node id='306345568' action='delete' timestamp='2010-12-18T14:07:07Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5492157' lon='121.117726' />
+  <node id='306345651' action='delete' timestamp='2010-12-18T14:07:07Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5443964' lon='121.121172' />
+  <node id='306345836' action='delete' timestamp='2010-12-18T14:06:50Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5398031' lon='121.124456' />
+  <node id='306346109' action='delete' timestamp='2010-12-18T14:06:31Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5367943' lon='121.126608' />
+  <node id='306346165' action='delete' timestamp='2013-09-11T13:50:31Z' uid='24338' user='Rally' visible='true' version='5' changeset='17783485' lat='14.5517019' lon='121.11595' />
+  <node id='306346190' action='delete' timestamp='2010-12-18T14:06:45Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.5477689' lon='121.118761' />
+  <node id='306346384' action='delete' timestamp='2010-12-18T14:06:56Z' uid='24338' user='Rally' visible='true' version='4' changeset='6696126' lat='14.553287' lon='121.114815' />
+  <node id='306937306' action='delete' timestamp='2011-01-02T16:57:55Z' uid='24338' user='Rally' visible='true' version='9' changeset='6840452' lat='14.5479815' lon='121.1186052' />
+  <node id='358228006' action='delete' timestamp='2009-04-03T00:44:21Z' uid='102963' user='denz' visible='true' version='5' changeset='146407' lat='14.5530369' lon='121.1149937' />
+  <node id='412044787' action='delete' timestamp='2013-10-13T15:58:55Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5572' lon='121.116123'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='Christian Learning Center' />
+  </node>
+  <node id='1228870298' action='delete' timestamp='2011-04-02T06:05:14Z' uid='5541' user='Ian Haylock' visible='true' version='1' changeset='7741205' lat='14.5431017' lon='121.1198596' />
+  <node id='1228870314' action='delete' timestamp='2011-04-02T06:05:15Z' uid='5541' user='Ian Haylock' visible='true' version='1' changeset='7741205' lat='14.5432155' lon='121.119892' />
+  <node id='1228870336' action='delete' timestamp='2011-04-02T06:05:15Z' uid='5541' user='Ian Haylock' visible='true' version='1' changeset='7741205' lat='14.5439727' lon='121.1198225' />
+  <node id='1228870404' action='delete' timestamp='2011-04-02T06:05:17Z' uid='5541' user='Ian Haylock' visible='true' version='1' changeset='7741205' lat='14.5431556' lon='121.1198828' />
+  <node id='1228870491' action='delete' timestamp='2011-04-02T06:05:19Z' uid='5541' user='Ian Haylock' visible='true' version='1' changeset='7741205' lat='14.5430224' lon='121.1198271' />
+  <node id='1228874108' action='delete' timestamp='2013-09-11T13:22:48Z' uid='24338' user='Rally' visible='true' version='2' changeset='17783015' lat='14.5449444' lon='121.1191785' />
+  <node id='1228874124' action='delete' timestamp='2013-09-11T13:22:48Z' uid='24338' user='Rally' visible='true' version='2' changeset='17783015' lat='14.5450615' lon='121.1188341' />
+  <node id='1228874129' action='delete' timestamp='2013-09-11T13:22:48Z' uid='24338' user='Rally' visible='true' version='2' changeset='17783015' lat='14.5450791' lon='121.1187822' />
+  <node id='1228874139' action='delete' timestamp='2013-09-11T13:22:48Z' uid='24338' user='Rally' visible='true' version='2' changeset='17783015' lat='14.5449852' lon='121.1190587' />
+  <node id='1300535921' action='delete' timestamp='2011-05-26T10:42:35Z' uid='1417' user='maning' visible='true' version='1' changeset='8252316' lat='14.550306' lon='121.1169464' />
+  <node id='1300535963' action='delete' timestamp='2011-05-26T10:42:37Z' uid='1417' user='maning' visible='true' version='1' changeset='8252316' lat='14.5538181' lon='121.1144352' />
+  <node id='1300536011' action='delete' timestamp='2013-09-11T13:50:30Z' uid='24338' user='Rally' visible='true' version='2' changeset='17783485' lat='14.553661' lon='121.1145478' />
+  <node id='1300536059' action='delete' timestamp='2011-05-26T10:42:40Z' uid='1417' user='maning' visible='true' version='1' changeset='8252316' lat='14.5539895' lon='121.1143128' />
+  <node id='1300536069' action='delete' timestamp='2011-05-26T10:42:40Z' uid='1417' user='maning' visible='true' version='1' changeset='8252316' lat='14.5434844' lon='121.1218242' />
+  <node id='1829860189' action='delete' timestamp='2012-07-18T16:19:54Z' uid='24338' user='Rally' visible='true' version='1' changeset='12288633' lat='14.5474387' lon='121.118997' />
+  <node id='1829914014' action='delete' timestamp='2012-07-18T17:11:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='12290133' lat='14.5448252' lon='121.1201997'>
+    <tag k='is_in:city' v='Taytay' />
+    <tag k='name' v='Sitio Siwang' />
+    <tag k='place' v='neighbourhood' />
+  </node>
+  <node id='2004198147' action='delete' timestamp='2013-10-13T15:59:02Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5866354' lon='121.1532156'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Glendale Emmanuel Academy' />
+  </node>
+  <node id='2256721954' action='delete' timestamp='2013-04-08T02:42:38Z' uid='1417' user='maning' visible='true' version='1' changeset='15649350' lat='14.5448617' lon='121.1194154' />
+  <node id='2256721958' action='delete' timestamp='2013-04-08T02:42:38Z' uid='1417' user='maning' visible='true' version='1' changeset='15649350' lat='14.5450802' lon='121.1197424' />
+  <node id='2288742908' action='delete' timestamp='2013-10-13T15:59:26Z' uid='24338' user='Rally' visible='true' version='7' changeset='18334844' lat='14.5653648' lon='121.1348465'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:housenumber' v='7' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Anonas St.' />
+    <tag k='amenity' v='kindergarten' />
+    <tag k='name' v='Rural Improvement Club Childrens Center' />
+    <tag k='short_name' v='RICCC' />
+  </node>
+  <node id='2387047866' action='delete' timestamp='2013-10-13T15:59:32Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5690813' lon='121.1351599'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Manhinhin Street' />
+    <tag k='amenity' v='kindergarten' />
+    <tag k='name' v='Sto. Nino Day Care Center' />
+  </node>
+  <node id='2388085674' action='delete' timestamp='2013-10-13T15:58:48Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5593243' lon='121.1357112'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:housename' v='Marc Square' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Rizal Avenue' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Asian Institute of Computer Studies' />
+    <tag k='short_name' v='AICS' />
+  </node>
+  <node id='2427913970' action='delete' timestamp='2013-10-13T15:59:09Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5597333' lon='121.1360502'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Kumon' />
+  </node>
+  <node id='2428038941' timestamp='2013-10-13T15:59:35Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5555296' lon='121.1475136'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Taytay National High School' />
+  </node>
+  <node id='2429172234' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5441694' lon='121.1203701' />
+  <node id='2429172235' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5442049' lon='121.1202846' />
+  <node id='2429172236' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5442271' lon='121.1203299' />
+  <node id='2429172237' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5442661' lon='121.1203764' />
+  <node id='2429172238' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5442763' lon='121.1203894' />
+  <node id='2429172239' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5442879' lon='121.1205513' />
+  <node id='2429172240' action='delete' timestamp='2013-08-23T13:17:48Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5442937' lon='121.1205577' />
+  <node id='2429172241' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5443455' lon='121.1205111' />
+  <node id='2429172242' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5443567' lon='121.1205118' />
+  <node id='2429172243' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5443575' lon='121.1203307' />
+  <node id='2429172244' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5443604' lon='121.1205136' />
+  <node id='2429172245' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5443724' lon='121.1201655' />
+  <node id='2429172246' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444009' lon='121.1201593' />
+  <node id='2429172247' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444175' lon='121.120739' />
+  <node id='2429172248' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.544424' lon='121.1206076' />
+  <node id='2429172249' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444336' lon='121.1202573' />
+  <node id='2429172250' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444412' lon='121.1202279' />
+  <node id='2429172251' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444569' lon='121.1202281' />
+  <node id='2429172252' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444805' lon='121.120693' />
+  <node id='2429172253' action='delete' timestamp='2013-10-13T15:59:40Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5444869' lon='121.1203888'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='2429172254' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5444907' lon='121.1201031' />
+  <node id='2429172255' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5445052' lon='121.120549' />
+  <node id='2429172256' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5445309' lon='121.1201717' />
+  <node id='2429172257' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.544549' lon='121.120171' />
+  <node id='2429172258' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5445941' lon='121.1204646' />
+  <node id='2429172259' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='1' changeset='17469822' lat='14.5446862' lon='121.1204075' />
+  <node id='2440382974' action='delete' timestamp='2013-10-13T15:59:30Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5409344' lon='121.1433904'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='kindergarten' />
+    <tag k='name' v='San Miguel Day Care Center' />
+  </node>
+  <node id='2444060466' action='delete' timestamp='2013-10-13T15:58:48Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5581618' lon='121.1349264'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Asian Institute of Computer Studies' />
+  </node>
+  <node id='2444081385' action='delete' timestamp='2013-10-13T15:59:13Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5583038' lon='121.1352206'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Manila East Training and Review Center' />
+  </node>
+  <node id='2445939626' action='delete' timestamp='2013-10-13T15:58:48Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5779534' lon='121.1449423'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Asia Pacific Nazarene Theological Seminary' />
+    <tag k='short_name' v='APNTS' />
+    <tag k='website' v='www.apnts.edu.ph' />
+  </node>
+  <node id='2448052932' action='delete' timestamp='2013-10-13T15:59:42Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5622837' lon='121.1341776'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='2449135530' action='delete' timestamp='2013-09-07T08:01:06Z' uid='24338' user='Rally' visible='true' version='1' changeset='17714282' lat='14.5430766' lon='121.1204189' />
+  <node id='2449135551' action='delete' timestamp='2013-09-07T08:01:06Z' uid='24338' user='Rally' visible='true' version='1' changeset='17714282' lat='14.5431546' lon='121.1205439' />
+  <node id='2452382420' action='delete' timestamp='2013-10-13T15:58:57Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5659781' lon='121.1361617'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='kindergarten' />
+    <tag k='name' v='Day Care Center' />
+  </node>
+  <node id='1000000029061192' action='delete' timestamp='2013-10-13T15:56:27Z' uid='24338' user='Rally' visible='true' version='9' changeset='18334844' lat='14.5432851' lon='121.1441105'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Muzon Elementary School' />
+  </node>
+  <node id='1000000029086249' action='delete' timestamp='2013-10-13T16:12:47Z' uid='24338' user='Rally' visible='true' version='11' changeset='18335186' lat='14.5532765' lon='121.1395461'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='college' />
+    <tag k='name' v='NCBA Taytay' />
+    <tag k='official_name' v='National College Of Business and Arts Taytay' />
+  </node>
+  <node id='1000000035116400' timestamp='2013-10-13T15:56:41Z' uid='24338' user='Rally' visible='true' version='7' changeset='18334844' lat='14.5436527' lon='121.1254908'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='San Juan Elementary School' />
+  </node>
+  <node id='1000000035125848' action='delete' timestamp='2013-10-13T15:56:04Z' uid='24338' user='Rally' visible='true' version='8' changeset='18334844' lat='14.5550764' lon='121.117217'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Exodus Elementary School' />
+  </node>
+  <node id='1000000167956297' action='delete' timestamp='2013-10-13T15:56:42Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5661327' lon='121.127196'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Santa Ana Elementary School' />
+  </node>
+  <node id='1000000171403683' action='delete' timestamp='2013-10-13T15:56:41Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5717881' lon='121.1255744'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='San Isidro Elementary School' />
+  </node>
+  <node id='1000000171418678' action='delete' timestamp='2013-10-13T15:58:32Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.570276' lon='121.1253959'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000171418679' action='delete' timestamp='2013-10-13T15:58:32Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5701658' lon='121.1246172'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000172920570' action='delete' timestamp='2013-10-13T15:56:02Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.569215' lon='121.1342126'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Dolores Elementary' />
+  </node>
+  <node id='1000000172920576' action='modify' timestamp='2013-10-13T15:56:38Z' uid='24338' user='Rally' visible='true' version='7' changeset='18334844' lat='14.562906' lon='121.1326991'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Rizal Avenue' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Rosario Ocampo Elementary School' />
+    <tag k='short_name' v='ROES' />
+  </node>
+  <node id='1000000173023735' action='delete' timestamp='2013-10-13T15:56:15Z' uid='24338' user='Rally' visible='true' version='7' changeset='18334844' lat='14.5730251' lon='121.1322791'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Juan Sumulong High School' />
+  </node>
+  <node id='1000000173023737' action='delete' timestamp='2013-10-13T15:56:42Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5729796' lon='121.1313814'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Sanvictores Elementary School' />
+  </node>
+  <node id='1000000173023748' action='delete' timestamp='2013-10-13T15:56:44Z' uid='24338' user='Rally' visible='true' version='9' changeset='18334844' lat='14.5777937' lon='121.1321818'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Siena College Of Taytay' />
+  </node>
+  <node id='1000000188337666' action='delete' timestamp='2013-10-13T15:56:39Z' uid='24338' user='Rally' visible='true' version='8' changeset='18334844' lat='14.5738279' lon='121.1396912'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:housenumber' v='106' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='L Wood St' />
+    <tag k='amenity' v='school' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='SEED' />
+    <tag k='official_name' v='Starting Early in Education and Discipleship (SEED) Devt. Ctr.' />
+    <tag k='short_name' v='SEED' />
+    <tag k='website' v='https://seed.shutterfly.com/' />
+  </node>
+  <node id='1000000229489856' action='delete' timestamp='2013-10-13T15:56:32Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5570147' lon='121.1382798'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Paseo Suavidad' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Philippians Montessori School' />
+  </node>
+  <node id='1000000229667128' action='delete' timestamp='2013-10-13T15:56:50Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5722086' lon='121.1366297'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='L Wood St' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Taytay Elementary School' />
+  </node>
+  <node id='1000000230066432' action='delete' timestamp='2013-10-13T15:55:52Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5773564' lon='121.1421357'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Ortigas Avenue Extension' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Baptist Bible Seminary and Institute' />
+    <tag k='short_name' v='BBSI' />
+  </node>
+  <node id='1000000230070442' action='delete' timestamp='2013-10-13T15:55:57Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5738895' lon='121.1479891'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Cabrera Road' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Casimiro A. Ynares Memorial Sr. National High School' />
+    <tag k='note' v='verify shape of polygon' />
+    <tag k='short_name' v='CASYMNHS' />
+    <tag k='website' v='http://casimiroynareshs.smartschools.ph/' />
+  </node>
+  <node id='1000000230076026' action='delete' timestamp='2013-10-13T15:56:47Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5712799' lon='121.1327544'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='St. John The Baptist Parochial School' />
+  </node>
+  <node id='1000000230305583' action='delete' timestamp='2013-10-13T15:56:12Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5581018' lon='121.1368984'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:place' v='Sitio Burol' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='college' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='ICCT Colleges Taytay' />
+  </node>
+  <node id='1000000231183422' action='delete' timestamp='2013-10-13T15:58:36Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5750194' lon='121.140749'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000231314987' action='delete' timestamp='2013-10-13T15:56:40Z' uid='24338' user='Rally' visible='true' version='8' changeset='18334844' lat='14.5615854' lon='121.1492402'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='San Beda College' />
+  </node>
+  <node id='1000000234981674' action='delete' timestamp='2013-10-13T15:56:23Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5500725' lon='121.1283972'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Master Vinyard Academy' />
+  </node>
+  <node id='1000000234981680' action='delete' timestamp='2013-10-13T15:56:55Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5478782' lon='121.1245341'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='college' />
+    <tag k='name' v='University of Rizal System (Taytay Campus)' />
+    <tag k='short_name' v='URS' />
+  </node>
+  <node id='1000000234981682' action='modify' timestamp='2013-10-13T15:56:21Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5469274' lon='121.1251981'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Manuel I Santos Memorial National High School' />
+    <tag k='short_name' v='MISMNHS' />
+  </node>
+  <node id='1000000235087334' action='delete' timestamp='2013-10-13T15:56:28Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5410508' lon='121.143513'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='Muzon National High School' />
+  </node>
+  <node id='1000000235244546' action='delete' timestamp='2013-10-13T15:58:38Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5484334' lon='121.124718'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000235456896' action='delete' timestamp='2013-10-13T15:56:53Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5769086' lon='121.1580203'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='The Little Farm House' />
+  </node>
+  <node id='1000000235456904' action='delete' timestamp='2013-10-13T15:58:38Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5771132' lon='121.157604'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000236055092' action='delete' timestamp='2013-10-13T16:12:46Z' uid='24338' user='Rally' visible='true' version='6' changeset='18335186' lat='14.5843324' lon='121.1512915'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='college' />
+    <tag k='name' v='Harris Memorial College' />
+  </node>
+  <node id='1000000236095018' action='delete' timestamp='2013-10-13T15:55:58Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5568245' lon='121.1403991'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:housenumber' v='15' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Paseo Buenos Aires' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Children&apos;s Integrated Center (CIC)' />
+    <tag k='old_name' v='Kinderville Development Center' />
+    <tag k='operator' v='The Children&apos;s Integrated Center Inc.' />
+    <tag k='short_name' v='CIC' />
+  </node>
+  <node id='1000000236532172' action='delete' timestamp='2013-10-13T15:58:39Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5846688' lon='121.1362108'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000236535345' action='delete' timestamp='2013-10-13T15:58:40Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5816968' lon='121.1367739'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000236535346' action='delete' timestamp='2013-10-13T15:58:40Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.584279' lon='121.1375006'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+  </node>
+  <node id='1000000236729540' timestamp='2013-10-13T15:56:17Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5615498' lon='121.1401515'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Kapalaran Elementary School' />
+    <tag k='short_name' v='KES' />
+  </node>
+  <node id='1000000236953660' timestamp='2013-10-13T15:56:48Z' uid='24338' user='Rally' visible='true' version='6' changeset='18334844' lat='14.5421003' lon='121.1093127'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Star of Hope' />
+    <tag k='note' v='Star of Hope Christian School' />
+  </node>
+  <node id='1000000236960061' action='delete' timestamp='2013-10-13T15:55:49Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5380499' lon='121.1120005'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Antonio Esguerra Memorial High School' />
+    <tag k='note' v='Antonio Esguerra Memorial High School Sampaguita St' />
+  </node>
+  <node id='1000000236960063' action='delete' timestamp='2013-10-13T15:55:50Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5397656' lon='121.1111146'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Arienda Elem School' />
+    <tag k='note' v='Arienda Elementary School Blk 4, Zapanta St' />
+  </node>
+  <node id='1000000237009001' action='delete' timestamp='2013-10-13T15:56:49Z' uid='24338' user='Rally' visible='true' version='5' changeset='18334844' lat='14.5372557' lon='121.109275'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Tapayan Elementary School' />
+    <tag k='note' v='Tapayan Elementary School' />
+  </node>
+  <node id='1000000237236732' action='delete' timestamp='2013-10-13T15:55:47Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5567519' lon='121.1370085'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='addr:street' v='Manila East Road' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='ACLC College Taytay' />
+  </node>
+  <node id='1000000237371572' action='delete' timestamp='2013-10-13T15:56:19Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5715744' lon='121.158377'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Lyncrest Christian Academy' />
+  </node>
+  <node id='1000000237380714' action='delete' timestamp='2013-10-13T15:56:11Z' uid='24338' user='Rally' visible='true' version='4' changeset='18334844' lat='14.5696934' lon='121.1616611'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='amenity' v='school' />
+    <tag k='name' v='Hapay na Mangga Elementary School' />
+  </node>
+  <way id='-33105' visible='true'>
+    <nd ref='-32768' />
+    <nd ref='-33106' />
+    <nd ref='-33107' />
+    <nd ref='-33108' />
+    <nd ref='-33109' />
+    <nd ref='-33110' />
+    <nd ref='-33111' />
+    <nd ref='-33112' />
+    <nd ref='-33113' />
+    <nd ref='-33114' />
+    <nd ref='-33089' />
+    <tag k='admin_level' v='10' />
+    <tag k='boat' v='no' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Ilog Tapayan' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='-33088' visible='true'>
+    <nd ref='-33089' />
+    <nd ref='-33090' />
+    <nd ref='-33091' />
+    <nd ref='-33092' />
+    <nd ref='-33093' />
+    <nd ref='-33094' />
+    <nd ref='-33095' />
+    <nd ref='-32737' />
+    <nd ref='-33096' />
+    <nd ref='-33097' />
+    <nd ref='-33098' />
+    <nd ref='-33099' />
+    <nd ref='-33100' />
+    <nd ref='-33101' />
+    <nd ref='-33102' />
+    <nd ref='-33103' />
+    <nd ref='-33104' />
+    <nd ref='-32753' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Ilog Tapayan' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='-33077' visible='true'>
+    <nd ref='-32754' />
+    <nd ref='-33078' />
+    <nd ref='-33079' />
+    <nd ref='-33080' />
+    <nd ref='-33081' />
+    <nd ref='-33082' />
+    <nd ref='-33083' />
+    <nd ref='-33084' />
+    <nd ref='-33085' />
+    <nd ref='-33086' />
+    <nd ref='-33087' />
+    <nd ref='-33045' />
+    <tag k='admin_level' v='3' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Laguna de Bay' />
+    <tag k='name:tl' v='Lawa ng Laguna' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-33044' visible='true'>
+    <nd ref='-33045' />
+    <nd ref='-33046' />
+    <nd ref='-33047' />
+    <nd ref='-33048' />
+    <nd ref='-33049' />
+    <nd ref='-33050' />
+    <nd ref='-33051' />
+    <nd ref='-33052' />
+    <nd ref='-33053' />
+    <nd ref='-33054' />
+    <nd ref='-33055' />
+    <nd ref='-33056' />
+    <nd ref='-33057' />
+    <nd ref='-33058' />
+    <nd ref='-33059' />
+    <nd ref='-33060' />
+    <nd ref='-33061' />
+    <nd ref='-33062' />
+    <nd ref='-33063' />
+    <nd ref='-33064' />
+    <nd ref='-33065' />
+    <nd ref='-33066' />
+    <nd ref='-33067' />
+    <nd ref='-33068' />
+    <nd ref='-33069' />
+    <nd ref='-33070' />
+    <nd ref='-33071' />
+    <nd ref='-33072' />
+    <nd ref='-33073' />
+    <nd ref='-33074' />
+    <nd ref='-33075' />
+    <nd ref='-33076' />
+    <nd ref='-33042' />
+    <tag k='admin_level' v='3' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Laguna de Bay' />
+    <tag k='name:tl' v='Lawa ng Laguna' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-33041' visible='true'>
+    <nd ref='-33042' />
+    <nd ref='-33043' />
+    <nd ref='-33038' />
+    <tag k='admin_level' v='3' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Laguna de Bay' />
+    <tag k='name:tl' v='Lawa ng Laguna' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-33037' visible='true'>
+    <nd ref='-33038' />
+    <nd ref='-33039' />
+    <nd ref='-33040' />
+    <nd ref='-33028' />
+    <tag k='admin_level' v='3' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Laguna de Bay' />
+    <tag k='name:tl' v='Lawa ng Laguna' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-33027' visible='true'>
+    <nd ref='-33028' />
+    <nd ref='-33029' />
+    <nd ref='-33030' />
+    <nd ref='-33031' />
+    <nd ref='-33032' />
+    <nd ref='-33033' />
+    <nd ref='-33034' />
+    <nd ref='-33035' />
+    <nd ref='-33036' />
+    <nd ref='-33026' />
+    <tag k='admin_level' v='3' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Laguna de Bay' />
+    <tag k='name:tl' v='Lawa ng Laguna' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-33000' visible='true'>
+    <nd ref='-32977' />
+    <nd ref='-33001' />
+    <nd ref='-33002' />
+    <nd ref='-33003' />
+    <nd ref='-33004' />
+    <nd ref='-33005' />
+    <nd ref='-33006' />
+    <nd ref='-33007' />
+    <nd ref='-33008' />
+    <nd ref='-33009' />
+    <nd ref='-33010' />
+    <nd ref='-33011' />
+    <nd ref='-33012' />
+    <nd ref='-33013' />
+    <nd ref='-33014' />
+    <nd ref='-33015' />
+    <nd ref='-32743' />
+    <nd ref='-33016' />
+    <nd ref='-33017' />
+    <nd ref='-33018' />
+    <nd ref='-33019' />
+    <nd ref='-33020' />
+    <nd ref='-33021' />
+    <nd ref='-33022' />
+    <nd ref='-33023' />
+    <nd ref='-33024' />
+    <nd ref='-33025' />
+    <nd ref='-33026' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Gata Creek' />
+    <tag k='waterway' v='stream' />
+  </way>
+  <way id='-32976' visible='true'>
+    <nd ref='-32977' />
+    <nd ref='-32978' />
+    <nd ref='-32979' />
+    <nd ref='-32980' />
+    <nd ref='-32981' />
+    <nd ref='-32982' />
+    <nd ref='-32983' />
+    <nd ref='-32984' />
+    <nd ref='-32985' />
+    <nd ref='-32986' />
+    <nd ref='-32987' />
+    <nd ref='-32988' />
+    <nd ref='-32989' />
+    <nd ref='-32990' />
+    <nd ref='-32991' />
+    <nd ref='-32992' />
+    <nd ref='-32993' />
+    <nd ref='-32739' />
+    <nd ref='-32994' />
+    <nd ref='-32995' />
+    <nd ref='-32996' />
+    <nd ref='-32997' />
+    <nd ref='-32998' />
+    <nd ref='-32999' />
+    <nd ref='-32973' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+  </way>
+  <way id='-32972' visible='true'>
+    <nd ref='-32973' />
+    <nd ref='-32974' />
+    <nd ref='-32975' />
+    <nd ref='-32942' />
+    <tag k='admin_level' v='6' />
+    <tag k='boundary' v='administrative' />
+  </way>
+  <way id='-32941' visible='true'>
+    <nd ref='-32942' />
+    <nd ref='-32943' />
+    <nd ref='-32944' />
+    <nd ref='-32945' />
+    <nd ref='-32946' />
+    <nd ref='-32947' />
+    <nd ref='-32948' />
+    <nd ref='-32949' />
+    <nd ref='-32950' />
+    <nd ref='-32951' />
+    <nd ref='-32952' />
+    <nd ref='-32953' />
+    <nd ref='-32954' />
+    <nd ref='-32955' />
+    <nd ref='-32956' />
+    <nd ref='-32957' />
+    <nd ref='-32958' />
+    <nd ref='-32959' />
+    <nd ref='-32960' />
+    <nd ref='-32961' />
+    <nd ref='-32962' />
+    <nd ref='-32963' />
+    <nd ref='-32964' />
+    <nd ref='-32965' />
+    <nd ref='-32966' />
+    <nd ref='-32967' />
+    <nd ref='-32968' />
+    <nd ref='-32969' />
+    <nd ref='-32970' />
+    <nd ref='-32971' />
+    <nd ref='-32866' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+  </way>
+  <way id='-32865' visible='true'>
+    <nd ref='-32866' />
+    <nd ref='-32867' />
+    <nd ref='-32868' />
+    <nd ref='-32869' />
+    <nd ref='-32870' />
+    <nd ref='-32871' />
+    <nd ref='-32872' />
+    <nd ref='-32873' />
+    <nd ref='-32874' />
+    <nd ref='-32875' />
+    <nd ref='-32876' />
+    <nd ref='-32877' />
+    <nd ref='-32878' />
+    <nd ref='-32879' />
+    <nd ref='-32880' />
+    <nd ref='-32881' />
+    <nd ref='-32882' />
+    <nd ref='-32883' />
+    <nd ref='-32884' />
+    <nd ref='-32885' />
+    <nd ref='-32886' />
+    <nd ref='-32887' />
+    <nd ref='-32888' />
+    <nd ref='-32889' />
+    <nd ref='-32890' />
+    <nd ref='-32891' />
+    <nd ref='-32892' />
+    <nd ref='-32893' />
+    <nd ref='-32894' />
+    <nd ref='-32895' />
+    <nd ref='-32896' />
+    <nd ref='-32897' />
+    <nd ref='-32898' />
+    <nd ref='-32899' />
+    <nd ref='-32900' />
+    <nd ref='-32901' />
+    <nd ref='-32902' />
+    <nd ref='-32903' />
+    <nd ref='-32904' />
+    <nd ref='-32905' />
+    <nd ref='-32906' />
+    <nd ref='-32907' />
+    <nd ref='-32908' />
+    <nd ref='-32909' />
+    <nd ref='-32910' />
+    <nd ref='-32911' />
+    <nd ref='-32912' />
+    <nd ref='-32913' />
+    <nd ref='-32914' />
+    <nd ref='-32915' />
+    <nd ref='-32744' />
+    <nd ref='-32916' />
+    <nd ref='-32917' />
+    <nd ref='-32918' />
+    <nd ref='-32919' />
+    <nd ref='-32920' />
+    <nd ref='-32921' />
+    <nd ref='-32922' />
+    <nd ref='-32923' />
+    <nd ref='-32924' />
+    <nd ref='-32925' />
+    <nd ref='-32926' />
+    <nd ref='-32735' />
+    <nd ref='-32927' />
+    <nd ref='-32928' />
+    <nd ref='-32929' />
+    <nd ref='-32930' />
+    <nd ref='-32931' />
+    <nd ref='-32932' />
+    <nd ref='-32933' />
+    <nd ref='-32934' />
+    <nd ref='-32935' />
+    <nd ref='-32740' />
+    <nd ref='-32936' />
+    <nd ref='-32937' />
+    <nd ref='-32938' />
+    <nd ref='-32939' />
+    <nd ref='-32940' />
+    <nd ref='-32862' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Sapang Pila' />
+    <tag k='waterway' v='stream' />
+  </way>
+  <way id='-32861' visible='true'>
+    <nd ref='-32862' />
+    <nd ref='-32863' />
+    <nd ref='-32864' />
+    <nd ref='-32860' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+  </way>
+  <way id='-32859' visible='true'>
+    <nd ref='-32751' />
+    <nd ref='-32860' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='1' />
+    <tag k='name' v='Binhing Pag-asa' />
+  </way>
+  <way id='-32855' visible='true'>
+    <nd ref='-32854' />
+    <nd ref='-32856' />
+    <nd ref='-32857' />
+    <nd ref='-32745' />
+    <nd ref='-32858' />
+    <nd ref='-32749' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='1' />
+    <tag k='name' v='Binhing Pag-asa' />
+  </way>
+  <way id='-32852' visible='true'>
+    <nd ref='-32851' />
+    <nd ref='-32853' />
+    <nd ref='-32854' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Binhing Pag-asa' />
+  </way>
+  <way id='-32848' visible='true'>
+    <nd ref='-32847' />
+    <nd ref='-32741' />
+    <nd ref='-32849' />
+    <nd ref='-32850' />
+    <nd ref='-32851' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='highway' v='living_street' />
+    <tag k='name' v='Binhing Pag-asa' />
+  </way>
+  <way id='-32846' visible='true'>
+    <nd ref='-32845' />
+    <nd ref='-32847' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Binhing Pag-asa' />
+  </way>
+  <way id='-32844' visible='true'>
+    <nd ref='-32840' />
+    <nd ref='-32845' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+  </way>
+  <way id='-32839' visible='true'>
+    <nd ref='-32840' />
+    <nd ref='-32841' />
+    <nd ref='-32842' />
+    <nd ref='-32843' />
+    <nd ref='-32783' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='waterway' v='stream' />
+  </way>
+  <way id='-32782' visible='true'>
+    <nd ref='-32783' />
+    <nd ref='-32784' />
+    <nd ref='-32785' />
+    <nd ref='-32786' />
+    <nd ref='-32787' />
+    <nd ref='-32788' />
+    <nd ref='-32789' />
+    <nd ref='-32790' />
+    <nd ref='-32791' />
+    <nd ref='-32792' />
+    <nd ref='-32742' />
+    <nd ref='-32793' />
+    <nd ref='-32794' />
+    <nd ref='-32795' />
+    <nd ref='-32796' />
+    <nd ref='-32797' />
+    <nd ref='-32798' />
+    <nd ref='-32799' />
+    <nd ref='-32800' />
+    <nd ref='-32801' />
+    <nd ref='-32746' />
+    <nd ref='-32802' />
+    <nd ref='-32803' />
+    <nd ref='-32804' />
+    <nd ref='-32805' />
+    <nd ref='-32806' />
+    <nd ref='-32807' />
+    <nd ref='-32808' />
+    <nd ref='-32809' />
+    <nd ref='-32810' />
+    <nd ref='-32811' />
+    <nd ref='-32812' />
+    <nd ref='-32736' />
+    <nd ref='-32813' />
+    <nd ref='-32814' />
+    <nd ref='-32815' />
+    <nd ref='-32816' />
+    <nd ref='-32817' />
+    <nd ref='-32818' />
+    <nd ref='-32819' />
+    <nd ref='-32820' />
+    <nd ref='-32821' />
+    <nd ref='-32822' />
+    <nd ref='-32823' />
+    <nd ref='-32824' />
+    <nd ref='-32825' />
+    <nd ref='-32826' />
+    <nd ref='-32827' />
+    <nd ref='-32828' />
+    <nd ref='-32829' />
+    <nd ref='-32830' />
+    <nd ref='-32831' />
+    <nd ref='-32832' />
+    <nd ref='-32833' />
+    <nd ref='-32834' />
+    <nd ref='-32835' />
+    <nd ref='-32836' />
+    <nd ref='-32837' />
+    <nd ref='-32838' />
+    <nd ref='-32779' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Taytay River' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='-32778' visible='true'>
+    <nd ref='-32779' />
+    <nd ref='-32780' />
+    <nd ref='-32781' />
+    <nd ref='-32777' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Taytay River' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='-32773' visible='true'>
+    <nd ref='-32772' />
+    <nd ref='-32774' />
+    <nd ref='-32775' />
+    <nd ref='-32776' />
+    <nd ref='-32777' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+  </way>
+  <way id='-32771' visible='true'>
+    <nd ref='-32772' />
+    <nd ref='-32770' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Manggahan Floodway' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='-32769' visible='true'>
+    <nd ref='-32770' />
+    <nd ref='-32756' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+  </way>
+  <way id='-32755' visible='true'>
+    <nd ref='-32756' />
+    <nd ref='-32757' />
+    <nd ref='-32758' />
+    <nd ref='-32759' />
+    <nd ref='-32747' />
+    <nd ref='-32760' />
+    <nd ref='-32761' />
+    <nd ref='-32762' />
+    <nd ref='-32763' />
+    <nd ref='-32764' />
+    <nd ref='-32765' />
+    <nd ref='-32766' />
+    <nd ref='-32767' />
+    <nd ref='-32768' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='TAYTAY RIVER 2' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='-32752' visible='true'>
+    <nd ref='-32753' />
+    <nd ref='-32754' />
+    <tag k='admin_level' v='3' />
+    <tag k='boundary' v='administrative' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Laguna de Bay' />
+    <tag k='name:tl' v='Lawa ng Laguna' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-32738' visible='true'>
+    <nd ref='-32749' />
+    <nd ref='-32750' />
+    <nd ref='-32751' />
+    <tag k='admin_level' v='10' />
+    <tag k='boundary' v='administrative' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='Binhing Pag-asa' />
+  </way>
+  <way id='27904935' action='delete' timestamp='2013-04-08T02:42:53Z' uid='1417' user='maning' visible='true' version='5' changeset='15649350'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 12' />
+  </way>
+  <way id='27905471' action='delete' timestamp='2012-07-18T16:19:54Z' uid='24338' user='Rally' visible='true' version='4' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 10' />
+  </way>
+  <way id='27906083' action='delete' timestamp='2013-09-07T08:01:14Z' uid='24338' user='Rally' visible='true' version='5' changeset='17714282'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 20' />
+  </way>
+  <way id='27906181' action='delete' timestamp='2013-08-23T13:17:49Z' uid='24338' user='Rally' visible='true' version='6' changeset='17469822'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 15' />
+  </way>
+  <way id='27906573' action='delete' timestamp='2012-07-18T16:19:56Z' uid='24338' user='Rally' visible='true' version='4' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 18' />
+  </way>
+  <way id='27906768' action='delete' timestamp='2012-07-26T02:25:04Z' uid='24338' user='Rally' visible='true' version='5' changeset='12493941'>
+    <tag k='highway' v='residential' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='27906859' action='delete' timestamp='2012-07-18T16:19:56Z' uid='24338' user='Rally' visible='true' version='4' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 17' />
+  </way>
+  <way id='27906949' action='delete' timestamp='2012-07-18T16:19:54Z' uid='24338' user='Rally' visible='true' version='5' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 11' />
+  </way>
+  <way id='27906979' action='delete' timestamp='2012-07-18T16:19:55Z' uid='24338' user='Rally' visible='true' version='5' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 13' />
+  </way>
+  <way id='27907325' action='delete' timestamp='2012-07-18T16:19:56Z' uid='24338' user='Rally' visible='true' version='4' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 19' />
+  </way>
+  <way id='27907448' action='delete' timestamp='2012-07-18T16:19:55Z' uid='24338' user='Rally' visible='true' version='5' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 14' />
+  </way>
+  <way id='27907468' action='delete' timestamp='2012-07-18T16:19:55Z' uid='24338' user='Rally' visible='true' version='5' changeset='12288633'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Road 16' />
+  </way>
+  <way id='106863153' action='delete' timestamp='2012-07-26T02:25:04Z' uid='24338' user='Rally' visible='true' version='3' changeset='12493941'>
+    <tag k='highway' v='track' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='106863545' action='delete' timestamp='2011-04-02T06:15:13Z' uid='5541' user='Ian Haylock' visible='true' version='1' changeset='7741231'>
+    <tag k='highway' v='residential' />
+  </way>
+  <way id='234782969' action='delete' timestamp='2013-10-13T15:57:22Z' uid='24338' user='Rally' visible='true' version='3' changeset='18334844'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='234782970' action='delete' timestamp='2013-10-13T15:57:22Z' uid='24338' user='Rally' visible='true' version='3' changeset='18334844'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='234782971' action='delete' timestamp='2013-10-13T15:57:22Z' uid='24338' user='Rally' visible='true' version='3' changeset='18334844'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='234782972' action='delete' timestamp='2013-10-13T15:57:22Z' uid='24338' user='Rally' visible='true' version='3' changeset='18334844'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='234782973' action='delete' timestamp='2013-10-13T15:57:23Z' uid='24338' user='Rally' visible='true' version='3' changeset='18334844'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='234782974' action='delete' timestamp='2013-10-13T15:58:05Z' uid='24338' user='Rally' visible='true' version='3' changeset='18334844'>
+    <tag k='addr:city' v='Taytay' />
+    <tag k='addr:postcode' v='1920' />
+    <tag k='addr:province' v='Rizal' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='238185025' action='delete' timestamp='2013-09-16T13:13:37Z' uid='24338' user='Rally' visible='true' version='1' changeset='17867920'>
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Westbank Road' />
+  </way>
+  <relation id='-32748' visible='true'>
+    <member type='way' ref='-32752' role='outer' />
+    <member type='way' ref='-32755' role='outer' />
+    <member type='way' ref='-32769' role='outer' />
+    <member type='way' ref='-32771' role='outer' />
+    <member type='way' ref='-32773' role='outer' />
+    <member type='way' ref='-32778' role='outer' />
+    <member type='way' ref='-32782' role='outer' />
+    <member type='way' ref='-32839' role='outer' />
+    <member type='way' ref='-32844' role='outer' />
+    <member type='way' ref='-32846' role='outer' />
+    <member type='way' ref='-32848' role='outer' />
+    <member type='way' ref='-32852' role='outer' />
+    <member type='way' ref='-32855' role='outer' />
+    <member type='way' ref='-32738' role='outer' />
+    <member type='way' ref='-32859' role='outer' />
+    <member type='way' ref='-32861' role='outer' />
+    <member type='way' ref='-32865' role='outer' />
+    <member type='way' ref='-32941' role='outer' />
+    <member type='way' ref='-32972' role='outer' />
+    <member type='way' ref='-32976' role='outer' />
+    <member type='way' ref='-33000' role='outer' />
+    <member type='way' ref='-33027' role='outer' />
+    <member type='way' ref='-33037' role='outer' />
+    <member type='way' ref='-33041' role='outer' />
+    <member type='way' ref='-33044' role='outer' />
+    <member type='way' ref='-33077' role='outer' />
+    <member type='way' ref='-33088' role='outer' />
+    <member type='way' ref='-33105' role='outer' />
+  </relation>
+</osm>

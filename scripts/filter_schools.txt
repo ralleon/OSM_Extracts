@@ -1,0 +1,11 @@
+--verbose
+
+--keep=
+amenity=school
+amenity=college
+amenity=university
+amenity=kindergarten
+
+--drop-relations
+
+-o=temp1.osm

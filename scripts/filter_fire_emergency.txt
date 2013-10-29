@@ -1,0 +1,10 @@
+--verbose
+
+--keep=
+amenity=fire_station
+emergency=fire_hydrant
+amenity=police
+
+--drop-relations
+
+-o=temp1.osm

@@ -1,0 +1,9 @@
+--verbose
+
+--keep=
+atm=yes
+amenity=atm
+
+--drop-relations
+
+-o=temp1.osm

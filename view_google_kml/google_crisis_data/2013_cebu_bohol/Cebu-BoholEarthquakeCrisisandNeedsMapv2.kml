@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Cebu-Bohol Earthquake  Crisis and Needs Map v.2</name>
+  <description><![CDATA[Cebu-Bohol Earthquake Map Version 2. This map provides an updated view of the buildings, landmarks,evacuation centers and other areas affected by the October 15, 2013 earthquake in the Philippines.]]></description>
+  <Style id="style150">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style107">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style121">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style97">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style127">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style119">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style108">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style144">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style71">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style126">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style117">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style114">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style105">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style177">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style112">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style91">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/earthquake.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style147">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style74">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style168">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style75">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style165">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style145">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style86">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style122">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style69">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style70">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style132">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style169">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style93">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style162">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style156">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style151">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style98">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style152">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style173">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style92">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style153">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style174">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style68">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style164">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style100">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style172">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style120">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style130">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style167">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style67">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style123">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style180">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style103">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style110">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style77">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style118">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style79">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style175">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style135">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style96">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style94">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style87">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style157">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style136">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style146">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style84">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/caution.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style158">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/fallingrocks.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style163">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style73">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style82">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style160">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style142">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style88">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style113">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style155">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style102">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style131">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style140">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style176">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style128">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style99">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style149">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style85">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style133">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style137">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style78">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style83">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style101">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style170">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style111">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style116">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style154">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style81">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style72">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style138">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style129">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style76">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style166">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style89">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/hospitals.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style106">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style171">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style134">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style95">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style161">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style178">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style104">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style109">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style139">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style115">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style148">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style124">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style141">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style125">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style80">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style159">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style90">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style179">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style143">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Fort San Pedro</name>
+    <description><![CDATA[<div dir="ltr"><img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/1376344_10202040374428484_1063713608_n.jpg" style="font-size:10pt;width:259px">Minor damage at walls.<br><br>&nbsp;</div><div dir="ltr">Photo from:&nbsp;<a href="https://www.facebook.com/disinio" style="font-size:13px;color:rgb(59, 89, 152);text-decoration:none;font-weight:bold;line-height:18px;background-color:rgb(255, 255, 255)" target="_blank">Cyruz Tajos Honoridez</a></div>]]></description>
+    <styleUrl>#style150</styleUrl>
+    <Point>
+      <coordinates>123.905136,10.293723,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Iglesia Ni Cristo - Cebu City Locale</name>
+    <description><![CDATA[<div dir="ltr"><img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/v/1380488_647098348655384_1732450969_n.jpg?oh=a54fc8cc15c6b3a0a1971a2483cd5660&amp;oe=525F76B3&amp;__gda__=1382000871_daa8434df0f62217f7a3f0b0ef3bd725" style="font-size:10pt;width:259px"></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr"><img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/v/602405_647099228655296_1527660341_n.jpg?oh=42c8e188396137c5b627a55cd79ed5e9&amp;oe=525F2A5D&amp;__gda__=1382051761_27623d5aa34ea0753c6c41f03ec04be1" style="width:259px"></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">Structural damage<br><br>Source: Judd Tecson<br>&nbsp;</div>]]></description>
+    <styleUrl>#style107</styleUrl>
+    <Point>
+      <coordinates>123.899536,10.311900,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Basilica Minore de Santo Niño de Cebú</name>
+    <description><![CDATA[<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn2/1394383_10201680234979963_98598633_n.jpg" title="Basilica Minore de Santo Niño de Cebú">
+<div dir="ltr">Belfry damaged/collapsed.</div>]]></description>
+    <styleUrl>#style121</styleUrl>
+    <Point>
+      <coordinates>123.902336,10.293945,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chocolate Hills</name>
+    <description><![CDATA[<div dir="ltr"><b>Observation Deck Totally Damaged</b></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr"><img src="https://pbs.twimg.com/media/BWmFSqFCIAEoSBy.png:large" style="font-size:10pt;width:243px"></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">Source: <a href="https://twitter.com/tokyodrastic/status/389972738388938752" target="_blank">Robert Poole</a></div>]]></description>
+    <styleUrl>#style97</styleUrl>
+    <Point>
+      <coordinates>124.105682,9.906627,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sto. Tomas de Villanueva Parish</name>
+    <description><![CDATA[<div dir="ltr"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-frc3/1395848_10151817100238600_665782043_n.jpg" style="font-size:10pt;width:243px">Minor Damage with few coral blocks chip away</div>]]></description>
+    <styleUrl>#style127</styleUrl>
+    <Point>
+      <coordinates>123.854713,10.280127,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>University of San Carlos - North Campus</name>
+    <description><![CDATA[Structural damage&nbsp;<img src="https://z-n.ak.fbcdn.net/sphotos-h.ak/hphotos-ak-prn2/v/1392735_10202203675954536_399172536_n.jpg?oh=a6c4a4beac5023e4728c2bbd0871b5ae&amp;oe=525F0004&amp;__gda__=1382046713_c6ad6396df6ee9bd17e9ce851fe62665" style="width:259px"><div><br>&nbsp;</div><div><img src="https://z-n.ak.fbcdn.net/sphotos-h.ak/hphotos-ak-prn2/v/1396414_10202203676034538_2125018557_n.jpg?oh=d628242593d7cecc83b42812a0d3d55d&amp;oe=525EC775&amp;__gda__=1382012039_4429d585c2cefedeb7908abae735f78a" style="width:259px"></div><div><br>&nbsp;</div><div>Source: Judd Tecson</div>]]></description>
+    <styleUrl>#style119</styleUrl>
+    <Point>
+      <coordinates>123.900963,10.311721,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Santa Catalina Church, Carcar City</name>
+    <description><![CDATA[<b>Minor damage
+</b><div dir="ltr"><img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1393796_10151887193667284_1868582005_n.jpg" style="font-size:10pt;width:243px"></div><div dir="ltr">Photo from&nbsp;<a href="https://www.facebook.com/girlie.e.veloso" style="color:rgb(59, 89, 152);font-weight:bold;line-height:18px;background-color:rgb(255, 255, 255)" target="_blank">Girlie Enriquez Veloso</a>&nbsp;Fb</div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">Minimal Damage</div>]]></description>
+    <styleUrl>#style108</styleUrl>
+    <Point>
+      <coordinates>123.640160,10.105810,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu Metropolitan Cathedral</name>
+    <description><![CDATA[<div><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/1383834_10151817093028600_621913224_n.jpg" style="width:243px"></div>Minor Damage]]></description>
+    <styleUrl>#style144</styleUrl>
+    <Point>
+      <coordinates>123.902855,10.295782,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Baclayon Church</name>
+    <description><![CDATA[<b><font color="#ff0000">Major damage. Belfry and facade collapsed.</font></b><div><font color="#ff0000"><b><br></b></font><b><font color="#ff0000"></font></b><div dir="ltr"><img src="https://pbs.twimg.com/media/BWlJcFZCAAAX4uI.jpg" style="font-size:10pt;width:242px"><br><br>&nbsp;</div><div dir="ltr">Source: <a href="https://twitter.com/myd_19/status/389923589748559872" target="_blank">Meide Besas</a></div></div>]]></description>
+    <styleUrl>#style71</styleUrl>
+    <Point>
+      <coordinates>123.909302,9.618352,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yap-San Diego Ancestral House</name>
+    <description><![CDATA[Minor damage in structure, but house fixtures damaged,.]]></description>
+    <styleUrl>#style126</styleUrl>
+    <Point>
+      <coordinates>123.904144,10.299160,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jesuit House</name>
+    <description><![CDATA[Minor Damage. Walls chipped. Tile roof slid a bit]]></description>
+    <styleUrl>#style117</styleUrl>
+    <Point>
+      <coordinates>123.904022,10.298579,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Loboc Church</name>
+    <description><![CDATA[<b><font color="#ff0000">Major damage</font></b><div><b><font color="#ff0000">&nbsp;</font></b><div><img src="https://pbs.twimg.com/media/BWlQFgqCYAAvKuI.jpg" style="width:242px"><div><br>&nbsp;</div><div>Source: <a href="https://twitter.com/myd_19/status/389930898486865922" target="_blank">Jodi Omana via Meide Besas</a></div></div></div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>124.031113,9.636324,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Our Lady of Light, Loon</name>
+    <description><![CDATA[<b><font color="#ff0000">Totally destroyed</font></b><div><font color="#ff0000"><b><br></b></font><div><img src="https://pbs.twimg.com/media/BWlocFSCEAA822O.jpg" style="width:242px"></div><div><span style="font-size:10pt">&nbsp;</span></div><div>Source: <a href="https://twitter.com/GreggPomida/status/389957674403500032" target="_blank">Greg Pomida</a></div><div><br>&nbsp;</div></div>]]></description>
+    <styleUrl>#style114</styleUrl>
+    <Point>
+      <coordinates>123.791885,9.799061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maribojoc Church</name>
+    <description><![CDATA[<b><font color="#ff0000">TOTALLY COLLAPSED</font></b><div><br><span style="font-size:10pt"><br></span></div><div><span style="font-size:10pt">&nbsp;</span></div><div>Source:&nbsp;</div>]]></description>
+    <styleUrl>#style105</styleUrl>
+    <Point>
+      <coordinates>123.844025,9.742261,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Budget Builders</name>
+    <description><![CDATA[<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/1375811_10200554040989658_1241534286_n.jpg" style="width:243px"><div>Photo From&nbsp;<a href="https://www.facebook.com/lorensgibb" style="font-size:10pt;color:rgb(59, 89, 152);font-weight:bold;line-height:18px;background-color:rgb(255, 255, 255)" target="_blank">Gibby Lapinid</a></div><div><br>&nbsp;</div><div>Totally Damage</div>]]></description>
+    <styleUrl>#style177</styleUrl>
+    <Point>
+      <coordinates>123.879677,10.293122,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dauis Church</name>
+    <description><![CDATA[<div><b><font color="#ff0000">Damaged Roof</font></b></div><div><br>&nbsp;</div><div><img src="https://pbs.twimg.com/media/BWlyZI7CMAEQ9J7.jpg" style="width:242px"></div><div><br>&nbsp;</div><div>Source: <a href="https://twitter.com/annaigpit/status/389968619095875585" target="_blank">Anna Igpit</a></div><div><br>&nbsp;</div>Dauis, Philippines<br>]]></description>
+    <styleUrl>#style112</styleUrl>
+    <Point>
+      <coordinates>123.838577,9.608874,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Osmeña Bridge</name>
+    <description><![CDATA[Dakbayan sa Lapu-Lapu, Philippines
+
+ 
+DPWH 7 deploys team to inspect status of 2 Mandaue-Mactan bridges after strong #earthquake. #Cebu via @PIACentralViz
+
+Source @sunstarcebu]]></description>
+    <styleUrl>#style91</styleUrl>
+    <Point>
+      <coordinates>123.958740,10.313906,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ilihan, Boljoon</name>
+    <description><![CDATA[<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/1395363_10151915669960240_2114940054_n.jpg" style="width:243px"><div><br>&nbsp;</div><div>Landslide</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>123.484955,9.626476,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Earthquake Epicenter</name>
+    <description><![CDATA[<span style="font-family:arial;font-size:13px">M7.1 - 2km NE of Catigbian, Philippines</span><p style="font-family:arial;font-size:13px;margin-top:0px">2013-10-15 00:12:32 UTC	<br>2013-10-15 08:12:32 at epicenter</p><p style="font-family:arial;font-size:13px"><span title="PAGER estimated impact alert level">PAGER - Yellow</span>&nbsp;<span title="ShakeMap maximum estimated intensity">ShakeMap&nbsp;- VII</span><span title="Did You Feel It? maximum reported intensity (131 reports)">DYFI?&nbsp;- VIII</span></p><p style="font-family:arial;font-size:13px;clear:left">Depth: 20.0 km</p>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>123.960457,9.777239,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tonyo&#39;s</name>
+    <description><![CDATA[<div dir="ltr">Shattered glasses and minor wall cracks</div>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>123.948692,10.349729,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Tinderbox</name>
+    <description><![CDATA[<img src="http://pbs.twimg.com/media/BWm-LytCQAAlXqk.jpg" style="width:259px"><div><br>&nbsp;</div><div>Damages</div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>123.909088,10.328599,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Governors Mansion</name>
+    <description><![CDATA[Headquarters of Bohol #EarthquakePH]]></description>
+    <styleUrl>#style147</styleUrl>
+    <Point>
+      <coordinates>123.857117,9.658292,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Candasag, Loboc</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style74</styleUrl>
+    <Point>
+      <coordinates>124.014015,9.635784,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Gunido, Dimiao</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style168</styleUrl>
+    <Point>
+      <coordinates>124.126968,9.634938,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgys. Cabacnitan, Bilar</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>124.081993,9.690106,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Bonifacio, Bilar</name>
+    <description><![CDATA[<font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">Landslide Reports from Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style75</styleUrl>
+    <Point>
+      <coordinates>124.131775,9.739512,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Liloan National Highway,</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>123.874107,9.713626,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy Buangan, Clarin</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>124.100189,9.993196,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Tontonan, Clarin</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO).</font>]]></description>
+    <styleUrl>#style165</styleUrl>
+    <Point>
+      <coordinates>124.129028,10.028358,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Banban</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>124.073410,9.603797,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Polo</name>
+    <description><![CDATA[<font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">Landslide Reports from Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>124.110146,9.607520,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Cancatac</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style145</styleUrl>
+    <Point>
+      <coordinates>123.914619,9.677584,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Dorol, Balilihan</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style86</styleUrl>
+    <Point>
+      <coordinates>123.995132,9.857922,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Sudlon, Alicia</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style122</styleUrl>
+    <Point>
+      <coordinates>124.359741,9.876864,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Del Monte, Alicia</name>
+    <description><![CDATA[<font face="arial" size="2">Landslide Reports from Bohol Provincial Police Office (BPPO)</font>]]></description>
+    <styleUrl>#style69</styleUrl>
+    <Point>
+      <coordinates>124.326782,9.894452,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cortes to Maribojoc</name>
+    <description><![CDATA[<div>Non-Passable Road according to Bohol Provincial Police Office (BPPO)</div><div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style70</styleUrl>
+    <Point>
+      <coordinates>123.861237,9.730038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Balilihan to Antequera Road</name>
+    <description><![CDATA[<div>Non-Passable Road according to Bohol Provincial Police Office (BPPO)</div><div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style132</styleUrl>
+    <Point>
+      <coordinates>123.867416,9.797369,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Albur to Loay Road</name>
+    <description><![CDATA[<div>Non-Passable Road according to Bohol Provincial Police Office (BPPO)</div><div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style169</styleUrl>
+    <Point>
+      <coordinates>123.975906,9.604812,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bilar to Loboc Road</name>
+    <description><![CDATA[<div>Non-Passable Road according to Bohol Provincial Police Office (BPPO)</div><div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>124.023109,9.615052,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Abatan Bridge</name>
+    <description><![CDATA[<span style="font-size:10pt;color:rgb(55, 64, 78);line-height:18px;background-color:rgb(255, 255, 255)">submerged in water&nbsp;</span><font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">according to Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style93</styleUrl>
+    <Point>
+      <coordinates>123.870850,9.696874,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Calape Bridge</name>
+    <description><![CDATA[<span style="font-size:10pt;color:rgb(55, 64, 78);line-height:18px;background-color:rgb(255, 255, 255)">passable by light vehicles&nbsp;</span><font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">according to Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style162</styleUrl>
+    <Point>
+      <coordinates>123.872223,9.864687,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Loay Bridge</name>
+    <description><![CDATA[<span style="font-size:10pt;color:rgb(55, 64, 78);line-height:18px;background-color:rgb(255, 255, 255)">passable by light vehicles&nbsp;</span><font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">according to Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style156</styleUrl>
+    <Point>
+      <coordinates>124.153748,9.684691,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alburquerque Bridge</name>
+    <description><![CDATA[<span style="font-size:10pt;color:rgb(55, 64, 78);line-height:18px;background-color:rgb(255, 255, 255)">passable by MC only&nbsp;</span><font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">according to Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style151</styleUrl>
+    <Point>
+      <coordinates>123.943459,9.611751,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Loon Church</name>
+    <description><![CDATA[<span style="font-size:10pt;color:rgb(55, 64, 78);line-height:18px;background-color:rgb(255, 255, 255)">totally damaged&nbsp;</span><font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">according to Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>123.797379,9.799061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maribojoc Church</name>
+    <description><![CDATA[<span style="font-size:10pt;color:rgb(55, 64, 78);line-height:18px;background-color:rgb(255, 255, 255)">totally damaged&nbsp;</span><font color="#37404e" face="lucida grande, tahoma, verdana, arial, sans-serif" size="2"><span style="line-height:18px">according to Bohol Provincial Police Office (BPPO)</span></font>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>123.843987,9.742261,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Catigbian Church</name>
+    <description><![CDATA[Minor damages. Have some cracks in walls.<div><img src="https://z-n.ak.fbcdn.net/sphotos-d.ak/hphotos-ak-prn2/p480x480/1395858_713908968637419_1740413265_n.jpg" style="width:242px"><br>&nbsp;
+<div>Photo by: Emmanuel Inting (fb)</div></div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>123.999939,9.848451,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Calape Church</name>
+    <description><![CDATA[<div dir="ltr"><b>Minor Damage</b>. Falling debris from top portion of the church.<br><br>&nbsp;</div>
+<img src="https://z-n.ak.fbcdn.net/sphotos-h.ak/hphotos-ak-ash4/1376633_10201434886492711_1574190088_n.jpg">
+
+Photo from: FB]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>123.872910,9.892422,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gabriel Reyes Building, University of San Carlos - Downtown Campus</name>
+    <description><![CDATA[<font face="arial" size="2"><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-ash3/1010158_521575417929491_1709237672_n.jpg" style="width:244px"><img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/1380533_521575371262829_201891371_n.jpg" style="width:244px"></font><div style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div><font face="arial" size="2">Minor damages</font><br><font face="arial" size="2">&nbsp;</font></div><div style="font-family:arial;font-size:10pt">Photos by Ken Ecarma, USC SSC</div>]]></description>
+    <styleUrl>#style98</styleUrl>
+    <Point>
+      <coordinates>123.894165,10.313442,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon</name>
+    <description><![CDATA[<div><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn2/1377384_10151886770592225_1553879098_n.jpg" style="width:259px"></div><div><br>&nbsp;</div>Damaged hall<br><div><br>&nbsp;</div><div>Photo from <a href="https://www.facebook.com/GMANewsCebu?directed_target_id=0" target="_blank">GMA News Cebu</a></div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>123.962364,9.951684,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ActiveZone, Ayala Activity Center</name>
+    <description><![CDATA[<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/1378090_10152096441003814_1157194436_n.jpg" style="width:244px"><div><br>The mall has since returned to full operation.&nbsp;</div><div><br>&nbsp;</div><div>Credit goes to the rightful owner</div>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>123.904732,10.319479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gaisano Country Mall</name>
+    <description><![CDATA[<img src="http://assets.rappler.com/7D60D544929C4CC898C4246A8D123D27/img/7E162E3A92264E9CA571B6DAD862CABF/earthquake-cebu-20131015-Cebu-Provincial-Government_7E162E3A92264E9CA571B6DAD862CABF.jpg" style="width:244px"><div><br>&nbsp;</div><div>Photo from Cebu Provincial Government Facebook page</div>]]></description>
+    <styleUrl>#style152</styleUrl>
+    <Point>
+      <coordinates>123.911301,10.338373,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sagbayan Municipal Hall</name>
+    <description><![CDATA[<div><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/1382889_10151885198167225_633665540_n.jpg" style="width:259px"></div><div><br>&nbsp;</div>Damages to Municipal Hall<br><div><br>&nbsp;</div><div><span style="color:rgb(51, 51, 51);font-size:13px;line-height:18px;background-color:rgb(255, 255, 255)">&nbsp;Photo by Robert Poole</span></div>]]></description>
+    <styleUrl>#style173</styleUrl>
+    <Point>
+      <coordinates>124.096756,9.911700,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Loon Bridge</name>
+    <description><![CDATA[<div><img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1380241_10151884842562225_165095090_n.jpg" style="width:259px"></div><div>Unpassable</div><div><br>&nbsp;</div>Photos<span style="color:rgb(51, 51, 51);font-size:13px;line-height:18px;background-color:rgb(255, 255, 255)">&nbsp;by Iris Cornito.</span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>123.792572,9.796354,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Abatan Bridge</name>
+    <description><![CDATA[<div><img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1380241_10151884842562225_165095090_n.jpg" style="width:259px"></div><div><br>&nbsp;</div><div>Unpassable</div><div><br>&nbsp;</div>Maribojoc 6336, Philippines<br><div><br>&nbsp;</div><div><span style="color:rgb(51, 51, 51);font-size:13px;line-height:18px;background-color:rgb(255, 255, 255)">Photo by Iris Cornito.</span></div>]]></description>
+    <styleUrl>#style92</styleUrl>
+    <Point>
+      <coordinates>123.874077,9.725227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>East West Cafe</name>
+    <description><![CDATA[<div dir="ltr"><img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/1378626_10202134669030257_421160630_n.jpg" style="width:259px"><br><br>Broken glass wall at East West, Cebu IT Park after the earthquake Photo by: Borgie Chan</div>]]></description>
+    <styleUrl>#style153</styleUrl>
+    <Point>
+      <coordinates>123.899002,10.326066,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu Doctors University</name>
+    <description><![CDATA[<img src="https://pbs.twimg.com/media/BWk95LdCIAEkNjx.jpg:large" style="width:244px"><div><br>&nbsp;</div><div>Photo by&nbsp;<a href="https://twitter.com/psycharlotta19" dir="ltr" style="color:rgb(3, 133, 67);text-decoration:none;font-family:Arial, sans-serif;font-size:14px;line-height:18px;white-space:pre-wrap;background-color:rgb(245, 245, 245)" target="_blank"><span style="color:rgb(103, 181, 142)">@</span>psycharlotta19</a></div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>123.933571,10.319938,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>SM City Cebu</name>
+    <description><![CDATA[<div><img src="http://i.cdn.turner.com/ireport/sm/prod/2013/10/15/WE01021056/3012039/IMG20131015105530jpg-3012039_p9.jpg"></div><div><br>&nbsp;</div>Minor damages.<div><br>&nbsp;</div><div>Photo from CNN iReport</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>123.917824,10.311415,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>GMC Building</name>
+    <description><![CDATA[<div dir="ltr">Wall cracks and </div>]]></description>
+    <styleUrl>#style174</styleUrl>
+    <Point>
+      <coordinates>123.905617,10.294383,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bohol Provincial Capitol</name>
+    <description><![CDATA[<div dir="ltr">Major damage on western wall.</div>]]></description>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>123.856567,9.640280,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Joseph Cathedral</name>
+    <description><![CDATA[<div dir="ltr">Major damage on wall of western wing, few minor damage on wall of eastern wing, substantial damage on belfry</div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>123.855736,9.639211,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>HNU-Tagbilaran Main Building</name>
+    <description><![CDATA[<div dir="ltr">Total collapse of fourth floor west facing wall </div>]]></description>
+    <styleUrl>#style68</styleUrl>
+    <Point>
+      <coordinates>123.854874,9.641221,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A.M. Torralba Street</name>
+    <description><![CDATA[<div dir="ltr">Unpassable due collapsed cave</div>]]></description>
+    <styleUrl>#style164</styleUrl>
+    <Point>
+      <coordinates>123.856819,9.638228,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Our Lady of Assumption Church</name>
+    <description><![CDATA[<div dir="ltr">Total collapse of the facade</div>]]></description>
+    <styleUrl>#style100</styleUrl>
+    <Point>
+      <coordinates>123.864990,9.625545,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>three storey building</name>
+    <description><![CDATA[<div dir="ltr">heavily damaged</div>]]></description>
+    <styleUrl>#style172</styleUrl>
+    <Point>
+      <coordinates>123.872223,9.663708,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>National Fool Authority</name>
+    <description><![CDATA[<div dir="ltr">cracks along the road side below National Fool Authority down to the rear of Fernandez Apartment, might cause landslide endangering several houses on the foreshore.</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>123.864113,9.634536,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Borja Bridge</name>
+    <description><![CDATA[<div dir="ltr">cracks on the access roads</div>]]></description>
+    <styleUrl>#style120</styleUrl>
+    <Point>
+      <coordinates>123.871239,9.626645,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu Cherish School</name>
+    <description><![CDATA[<img src="https://dl.dropboxusercontent.com/u/4678943/earthquake%20oct13/1377446_10200689603904292_348083271_n.jpg"><img src="https://dl.dropboxusercontent.com/u/4678943/earthquake%20oct13/1377446_10200689603904292_348083271_n.jpg"><div dir="ltr"></div><div><img src="https://dl.dropboxusercontent.com/u/4678943/earthquake%20oct13/1377446_10200689603904292_348083271_n.jpg"><br>&nbsp;</div><div>Structural damage</div><div><br>&nbsp;</div><div>Photo by Kim Beniga</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>123.889610,10.310671,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Holy Cross Academy</name>
+    <description><![CDATA[<div dir="ltr">Heavily damaged<br>Source: Robert Bryan Mandin<br>&nbsp;</div>]]></description>
+    <styleUrl>#style130</styleUrl>
+    <Point>
+      <coordinates>123.963371,9.949745,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Abatan River Bridge</name>
+    <description><![CDATA[<div dir="ltr">Collapsed.<br>Source: Robert Bryan Mandin<br>&nbsp;</div>]]></description>
+    <styleUrl>#style167</styleUrl>
+    <Point>
+      <coordinates>123.874077,9.725173,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>AB South Enterprises  - Carcar City</name>
+    <description><![CDATA[Visible Structural Damage
+
+<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1385829_10151801350776263_1514965823_n.jpg" style="width:242px">]]></description>
+    <styleUrl>#style67</styleUrl>
+    <Point>
+      <coordinates>123.638451,10.099605,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>San Miguel Archangel Parish - Argao </name>
+    <description><![CDATA[Minor Damage
+<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn1/155730_10151801388361263_1834421397_n.jpg" style="width:242px">
+]]></description>
+    <styleUrl>#style123</styleUrl>
+    <Point>
+      <coordinates>123.608002,9.881900,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Casa Real - Argao</name>
+    <description><![CDATA[Portion of Roof Collapse
+ <div><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/1383580_10151801388501263_2017327691_n.jpg" style="width:242px"></div>]]></description>
+    <styleUrl>#style180</styleUrl>
+    <Point>
+      <coordinates>123.608788,9.881393,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>San Guillermo Parish  - Dalaguete </name>
+    <description><![CDATA[Bell Tower Heavy Damage<div><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/1380768_10151801403031263_1722951646_n.jpg" style="width:242px"></div>]]></description>
+    <styleUrl>#style103</styleUrl>
+    <Point>
+      <coordinates>123.534782,9.761294,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dalaguete Musuem</name>
+    <description><![CDATA[Big Crack Visible<div><br>&nbsp;</div><div><img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/1385315_10151801418326263_2047390008_n.jpg" style="width:242px"></div>]]></description>
+    <styleUrl>#style110</styleUrl>
+    <Point>
+      <coordinates>123.531944,9.761590,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dalaguete -No Water</name>
+    <description><![CDATA[Most of Barangay of Dalaguete has no water.. the pipeline from the mountain source was busted.
+Photo from Michelle Angelie Jerezon Bejec Fb
+<div><br>&nbsp;</div><div><img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/1378331_10200691970490855_1876867846_n.jpg" style="width:242px"></div>]]></description>
+    <styleUrl>#style77</styleUrl>
+    <Point>
+      <coordinates>123.531990,9.768738,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>U-Og Inabanga -No Water</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style118</styleUrl>
+    <Point>
+      <coordinates>124.068604,10.001310,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inabanga Church</name>
+    <description><![CDATA[Totally Damage
+
+<div dir="ltr"><img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash4/1390501_709583522404138_1180160571_n.jpg" style="font-size:10pt;width:242px"><br>&nbsp;</div>]]></description>
+    <styleUrl>#style79</styleUrl>
+    <Point>
+      <coordinates>124.050751,9.978318,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu International Convention Center </name>
+    <description><![CDATA[Collapse Ceilings
+Temporarily Close 
+]]></description>
+    <styleUrl>#style175</styleUrl>
+    <Point>
+      <coordinates>123.936256,10.326403,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Catigbian</name>
+    <description><![CDATA[<div dir="ltr">No Water in Catigbian.</div>]]></description>
+    <styleUrl>#style135</styleUrl>
+    <Point>
+      <coordinates>124.031525,9.825448,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boljoon</name>
+    <description><![CDATA[<span>Entire social welfare office was wiped out because 
+of a tidal wave. Around 3 houses were also damaged because of the rocks 
+from the Eli.</span><div><span><br></span></div><div><span>via Milafel Dacanay</span></div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>123.449562,9.645740,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maribojoc</name>
+    <description><![CDATA[<span>via&nbsp;<span>Jeanne Rose Asur&nbsp;</span></span><div><span><br></span></div><div><span>pls help MARIBOJOC they really need help especially 
+in remote areas there (DOBDOB,DIPATLONG and STO.ROSARIO,BAYACABAC...they
+ don't hav shelter and it's still raining n ds areas they're all 
+wet..they hav a lot of children there...they need food,water and 
+tent...pls help..god bless..</span></div>]]></description>
+    <styleUrl>#style96</styleUrl>
+    <Point>
+      <coordinates>123.843918,9.738802,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sr Sto Nino Parish of Baang, Catigbian, Bohol</name>
+    <description><![CDATA[Altar has been damaged.&nbsp;<div><img src="https://z-n.ak.fbcdn.net/sphotos-h.ak/hphotos-ak-ash4/p296x100/1378461_609491372422471_1948061315_n.jpg" style="width:242px"></div><div><br>&nbsp;</div><div>Photo by:&nbsp;</div><h5 style="font-size:14px;color:rgb(20, 24, 35);margin:0px;padding:0px;font-weight:normal;line-height:18px;max-width:480px;outline:none;background-color:rgb(255, 255, 255)"><span style="font-weight:bold"><a href="https://www.facebook.com/althafhe.llorente" style="color:rgb(20, 24, 35);text-decoration:none" target="_blank">Aleta Hope Calacat Llorente</a></span>&nbsp;</h5>]]></description>
+    <styleUrl>#style94</styleUrl>
+    <Point>
+      <coordinates>124.043030,9.848451,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tangnan Church...( Tangnan, Loon, Bohol)</name>
+    <description><![CDATA[Heavy damage. Entrance damage. Walls on both sides partially collapsed.<div><br>&nbsp;</div><div><img src="https://z-n.ak.fbcdn.net/sphotos-d.ak/hphotos-ak-frc3/p480x480/1385970_625276904189949_404143972_n.jpg" style="width:242px"></div><div><br>&nbsp;</div><div>Photo:&nbsp;</div><h5 style="font-size:12px;color:rgb(51, 51, 51);margin:4px 51px 1px 0px;padding:0px;font-weight:normal;line-height:16px;background-color:rgb(255, 255, 255)"><span style="color:rgb(137, 145, 156)"><a href="https://www.facebook.com/marcrouen.meguillo" style="color:rgb(59, 89, 152);text-decoration:none" target="_blank">Marc Rouen Meguillo</a></span></h5>]]></description>
+    <styleUrl>#style87</styleUrl>
+    <Point>
+      <coordinates>123.817978,9.837626,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cuasi Church - (Cuasi, Loon, Bohol)</name>
+    <description><![CDATA[Light-Moderate Damage. Cracks on walls and some parts collapsed.<div><img src="https://z-n.ak.fbcdn.net/sphotos-e.ak/hphotos-ak-frc3/p480x480/1394779_625277947523178_1117236927_n.jpg" style="width:242px"></div><div><br>&nbsp;</div><div>Photo:&nbsp;</div><h5 style="font-size:12px;color:rgb(51, 51, 51);margin:4px 51px 1px 0px;padding:0px;font-weight:normal;line-height:16px;background-color:rgb(255, 255, 255)"><span style="color:rgb(137, 145, 156)"><a href="https://www.facebook.com/marcrouen.meguillo" style="color:rgb(59, 89, 152);text-decoration:none" target="_blank">Marc Rouen Meguillo</a></span></h5>]]></description>
+    <styleUrl>#style157</styleUrl>
+    <Point>
+      <coordinates>123.848190,9.861305,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>No Water in Calape</name>
+    <description><![CDATA[Calape is in need of Water.]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>123.894196,9.870099,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Catigbian to Caimbang, San Isidro</name>
+    <description><![CDATA[A landslide occurred in the road going to San Isidro from Catigbian via Caimbang.<div><img src="https://z-n.ak.fbcdn.net/sphotos-a.ak/hphotos-ak-frc3/p480x480/1393585_669869659699594_2054125737_n.jpg" style="width:242px"></div><div><br>&nbsp;</div><div>Photo by: Selyn Impas</div>]]></description>
+    <styleUrl>#style136</styleUrl>
+    <Point>
+      <coordinates>123.974190,9.852679,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bagtic, Catigbian, Bohol</name>
+    <description><![CDATA[<div dir="ltr"><img src="https://z-n.ak.fbcdn.net/sphotos-d.ak/hphotos-ak-frc3/p296x100/1379787_580812131956507_1119656376_n.jpg" style="font-size:10pt;width:242px">Roads are impassable due to large cracks brought after the 7.2M quake. Areas can be accessed on foot.<br><br>&nbsp;</div><div dir="ltr">Photo:&nbsp;</div><a href="https://www.facebook.com/gary.gementiza.75" style="color:rgb(20, 24, 35);text-decoration:none;font-weight:bold;font-size:14px;line-height:18px;background-color:rgb(255, 255, 255)" target="_blank">Gary Gementiza</a>]]></description>
+    <styleUrl>#style146</styleUrl>
+    <Point>
+      <coordinates>124.048431,9.837119,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Michael the Archangel Parish</name>
+    <description><![CDATA[<div><img src="https://www.facebook.com/photo.php?fbid=226346954196367&amp;set=pb.100004631918129.-2207520000.1381972259.&amp;type=3&amp;theater"></div><div>&nbsp;</div><div>clarin church detroyed</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>124.024269,9.961401,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maribojoc</name>
+    <description><![CDATA["<span style="color:rgb(51, 51, 51);line-height:17px;background-color:rgb(255, 255, 255)">Kung knsa man mkreciv ani nga msg pls pls. Na.a nay kuryente sa ubang dapit. .pls pkitel sa gma or a.b.s nga isolated na ang maribojoc d na mi mkadung tagb or lo0n bkoz of landslyds and br0ken bridges.wla na mi pgka0n,tubg og ubng gamit.dghan kau patay dri we rily nid relief guds.maribojoc n0w is a ghost town.dugay man mu abot ang relief guds fr0m gov't ma0ng mangau lng mi tbng sa media.tnx Kung knsa man mkreciv ani nga msg pls pls. Na.a nay kuryente sa ubang dapit. .pls pkitel sa gma or a.b.s nga isolated na ang maribojoc d na mi mkadung tagb or lo0n bkoz of landslyds and br0ken bridges.wla na mi pgka0n,tubg og ubng gamit.dghan kau patay dri we rily nid relief guds.maribojoc n0w is a ghost town.dugay man mu abot ang relief guds fr0m gov't ma0ng mangau lng mi tbng sa media.tnx"</span><div><span style="color:rgb(51, 51, 51);line-height:17px;background-color:rgb(255, 255, 255)"><br></span></div><div><span style="color:rgb(51, 51, 51);line-height:17px;background-color:rgb(255, 255, 255)">-</span><a href="https://www.facebook.com/pebzjava/posts/10151900527877381" style="font-size:10pt" target="_blank">https://www.facebook.com/pebzjava/posts/10151900527877381</a></div>]]></description>
+    <styleUrl>#style84</styleUrl>
+    <Point>
+      <coordinates>123.843987,9.741204,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pusok- Motumbo Lapu-Lapu City</name>
+    <description><![CDATA[Photo By 
+Fritz John Augosto Menguito
+
+<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc1/1167327_625257367526408_1690838351_o.jpg" style="width:242px">]]></description>
+    <styleUrl>#style158</styleUrl>
+    <Point>
+      <coordinates>123.972458,10.319598,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lapu-Lapu Monument</name>
+    <description><![CDATA[Head of Lapulapu statue Crack
+
+Photo by Fritz John Augosto Menguito
+
+<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/1381903_626695837382561_1800194511_n.jpg" style="width:242px">]]></description>
+    <styleUrl>#style163</styleUrl>
+    <Point>
+      <coordinates>124.015289,10.311394,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Magellan&#39;s Marker - Lapu-Lapu City</name>
+    <description><![CDATA[<img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/1391960_626695850715893_953684157_n.jpg" style="width:242px">Minor Damages
+
+Photo by Fritz John Augosto Menguito]]></description>
+    <styleUrl>#style73</styleUrl>
+    <Point>
+      <coordinates>124.015289,10.310760,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu Provincial Capitol Building </name>
+    <description><![CDATA[<div><font face="arial" size="2">Capitol Building with minor cracks.</font></div><div><font face="arial" size="2"><br></font></div><font face="arial" size="2">Reports from Cebu Provinicial Disaster Risk Reduction and Emergency Management&nbsp;</font><div><br>&nbsp;</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>123.890503,10.317231,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Legislative Building – with minor cracks</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style82</styleUrl>
+    <Point>
+      <coordinates>123.890823,10.316819,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu International Convention Center – ceiling of Plenary Hall collapsed</name>
+    <description><![CDATA[<font face="arial" size="2">Reports from Cebu Provinicial Disaster Risk Reduction and Emergency Management&nbsp;</font>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>123.936539,10.326694,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cebu Cultural Center</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>123.899048,10.322464,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon Community Hospital</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>123.961250,9.943574,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon Tennis Court</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>123.962502,9.951513,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon Parish</name>
+    <description><![CDATA[Heavily Damages<br><div><img src="http://s.wsj.net/public/resources/images/BN-AA182_phquak_G_20131016075326.jpg" style="font-size:10pt;width:242px">&nbsp;</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>123.962860,9.950316,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Loboc Belltower</name>
+    <description><![CDATA[Collapse
+<img src="http://newsinfo.inquirer.net/files/2013/10/boholquake3-300x453.jpg" style="width:242px">]]></description>
+    <styleUrl>#style160</styleUrl>
+    <Point>
+      <coordinates>124.030693,9.636440,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alicia Elementary School</name>
+    <description><![CDATA[Evacuation Center]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>124.411240,9.885320,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Placemark 103</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>124.441216,9.991104,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>licia Basket Ball Court</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style142</styleUrl>
+    <Point>
+      <coordinates>124.423943,9.895128,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dagohoy Brgy. Hall </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>124.082336,9.679953,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Campagao Brgy. Hall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>124.096069,9.702627,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poblacion Brgy. Hall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style88</styleUrl>
+    <Point>
+      <coordinates>124.103279,9.718532,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cambigsi Brgy. Hall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style113</styleUrl>
+    <Point>
+      <coordinates>124.122849,9.718532,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cabacnitan Brgy. Hall </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style155</styleUrl>
+    <Point>
+      <coordinates>124.113235,9.732406,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bohol Island State University</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>124.120102,9.746618,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Bonifacio Brgy. Hall </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style102</styleUrl>
+    <Point>
+      <coordinates>124.140358,9.744249,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lawis Elementary School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style131</styleUrl>
+    <Point>
+      <coordinates>123.864586,9.625037,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Buenavista Oval</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style140</styleUrl>
+    <Point>
+      <coordinates>124.200272,10.002663,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Rufohill</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>124.200096,10.013989,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Church Plaza </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>124.180527,10.054389,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Buenavista Elem. School</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style176</styleUrl>
+    <Point>
+      <coordinates>124.171944,10.063178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Oval Sports Complex </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style128</styleUrl>
+    <Point>
+      <coordinates>123.882950,9.895804,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cultural Center</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>123.880890,9.894029,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Munical Plaza Calape </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style99</styleUrl>
+    <Point>
+      <coordinates>123.881065,9.895847,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Calape Central School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style149</styleUrl>
+    <Point>
+      <coordinates>123.877113,9.892591,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Talisay Brgy. Hall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style85</styleUrl>
+    <Point>
+      <coordinates>123.831688,9.898869,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Looc Brgy. Hall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style133</styleUrl>
+    <Point>
+      <coordinates>123.821671,9.893395,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Corella Plaza</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>123.911018,9.687398,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Purok Centers </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style137</styleUrl>
+    <Point>
+      <coordinates>123.926102,9.694992,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>No Electricity</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style78</styleUrl>
+    <Point>
+      <coordinates>123.870895,9.700935,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ubay College </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style83</styleUrl>
+    <Point>
+      <coordinates>124.441086,9.991125,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ubay Football Field </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style101</styleUrl>
+    <Point>
+      <coordinates>124.440079,9.990406,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ubay Municipal Ground </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>124.439072,9.989815,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>North Eastern College (Ubay)</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style170</styleUrl>
+    <Point>
+      <coordinates>124.438278,9.989138,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CNC - Ubay</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style111</styleUrl>
+    <Point>
+      <coordinates>124.439499,9.991864,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Plaza Church </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style116</styleUrl>
+    <Point>
+      <coordinates>123.752579,9.580544,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sto. Nino Shrine Plaza</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style154</styleUrl>
+    <Point>
+      <coordinates>124.028694,9.634854,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Triple union elementary School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>124.027832,9.649154,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Camayaan Nat’l H.S. </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style81</styleUrl>
+    <Point>
+      <coordinates>124.049980,9.664554,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alegria Open Ground </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>124.060707,9.664131,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Plaza </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>124.289360,9.808364,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gallares Sports Complex</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style72</styleUrl>
+    <Point>
+      <coordinates>123.852699,9.656600,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bohol Cultural Center</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>123.855461,9.648054,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon East Central School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>123.990799,9.947843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon West Central School</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style138</styleUrl>
+    <Point>
+      <coordinates>123.964279,9.949713,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon Tennis Court</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style129</styleUrl>
+    <Point>
+      <coordinates>123.962563,9.951552,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tubigon Community Hospital </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style76</styleUrl>
+    <Point>
+      <coordinates>123.960876,9.943584,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ubay College</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Point>
+      <coordinates>124.472137,10.053079,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ubay Football Field </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>124.440338,9.989646,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Municipal Ground </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>124.439651,9.993449,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>North Eastern College </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style166</styleUrl>
+    <Point>
+      <coordinates>124.474838,10.054051,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CNC</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style89</styleUrl>
+    <Point>
+      <coordinates>124.468742,10.042345,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>maribojoc emergency and rescue unit</name>
+    <description><![CDATA[<span style="color:rgb(128, 128, 128);font-size:11px;line-height:14px;background-color:rgb(255, 255, 255)">medicine needed in maribojoc emergency and rescue unit based at the fire station: paracetamol, amoxicillin, cefalixin, betadine, loperamide, plaster, cotton, os, mefenamic</span>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>123.844078,9.741172,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>EC Mayaga High School</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>124.487328,9.768907,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Loay Church Plaza</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>124.487968,9.775843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Carmen Plaza</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style106</styleUrl>
+    <Point>
+      <coordinates>124.165375,9.801471,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Getafe Plaza</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>124.154266,10.147677,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eric Flow Hotel</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>123.753349,9.583231,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eric Flow Hotel</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>123.746651,9.582300,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lourdes Plaza </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style171</styleUrl>
+    <Point>
+      <coordinates>123.766220,9.584332,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lourdes High School</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style134</styleUrl>
+    <Point>
+      <coordinates>123.798836,9.596349,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Undo elem school</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style95</styleUrl>
+    <Point>
+      <coordinates>124.067314,10.031738,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lawis Elementary School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>124.063797,10.028104,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poblacion Elem School</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style161</styleUrl>
+    <Point>
+      <coordinates>124.072891,10.030386,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>PagIbig fund Office in Bohol</name>
+    <description><![CDATA[<h5 style="font-size:13px;margin:0px;padding:0px;word-break:break-word;word-wrap:break-word;font-weight:normal;outline:none;line-height:1.38;background-color:rgb(255, 255, 255)"><div style="margin-bottom:0px;font-weight:bold;padding-bottom:4px"><a href="https://www.facebook.com/pia.centralviz?hc_location=stream" style="color:rgb(59, 89, 152);text-decoration:none" target="_blank">Pia Central Visayas</a></div></h5><h5 style="font-size:11px;margin:0px 0px 5px;padding:0px;word-break:break-word;word-wrap:break-word;font-weight:normal;line-height:14px;background-color:rgb(255, 255, 255)"><span style="color:rgb(51, 51, 51);font-size:13px;line-height:1.38"><div><span>PagIbig fund offices in Cebu are open but Bohol office is destroyed by the quake.&nbsp;<a href="https://www.facebook.com/hashtag/quakenewspia" style="color:rgb(59, 89, 152);text-decoration:none" target="_blank">#quakenewspia</a></span></div></span></h5>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>123.854103,9.648868,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sawang Calero Cockpit </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style178</styleUrl>
+    <Point>
+      <coordinates>123.889671,10.290282,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kasambagan Gym</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style104</styleUrl>
+    <Point>
+      <coordinates>123.912308,10.325221,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cogon Pardo Gym </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style109</styleUrl>
+    <Point>
+      <coordinates>123.859344,10.271343,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mormons Church</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style139</styleUrl>
+    <Point>
+      <coordinates>123.898659,10.328261,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Abellana Sports Complex </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>123.895630,10.300331,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cogon Ramos Gym</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style115</styleUrl>
+    <Point>
+      <coordinates>123.899002,10.304300,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>San Nicolas Elem. School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style148</styleUrl>
+    <Point>
+      <coordinates>123.885956,10.294061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Senior Citizens Office</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style124</styleUrl>
+    <Point>
+      <coordinates>123.893852,10.290577,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lahug Gym</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style141</styleUrl>
+    <Point>
+      <coordinates>123.898636,10.323722,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Kasambagan Basketball Court </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style125</styleUrl>
+    <Point>
+      <coordinates>123.916725,10.326235,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Banawa Gun Club </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>123.882607,10.315004,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bulacao Community School</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style80</styleUrl>
+    <Point>
+      <coordinates>123.843384,10.269485,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brgy. Tinago Gym</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>123.906425,10.299117,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inayawan Covered Court</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>123.855461,10.268620,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Immaculat Heart of Mary Multi-Purpose Center </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>123.779976,10.239397,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lipata Center School </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>123.804886,10.250018,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tungkil Barangay Hall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>123.812912,10.244317,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boljoon Cockpit </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style159</styleUrl>
+    <Point>
+      <coordinates>123.474998,9.606843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boljoon Parish Church </name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style90</styleUrl>
+    <Point>
+      <coordinates>123.481049,9.631765,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mowabok Day Care Center</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style179</styleUrl>
+    <Point>
+      <coordinates>124.015045,10.940181,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chapel Sitio Sambagan</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style143</styleUrl>
+    <Point>
+      <coordinates>123.836235,10.268577,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

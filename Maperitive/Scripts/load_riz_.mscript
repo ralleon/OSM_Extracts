@@ -1,0 +1,13 @@
+﻿// clear-map
+
+// Source 1
+load-source maps/map_riz_.osm
+
+// Source 2
+load-source maps/rasters/rizal/riz_hillshading.png
+
+// Source 3
+load-source maps/rasters/rizal/riz_slopes.png
+
+use-ruleset location=Rules/OSM_PH.mrules as-alias=osmph
+apply-ruleset 1

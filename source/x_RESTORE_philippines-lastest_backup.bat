@@ -1,0 +1,1 @@
+copy philippines-latest.osm.pbf.bak philippines-latest.osm.pbf

@@ -1,0 +1,4 @@
+use-ruleset alias=osmph
+//load-source maps/taytay_rizal.osm
+use-ruleset alias=osmph
+find emergency=fire_hydrant

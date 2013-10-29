@@ -1,0 +1,15 @@
+--verbose
+
+--keep=
+tourism=museum
+tourism=gallery
+historic=memorial
+historic=monument
+historic=museum
+amenity=arts_centre
+amenity=arts_center
+amenity=art_gallery
+
+--drop-relations
+
+-o=temp1.osm

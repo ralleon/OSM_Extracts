@@ -1,0 +1,11 @@
+--verbose
+
+--keep=
+amenity=pawnbroker
+amenity=bureau_de_change
+amenity=money_changer
+amenity=money_transfer
+
+--drop-relations
+
+-o=temp1.osm

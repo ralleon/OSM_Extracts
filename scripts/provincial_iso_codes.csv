@@ -1,0 +1,82 @@
+PROVINCE,ISO,REGION
+Abra ,ABR,CAR
+Agusan del Norte ,AGN,13
+Agusan del Sur ,AGS,13
+Aklan ,AKL,6
+Albay ,ALB,5
+Antique ,ANT,6
+Apayao ,APA,CAR
+Aurora ,AUR,3
+Basilan ,BAS,ARMM
+Bataan ,BAN,3
+Batanes ,BTN,2
+Batangas ,BTG,4-A
+Benguet ,BEN,CAR
+Biliran ,BIL,8
+Bohol ,BOH,7
+Bukidnon ,BUK,10
+Bulacan ,BUL,3
+Cagayan ,CAG,2
+Camarines Norte ,CAN,5
+Camarines Sur ,CAS,5
+Camiguin ,CAM,10
+Capiz ,CAP,6
+Catanduanes ,CAT,5
+Cavite ,CAV,4-A
+Cebu ,CEB,7
+Compostela Valley ,COM,11
+Cotabato ,NCO,12
+Davao del Norte ,DAV,11
+Davao del Sur ,DAS,11
+Davao Oriental ,DAO,11
+Dinagat Islands ,DIN,13
+Eastern Samar ,EAS,8
+Guimaras ,GUI,6
+Ifugao ,IFU,CAR
+Ilocos Norte ,ILN,1
+Ilocos Sur ,ILS,1
+Iloilo ,ILI,6
+Isabela ,ISA,2
+Kalinga ,KAL,CAR
+Laguna ,LAG,4-A
+Lanao del Norte ,LAN,10
+Lanao del Sur ,LAS,ARMM
+La Union ,LUN,1
+Leyte ,LEY,8
+Maguindanao ,MAG,ARMM
+Marinduque ,MAD,4-B
+Masbate ,MAS,5
+Metropolitan Manila,MNL,NCR
+Misamis Occidental ,MSC,10
+Misamis Oriental ,MSR,10
+Mountain ,MOU,CAR
+Negros Occidental ,NEC,6
+Negros Oriental ,NER,7
+Northern Samar ,NSA,8
+Nueva Ecija ,NUE,3
+Nueva Vizcaya ,NUV,2
+Occidental Mindoro ,MDC,4-B
+Oriental Mindoro ,MDR,4-B
+Palawan ,PLW,4-B
+Pampanga ,PAM,3
+Pangasinan ,PAN,1
+Quezon ,QUE,4-A
+Quirino ,QUI,2
+Rizal ,RIZ,4-A
+Romblon ,ROM,4-B
+Samar ,WSA,8
+Sarangani ,SAR,12
+Siquijor ,SIG,7
+Sorsogon ,SOR,5
+South Cotabato ,SCO,12
+Southern Leyte ,SLE,8
+Sultan Kudarat ,SUK,12
+Sulu ,SLU,ARMM
+Surigao del Norte ,SUN,13
+Surigao del Sur ,SUR,13
+Tarlac ,TAR,3
+Tawi-Tawi ,TAW,ARMM
+Zambales ,ZMB,3
+Zamboanga del Norte,ZAN,9
+Zamboanga del Sur ,ZAS,9
+Zamboanga-Sibugay ,ZSI,9

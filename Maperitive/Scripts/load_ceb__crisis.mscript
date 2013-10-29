@@ -1,0 +1,10 @@
+﻿// clear-map
+
+// Source - MAIN MAP
+load-source maps/map_ceb_.osm
+
+// Source - SLOPES
+load-source maps/rasters/cebu/ceb_slopes.png
+
+use-ruleset location=Rules/Crisis_Mapping.mrules as-alias=crisis
+apply-ruleset 1

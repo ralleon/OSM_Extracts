@@ -1,0 +1,9 @@
+--verbose
+
+--keep=
+leisure=pitch AND sport=basketball
+sport=basketball
+
+--drop-relations
+
+-o=temp1.osm

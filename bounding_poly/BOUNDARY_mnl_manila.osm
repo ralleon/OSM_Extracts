@@ -1,0 +1,1147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.2S">
+	<bounds minlat="4.424338" minlon="115.6329" maxlat="21.55277" maxlon="127.8003"/>
+	<node id="14381931" lat="14.6301724" lon="120.9441295" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14381961" lat="14.5910231" lon="120.9647617" version="45" timestamp="2011-03-08T06:32:11Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14382222" lat="14.5930604" lon="120.9624098" version="46" timestamp="2011-05-05T09:47:25Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14382284" lat="14.6204556" lon="120.9575448" version="7" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14382639" lat="14.5804652" lon="120.9724866" version="46" timestamp="2011-03-08T06:32:00Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14382717" lat="14.5863034" lon="120.9622581" version="44" timestamp="2011-03-08T06:32:13Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14382736" lat="14.6145679" lon="120.9568015" version="8" timestamp="2011-05-05T10:04:13Z" changeset="8056061" uid="5541" user="Ian Haylock"/>
+	<node id="14382819" lat="14.6260698" lon="120.9592459" version="9" timestamp="2009-03-25T03:05:47Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14383233" lat="14.6298734" lon="120.9461722" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14383362" lat="14.5888737" lon="120.9612498" version="44" timestamp="2011-03-08T06:32:13Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14383573" lat="14.5938255" lon="120.962938" version="47" timestamp="2011-05-05T09:47:25Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14383862" lat="14.5803278" lon="120.9682162" version="44" timestamp="2011-03-08T06:32:07Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14383990" lat="14.6294898" lon="120.9592384" version="9" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14384233" lat="14.6107839" lon="120.9595617" version="10" timestamp="2012-10-01T06:39:54Z" changeset="13318152" uid="462835" user="G-eMapper"/>
+	<node id="14384251" lat="14.5829346" lon="120.9721503" version="44" timestamp="2011-03-08T06:32:04Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14384354" lat="14.5788809" lon="120.9722962" version="46" timestamp="2011-03-08T06:32:00Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14384496" lat="14.5868259" lon="120.9663736" version="45" timestamp="2012-07-06T14:32:54Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="14384560" lat="14.6281484" lon="120.9594247" version="9" timestamp="2011-08-15T04:54:48Z" changeset="9023300" uid="44938" user="ianlopez1115"/>
+	<node id="14384719" lat="14.5837728" lon="120.9695973" version="45" timestamp="2012-07-06T14:32:54Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="14384874" lat="14.5962616" lon="120.9595141" version="8" timestamp="2011-05-21T20:57:43Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="14385037" lat="14.5905565" lon="120.9618383" version="47" timestamp="2011-05-05T09:47:22Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14385258" lat="14.6008833" lon="120.9604544" version="8" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14385431" lat="14.5964559" lon="120.9601689" version="72" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14385482" lat="14.5990464" lon="120.9428772" version="8" timestamp="2012-08-28T15:21:59Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="14385486" lat="14.6087738" lon="120.9598096" version="8" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14385857" lat="14.5786792" lon="120.9735681" version="46" timestamp="2011-03-08T06:32:01Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14386427" lat="14.5848037" lon="120.9590412" version="46" timestamp="2011-03-08T06:32:10Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14386444" lat="14.6048277" lon="120.9601321" version="8" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14386739" lat="14.5624662" lon="120.9854418" version="44" timestamp="2011-03-08T08:37:27Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="14386841" lat="14.5961368" lon="120.9591413" version="7" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14399471" lat="14.5778841" lon="120.9744677" version="44" timestamp="2011-03-08T06:31:58Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14399584" lat="14.5914816" lon="120.9541382" version="46" timestamp="2011-05-05T12:07:40Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="14399632" lat="14.5601193" lon="120.9859109" version="46" timestamp="2011-07-18T14:14:58Z" changeset="8758883" uid="11126" user="seav"/>
+	<node id="14400160" lat="14.5752352" lon="120.979469" version="49" timestamp="2011-03-08T06:32:04Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14400287" lat="14.6080548" lon="120.9598684" version="9" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14400486" lat="14.6204625" lon="120.9580674" version="8" timestamp="2011-08-15T04:54:28Z" changeset="9023300" uid="44938" user="ianlopez1115"/>
+	<node id="14400764" lat="14.5814988" lon="120.9722346" version="45" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="14400947" lat="14.590587" lon="120.9643111" version="45" timestamp="2011-03-08T06:32:12Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14400966" lat="14.6028506" lon="120.9602936" version="9" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14401120" lat="14.5849276" lon="120.9684407" version="45" timestamp="2012-07-06T14:32:54Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="14401184" lat="14.5907085" lon="120.9624697" version="45" timestamp="2011-03-08T06:32:00Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14401265" lat="14.6007301" lon="120.9583625" version="10" timestamp="2010-02-25T03:25:25Z" changeset="3968624" uid="44938" user="ianlopez1115"/>
+	<node id="14401849" lat="14.5886353" lon="120.9646599" version="44" timestamp="2011-03-08T06:32:07Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14401992" lat="14.5895133" lon="120.9637818" version="44" timestamp="2011-03-08T06:32:02Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14402064" lat="14.6298651" lon="120.9471593" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14402157" lat="14.5826071" lon="120.9718564" version="46" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="14402304" lat="14.579288" lon="120.972073" version="46" timestamp="2011-03-08T06:32:17Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14402432" lat="14.5937918" lon="120.9631096" version="47" timestamp="2011-05-05T09:47:21Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14402439" lat="14.5780453" lon="120.9757233" version="45" timestamp="2011-03-08T06:32:09Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14403266" lat="14.6081274" lon="120.9474719" version="9" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="14403469" lat="14.5781915" lon="120.9730258" version="46" timestamp="2011-03-08T06:32:02Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14403546" lat="14.592449" lon="120.9641466" version="47" timestamp="2011-05-05T09:47:25Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14403576" lat="14.6194341" lon="120.956612" version="8" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14403651" lat="14.6342666" lon="120.9416919" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14404115" lat="14.6282024" lon="120.953611" version="9" timestamp="2009-03-25T03:05:47Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14404473" lat="14.5879849" lon="120.9626231" version="44" timestamp="2011-03-08T06:31:58Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14404500" lat="14.609627" lon="120.9497972" version="8" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14408998" lat="14.5778924" lon="120.9742446" version="44" timestamp="2011-03-08T06:32:00Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14409450" lat="14.6291325" lon="120.9593472" version="8" timestamp="2009-03-25T03:05:47Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14409582" lat="14.5924058" lon="120.9642404" version="46" timestamp="2011-05-05T09:47:20Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14409627" lat="14.5832803" lon="120.9727364" version="45" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="14410535" lat="14.5989792" lon="120.9426004" version="8" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="14410667" lat="14.5827685" lon="120.9707169" version="44" timestamp="2011-03-08T06:32:02Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14410693" lat="14.6283165" lon="120.9571996" version="9" timestamp="2009-03-25T03:05:47Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14410728" lat="14.6009" lon="120.956245" version="9" timestamp="2010-07-04T05:44:58Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="14410787" lat="14.612748" lon="120.9594849" version="9" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14410912" lat="14.586631" lon="120.9619364" version="44" timestamp="2011-03-08T06:32:13Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14410975" lat="14.5832502" lon="120.9619364" version="44" timestamp="2011-03-08T06:32:04Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14411065" lat="14.61347" lon="120.9568848" version="8" timestamp="2011-05-05T10:04:12Z" changeset="8056061" uid="5541" user="Ian Haylock"/>
+	<node id="14411237" lat="14.5819634" lon="120.9727122" version="45" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="14411537" lat="14.591085" lon="120.9539864" version="47" timestamp="2011-05-05T12:07:46Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="14411579" lat="14.596176" lon="120.959408" version="8" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="14411847" lat="14.6298983" lon="120.9444642" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14411984" lat="14.5922706" lon="120.9615807" version="47" timestamp="2011-05-05T09:47:21Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14411989" lat="14.5581726" lon="120.9823638" version="46" timestamp="2011-07-18T14:14:55Z" changeset="8758883" uid="11126" user="seav"/>
+	<node id="14412797" lat="14.582537" lon="120.9719087" version="46" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="14412972" lat="14.5793378" lon="120.9721503" version="46" timestamp="2011-03-08T06:32:17Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14413066" lat="14.5784324" lon="120.9754548" version="44" timestamp="2011-03-08T06:32:03Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14413163" lat="14.6263919" lon="120.9596648" version="8" timestamp="2009-03-25T03:05:47Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14413252" lat="14.6041125" lon="120.9601905" version="10" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14413484" lat="14.5893098" lon="120.9640198" version="45" timestamp="2011-05-05T09:47:19Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14413896" lat="14.5931015" lon="120.9625645" version="45" timestamp="2011-03-08T06:32:00Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14415406" lat="14.6068791" lon="120.9599645" version="8" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14415419" lat="14.5858753" lon="120.9673191" version="45" timestamp="2012-07-06T14:32:54Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="14415593" lat="14.6194307" lon="120.956429" version="8" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14415880" lat="14.5816431" lon="120.9662806" version="45" timestamp="2011-03-08T06:32:01Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14415907" lat="14.6329046" lon="120.9420438" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14416174" lat="14.5622185" lon="120.9853212" version="44" timestamp="2011-03-08T08:37:29Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="14416497" lat="14.5964275" lon="120.9563003" version="7" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14416901" lat="14.5785048" lon="120.97392" version="44" timestamp="2011-03-08T06:31:58Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14417408" lat="14.5832135" lon="120.9725348" version="46" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="14418029" lat="14.5924698" lon="120.9555214" version="47" timestamp="2011-05-05T12:07:41Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="14418085" lat="14.582918" lon="120.9622626" version="44" timestamp="2011-03-08T06:32:04Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14418264" lat="14.5796591" lon="120.9688634" version="44" timestamp="2011-03-08T06:32:09Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14418554" lat="14.6202456" lon="120.9580553" version="8" timestamp="2011-08-15T04:54:31Z" changeset="9023300" uid="44938" user="ianlopez1115"/>
+	<node id="14418557" lat="14.5901886" lon="120.9626783" version="47" timestamp="2011-05-05T09:47:20Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14419288" lat="14.5916103" lon="120.9622451" version="46" timestamp="2011-05-05T09:47:19Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14419601" lat="14.5948263" lon="120.9433704" version="9" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="14419695" lat="14.6005782" lon="120.956481" version="9" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="14419990" lat="14.6136491" lon="120.9594064" version="9" timestamp="2011-05-05T10:04:12Z" changeset="8056061" uid="5541" user="Ian Haylock"/>
+	<node id="14420174" lat="14.6060452" lon="120.9600326" version="8" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14420365" lat="14.6206715" lon="120.9575276" version="7" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14420400" lat="14.6298568" lon="120.9452882" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14420613" lat="14.5802682" lon="120.9717898" version="46" timestamp="2011-03-08T06:32:09Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14420852" lat="14.5920491" lon="120.9649191" version="47" timestamp="2011-05-05T09:47:22Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14420876" lat="14.626113" lon="120.9595295" version="9" timestamp="2009-03-25T03:05:47Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14422002" lat="14.6255564" lon="120.95416" version="8" timestamp="2011-05-05T10:17:25Z" changeset="8056133" uid="5541" user="Ian Haylock"/>
+	<node id="14422150" lat="14.6208993" lon="120.9550965" version="9" timestamp="2011-05-05T10:17:24Z" changeset="8056133" uid="5541" user="Ian Haylock"/>
+	<node id="14422248" lat="14.62988" lon="120.9585529" version="9" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14422525" lat="14.5928006" lon="120.9620466" version="47" timestamp="2011-05-05T09:47:24Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14422578" lat="14.5789308" lon="120.972382" version="46" timestamp="2011-03-08T06:32:04Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14422609" lat="14.5930746" lon="120.962863" version="46" timestamp="2011-05-05T09:47:25Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14422685" lat="14.5778044" lon="120.9758864" version="56" timestamp="2011-03-08T06:32:11Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14423167" lat="14.5841284" lon="120.9688713" version="45" timestamp="2012-07-06T14:32:54Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="14423183" lat="14.6256764" lon="120.9541415" version="8" timestamp="2011-05-05T10:17:24Z" changeset="8056133" uid="5541" user="Ian Haylock"/>
+	<node id="14423226" lat="14.5965257" lon="120.9580822" version="8" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14423410" lat="14.5836072" lon="120.9649054" version="44" timestamp="2011-03-08T06:32:00Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14424085" lat="14.6119835" lon="120.9595048" version="10" timestamp="2012-10-01T06:39:52Z" changeset="13318152" uid="462835" user="G-eMapper"/>
+	<node id="14424316" lat="14.5929303" lon="120.9630578" version="47" timestamp="2011-05-05T09:47:23Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="14424572" lat="14.5784383" lon="120.9738341" version="44" timestamp="2011-03-08T06:32:12Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14424765" lat="14.6313434" lon="120.9428163" version="7" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14424877" lat="14.5623734" lon="120.9852564" version="14" timestamp="2011-03-08T08:37:30Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="14425411" lat="14.6100203" lon="120.9597078" version="9" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14425450" lat="14.5829513" lon="120.9655494" version="44" timestamp="2011-03-08T06:32:05Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14425478" lat="14.5904727" lon="120.9627374" version="45" timestamp="2011-03-08T06:32:12Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14425638" lat="14.5758549" lon="120.9770271" version="53" timestamp="2011-03-08T06:32:02Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14425730" lat="14.6021916" lon="120.9603475" version="9" timestamp="2009-03-25T03:05:49Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14425741" lat="14.558125" lon="120.9822858" version="49" timestamp="2011-07-18T14:14:58Z" changeset="8758883" uid="11126" user="seav"/>
+	<node id="14426021" lat="14.5640699" lon="120.9847278" version="46" timestamp="2011-11-13T11:44:42Z" changeset="9812816" uid="44938" user="ianlopez1115"/>
+	<node id="14426047" lat="14.6201566" lon="120.9575019" version="7" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="14426297" lat="14.5779683" lon="120.9747942" version="45" timestamp="2011-03-08T06:32:12Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="14426427" lat="14.5822103" lon="120.9733998" version="45" timestamp="2012-07-04T12:24:43Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="21674225" lat="14.5627528" lon="121.0207162" version="28" timestamp="2011-10-28T16:25:20Z" changeset="9678045" uid="11126" user="seav"/>
+	<node id="21675156" lat="14.6027451" lon="121.0195902" version="78" timestamp="2011-09-30T02:03:13Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="21675158" lat="14.6021702" lon="121.0196598" version="67" timestamp="2012-08-18T10:36:10Z" changeset="12771517" uid="44938" user="ianlopez1115"/>
+	<node id="21675159" lat="14.6016492" lon="121.0201988" version="65" timestamp="2011-08-01T05:53:59Z" changeset="8887367" uid="44938" user="ianlopez1115"/>
+	<node id="21675177" lat="14.593219" lon="121.0259204" version="55" timestamp="2009-04-10T14:52:33Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21675178" lat="14.5923214" lon="121.0252071" version="56" timestamp="2011-10-15T06:13:06Z" changeset="9560730" uid="11126" user="seav"/>
+	<node id="21675180" lat="14.5917571" lon="121.0241694" version="52" timestamp="2009-04-10T14:52:34Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21675181" lat="14.5909514" lon="121.0234141" version="51" timestamp="2009-04-10T14:52:34Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21675182" lat="14.5904862" lon="121.0228047" version="51" timestamp="2009-04-10T14:52:35Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21675183" lat="14.5899214" lon="121.0221438" version="52" timestamp="2009-04-10T14:52:35Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21675184" lat="14.5894562" lon="121.021277" version="53" timestamp="2009-04-10T14:52:36Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21675185" lat="14.5891323" lon="121.0205388" version="55" timestamp="2009-04-10T14:52:36Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="21834225" lat="14.5806055" lon="121.0170704" version="62" timestamp="2013-06-22T04:35:58Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="21834365" lat="14.5858912" lon="121.0203757" version="18" timestamp="2009-03-24T10:19:42Z" changeset="854120" uid="44938" user="ianlopez1115"/>
+	<node id="21834468" lat="14.5811598" lon="121.0171617" version="62" timestamp="2013-06-22T04:35:58Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="21834501" lat="14.5846733" lon="121.0199884" version="18" timestamp="2009-03-24T10:19:42Z" changeset="854120" uid="44938" user="ianlopez1115"/>
+	<node id="21834532" lat="14.5854196" lon="121.020328" version="58" timestamp="2009-03-25T02:14:31Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="21834625" lat="14.5818013" lon="121.0177288" version="31" timestamp="2009-03-24T10:19:43Z" changeset="854120" uid="44938" user="ianlopez1115"/>
+	<node id="21834660" lat="14.5797867" lon="121.0172846" version="58" timestamp="2013-06-22T04:35:59Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="25584084" lat="14.5672227" lon="121.0043684" version="97" timestamp="2013-06-22T04:36:01Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="29025356" lat="14.5619161" lon="120.9990007" version="19" timestamp="2009-04-10T14:19:05Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="29025621" lat="14.5658351" lon="121.003015" version="10" timestamp="2010-04-18T16:29:20Z" changeset="4459749" uid="11126" user="seav"/>
+	<node id="30119324" lat="14.582516" lon="121.0185249" version="29" timestamp="2009-03-24T10:19:43Z" changeset="854120" uid="44938" user="ianlopez1115"/>
+	<node id="33675353" lat="14.5811198" lon="120.9667994" version="45" timestamp="2011-03-08T06:31:59Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="33675354" lat="14.5875616" lon="120.9656856" version="46" timestamp="2011-03-08T06:32:03Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="43081351" lat="14.6243989" lon="120.9915105" version="4" timestamp="2011-07-01T12:40:40Z" changeset="8599023" uid="375654" user="peterwilt"/>
+	<node id="43082809" lat="14.6235518" lon="120.9926202" version="6" timestamp="2011-07-05T11:45:41Z" changeset="8637851" uid="375654" user="peterwilt"/>
+	<node id="56921680" lat="14.5986865" lon="120.9430172" version="8" timestamp="2012-08-28T15:21:59Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="57023062" lat="14.6011415" lon="120.9542074" version="9" timestamp="2012-08-28T15:21:59Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="57103930" lat="14.5707865" lon="120.9817428" version="45" timestamp="2011-09-02T07:46:33Z" changeset="9190828" uid="44938" user="ianlopez1115"/>
+	<node id="60446859" lat="14.6258887" lon="120.9897538" version="9" timestamp="2011-07-13T13:03:59Z" changeset="8711652" uid="375654" user="peterwilt"/>
+	<node id="60446860" lat="14.6252339" lon="120.9904551" version="5" timestamp="2011-07-01T12:40:39Z" changeset="8599023" uid="375654" user="peterwilt"/>
+	<node id="60446862" lat="14.6226476" lon="120.9938254" version="4" timestamp="2008-12-06T19:20:20Z" changeset="201680" uid="5541" user="Ian Haylock"/>
+	<node id="60446863" lat="14.6217463" lon="120.995003" version="4" timestamp="2008-12-06T19:41:40Z" changeset="201680" uid="5541" user="Ian Haylock"/>
+	<node id="60446864" lat="14.6208129" lon="120.9961401" version="5" timestamp="2011-02-22T08:23:36Z" changeset="7361086" uid="348706" user="lupen"/>
+	<node id="60446865" lat="14.6202732" lon="120.9968609" version="3" timestamp="2008-12-04T03:34:32Z" changeset="92750" uid="44938" user="ianlopez1115"/>
+	<node id="60446866" lat="14.6198964" lon="120.9973347" version="8" timestamp="2009-03-11T08:34:45Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="60446867" lat="14.6194494" lon="120.9978502" version="59" timestamp="2011-07-12T10:47:19Z" changeset="8701641" uid="375654" user="peterwilt"/>
+	<node id="60448223" lat="14.6244729" lon="120.9914171" version="4" timestamp="2011-07-01T12:40:40Z" changeset="8599023" uid="375654" user="peterwilt"/>
+	<node id="68049469" lat="14.6376125" lon="120.9883986" version="15" timestamp="2010-01-28T11:59:05Z" changeset="3735078" uid="11126" user="seav"/>
+	<node id="72998151" lat="14.612523" lon="121.0069414" version="16" timestamp="2011-05-11T02:53:20Z" changeset="8108184" uid="44938" user="ianlopez1115"/>
+	<node id="79661127" lat="14.57732" lon="121.0144617" version="49" timestamp="2013-06-22T04:36:07Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="79667854" lat="14.5664313" lon="121.0035985" version="22" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="79674016" lat="14.5643515" lon="121.0014957" version="14" timestamp="2012-03-11T04:04:21Z" changeset="10938866" uid="44938" user="ianlopez1115"/>
+	<node id="79674348" lat="14.5653803" lon="121.0025493" version="13" timestamp="2012-03-11T04:04:21Z" changeset="10938866" uid="44938" user="ianlopez1115"/>
+	<node id="79674485" lat="14.5651102" lon="121.0022727" version="15" timestamp="2012-03-11T04:04:22Z" changeset="10938866" uid="44938" user="ianlopez1115"/>
+	<node id="79676552" lat="14.5622817" lon="120.9993611" version="16" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="79677674" lat="14.5635463" lon="121.0007261" version="15" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="96446775" lat="14.607205" lon="121.0139822" version="20" timestamp="2012-10-11T04:16:35Z" changeset="13449537" uid="1417" user="maning"/>
+	<node id="115080632" lat="14.6115955" lon="121.0081962" version="7" timestamp="2008-12-30T16:23:33Z" changeset="678700" uid="84952" user="remzamora"/>
+	<node id="130167307" lat="14.6107141" lon="121.0093184" version="9" timestamp="2008-02-09T12:52:38Z" changeset="83283" uid="1417" user="maning"/>
+	<node id="130253606" lat="14.6333635" lon="120.9570836" version="8" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="130253609" lat="14.6342936" lon="120.953204" version="8" timestamp="2009-03-25T03:05:46Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="145172303" lat="14.5625558" lon="120.9996616" version="11" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="156670624" lat="14.575024" lon="121.0121544" version="65" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156670670" lat="14.5790775" lon="121.0162204" version="12" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671009" lat="14.5760165" lon="121.0131699" version="17" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671196" lat="14.5763104" lon="121.0134577" version="13" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671434" lat="14.5765861" lon="121.0137319" version="13" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671461" lat="14.5768469" lon="121.0139912" version="13" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671606" lat="14.5770829" lon="121.014226" version="12" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671756" lat="14.5757902" lon="121.0129405" version="13" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="156671818" lat="14.5755777" lon="121.0127291" version="13" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="159123711" lat="14.578857" lon="121.0159998" version="16" timestamp="2013-06-22T04:35:56Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="163754153" lat="14.580814" lon="120.9724179" version="44" timestamp="2011-03-08T06:32:08Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="206411155" lat="14.56586" lon="121.0219588" version="17" timestamp="2011-10-28T16:25:22Z" changeset="9678045" uid="11126" user="seav"/>
+	<node id="206411156" lat="14.5643625" lon="121.0164121" version="26" timestamp="2009-03-25T02:04:34Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="206411159" lat="14.5685952" lon="121.0180396" version="12" timestamp="2013-06-22T04:35:58Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="225212638" lat="14.5637913" lon="121.0009758" version="58" timestamp="2009-04-10T14:19:09Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="225212670" lat="14.5633039" lon="121.0004821" version="10" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="225212695" lat="14.5630535" lon="121.0002214" version="10" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="225277853" lat="14.5648671" lon="121.0020236" version="56" timestamp="2012-03-11T04:04:08Z" changeset="10938866" uid="44938" user="ianlopez1115"/>
+	<node id="225318969" lat="14.5628081" lon="120.9999459" version="9" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="241236623" lat="14.5615938" lon="120.9982351" version="2" timestamp="2013-06-12T02:03:09Z" changeset="16518250" uid="11126" user="seav"/>
+	<node id="243985853" lat="14.6200233" lon="120.9574713" version="6" timestamp="2009-03-25T03:05:48Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="243985855" lat="14.6196346" lon="120.9565875" version="7" timestamp="2011-05-05T10:17:23Z" changeset="8056133" uid="5541" user="Ian Haylock"/>
+	<node id="244106227" lat="14.6030901" lon="120.9519511" version="6" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="244106228" lat="14.6030016" lon="120.9529546" version="6" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="244106229" lat="14.6026643" lon="120.9536045" version="7" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="244106230" lat="14.6019521" lon="120.9540131" version="6" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="244130111" lat="14.6098411" lon="121.0104299" version="3" timestamp="2008-12-30T16:03:33Z" changeset="678700" uid="84952" user="remzamora"/>
+	<node id="259425499" lat="14.6139775" lon="121.0052986" version="5" timestamp="2011-05-11T02:53:20Z" changeset="8108184" uid="44938" user="ianlopez1115"/>
+	<node id="261696144" lat="14.5852046" lon="120.9632502" version="44" timestamp="2011-03-08T06:32:05Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="261696145" lat="14.5848516" lon="120.9636149" version="44" timestamp="2011-03-08T06:32:09Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="266587282" lat="14.5950268" lon="120.9605324" version="94" timestamp="2011-03-08T06:31:59Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="291707796" lat="14.6341644" lon="120.9586386" version="10" timestamp="2010-01-08T18:15:48Z" changeset="3572306" uid="11126" user="seav"/>
+	<node id="291707798" lat="14.635536" lon="120.9604442" version="9" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="296070476" lat="14.5607658" lon="120.9953935" version="48" timestamp="2009-05-26T11:35:54Z" changeset="1324422" uid="44938" user="ianlopez1115"/>
+	<node id="296070621" lat="14.5617759" lon="120.9988057" version="116" timestamp="2013-06-12T02:03:09Z" changeset="16518250" uid="11126" user="seav"/>
+	<node id="296070634" lat="14.5587794" lon="120.9874264" version="48" timestamp="2011-04-23T19:21:02Z" changeset="7946551" uid="11126" user="seav"/>
+	<node id="296070635" lat="14.5594098" lon="120.989773" version="48" timestamp="2013-06-01T20:09:55Z" changeset="16382714" uid="11126" user="seav"/>
+	<node id="297171835" lat="14.6356648" lon="120.9686703" version="13" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="297191321" lat="14.5840785" lon="121.0196734" version="27" timestamp="2009-03-24T10:19:42Z" changeset="854120" uid="44938" user="ianlopez1115"/>
+	<node id="297191383" lat="14.5879094" lon="121.0208207" version="46" timestamp="2009-03-26T03:06:48Z" changeset="859767" uid="44938" user="ianlopez1115"/>
+	<node id="297193447" lat="14.5863727" lon="121.0204431" version="46" timestamp="2009-03-26T03:06:48Z" changeset="859767" uid="44938" user="ianlopez1115"/>
+	<node id="297193450" lat="14.6044948" lon="121.0175128" version="63" timestamp="2009-04-10T14:53:43Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="297193700" lat="14.6033492" lon="121.0188984" version="58" timestamp="2011-09-30T02:03:15Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="297193701" lat="14.6036079" lon="121.0185805" version="57" timestamp="2009-04-10T14:53:43Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="297195319" lat="14.6150944" lon="121.003646" version="57" timestamp="2009-03-28T14:12:51Z" changeset="865725" uid="44938" user="ianlopez1115"/>
+	<node id="297195320" lat="14.6179202" lon="120.9995293" version="58" timestamp="2011-01-28T11:47:31Z" changeset="7112159" uid="44938" user="ianlopez1115"/>
+	<node id="297195322" lat="14.6269874" lon="120.9901019" version="56" timestamp="2009-03-28T14:12:13Z" changeset="865725" uid="44938" user="ianlopez1115"/>
+	<node id="297195323" lat="14.6345862" lon="120.9926253" version="56" timestamp="2009-03-28T14:12:14Z" changeset="865725" uid="44938" user="ianlopez1115"/>
+	<node id="297195324" lat="14.6361265" lon="120.9931315" version="58" timestamp="2011-05-16T03:38:25Z" changeset="8158730" uid="44938" user="ianlopez1115"/>
+	<node id="298952875" lat="14.6356529" lon="120.9794698" version="10" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="298952877" lat="14.6381323" lon="120.9788231" version="10" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="298952879" lat="14.6367142" lon="120.982298" version="11" timestamp="2009-05-29T04:58:02Z" changeset="1347723" uid="44938" user="ianlopez1115"/>
+	<node id="298953054" lat="14.6370145" lon="120.9903704" version="71" timestamp="2010-10-24T04:46:59Z" changeset="6153246" uid="44938" user="ianlopez1115"/>
+	<node id="298953105" lat="14.635669" lon="120.9743489" version="10" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="298953106" lat="14.6356366" lon="120.9798426" version="10" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="298953107" lat="14.6391517" lon="120.9807689" version="10" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="305107241" lat="14.5669864" lon="121.0224039" version="12" timestamp="2009-03-25T02:03:06Z" changeset="855626" uid="44938" user="ianlopez1115"/>
+	<node id="310163530" lat="14.5729453" lon="120.9806632" version="80" timestamp="2011-03-08T06:32:16Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="312104836" lat="14.5667662" lon="121.0039084" version="5" timestamp="2009-03-11T08:01:48Z" changeset="789127" uid="44938" user="ianlopez1115"/>
+	<node id="313122556" lat="14.5782144" lon="121.0153568" version="6" timestamp="2013-06-22T04:36:04Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="315784771" lat="14.6174703" lon="121.0013078" version="57" timestamp="2010-10-24T03:56:57Z" changeset="6153155" uid="44938" user="ianlopez1115"/>
+	<node id="315794301" lat="14.6364222" lon="120.9922841" version="50" timestamp="2009-03-28T14:12:14Z" changeset="865725" uid="44938" user="ianlopez1115"/>
+	<node id="315796218" lat="14.6305451" lon="120.9912737" version="51" timestamp="2011-05-16T03:38:22Z" changeset="8158730" uid="44938" user="ianlopez1115"/>
+	<node id="316820965" lat="14.5808888" lon="120.9725124" version="36" timestamp="2011-03-08T06:32:16Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="316963182" lat="14.5661666" lon="121.0033497" version="3" timestamp="2012-12-09T12:50:23Z" changeset="14212240" uid="24338" user="Rally"/>
+	<node id="316973470" lat="14.5659809" lon="121.003174" version="3" timestamp="2011-10-12T02:56:58Z" changeset="9535425" uid="44938" user="ianlopez1115"/>
+	<node id="320502806" lat="14.6379765" lon="120.9816028" version="10" timestamp="2009-05-29T04:58:02Z" changeset="1347723" uid="44938" user="ianlopez1115"/>
+	<node id="320505502" lat="14.638317" lon="120.9815296" version="9" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="320505695" lat="14.6377587" lon="120.9817386" version="9" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="320506198" lat="14.6384665" lon="120.9814432" version="9" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="320509276" lat="14.6356203" lon="120.9772903" version="9" timestamp="2009-03-28T10:48:23Z" changeset="864643" uid="44938" user="ianlopez1115"/>
+	<node id="320824697" lat="14.5947776" lon="120.9601376" version="34" timestamp="2011-03-08T06:32:12Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="320824698" lat="14.5944832" lon="120.9597442" version="35" timestamp="2011-05-05T12:07:40Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="322741588" lat="14.6053799" lon="121.0163648" version="37" timestamp="2009-04-10T14:53:43Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="322755693" lat="14.5752449" lon="121.0124007" version="15" timestamp="2013-06-22T04:36:05Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="333601884" lat="14.5761492" lon="120.9768602" version="38" timestamp="2011-03-08T06:31:58Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="333603126" lat="14.5755473" lon="120.9782061" version="32" timestamp="2011-03-08T06:32:09Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="339070252" lat="14.6030622" lon="121.0192274" version="24" timestamp="2011-09-30T02:03:19Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="340152094" lat="14.5962206" lon="121.0254805" version="7" timestamp="2009-04-10T14:52:32Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="340152137" lat="14.5937869" lon="121.0261243" version="7" timestamp="2009-04-10T14:52:33Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="340152142" lat="14.5943767" lon="121.0261672" version="6" timestamp="2009-04-10T14:52:32Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="340152546" lat="14.5952903" lon="121.0259268" version="3" timestamp="2009-04-10T14:52:32Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="340152559" lat="14.5950248" lon="121.0259967" version="3" timestamp="2009-04-10T14:52:32Z" changeset="385973" uid="44938" user="ianlopez1115"/>
+	<node id="340163851" lat="14.5643228" lon="120.9846215" version="28" timestamp="2011-11-13T11:44:44Z" changeset="9812816" uid="44938" user="ianlopez1115"/>
+	<node id="365231546" lat="14.5741424" lon="121.0112845" version="5" timestamp="2013-06-22T04:36:06Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="365231619" lat="14.5658842" lon="121.0031021" version="8" timestamp="2011-10-12T02:56:59Z" changeset="9535425" uid="44938" user="ianlopez1115"/>
+	<node id="371334354" lat="14.6043785" lon="121.0176503" version="6" timestamp="2011-09-30T02:03:19Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="371334355" lat="14.6028729" lon="121.0194544" version="4" timestamp="2011-09-30T02:03:19Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="371451846" lat="14.5618166" lon="120.9850686" version="9" timestamp="2011-03-08T08:37:30Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="371451941" lat="14.5611495" lon="120.985434" version="9" timestamp="2011-03-08T08:37:30Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="392535294" lat="14.5921029" lon="120.954932" version="2" timestamp="2011-05-05T12:07:40Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="403754253" lat="14.5821427" lon="120.9714677" version="3" timestamp="2011-05-05T11:21:50Z" changeset="8056599" uid="5541" user="Ian Haylock"/>
+	<node id="403757034" lat="14.5579708" lon="120.9820122" version="4" timestamp="2011-07-18T14:14:55Z" changeset="8758883" uid="11126" user="seav"/>
+	<node id="411295136" lat="14.583706" lon="121.0194121" version="1" timestamp="2009-05-26T11:01:51Z" changeset="1324208" uid="44938" user="ianlopez1115"/>
+	<node id="411300255" lat="14.5602634" lon="120.9933581" version="2" timestamp="2012-03-22T10:32:30Z" changeset="11061318" uid="44938" user="ianlopez1115"/>
+	<node id="411300256" lat="14.5612572" lon="120.9970445" version="3" timestamp="2013-06-12T02:03:10Z" changeset="16518250" uid="11126" user="seav"/>
+	<node id="412339864" lat="14.6293256" lon="120.9592897" version="2" timestamp="2011-04-02T07:35:45Z" changeset="7741542" uid="5541" user="Ian Haylock"/>
+	<node id="412349825" lat="14.5957623" lon="120.9603742" version="1" timestamp="2009-05-29T07:01:29Z" changeset="1348142" uid="44938" user="ianlopez1115"/>
+	<node id="414565343" lat="14.5794322" lon="121.0176707" version="2" timestamp="2013-06-22T04:36:07Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="434290488" lat="14.6334375" lon="120.9567747" version="1" timestamp="2009-07-05T04:51:10Z" changeset="1735516" uid="11126" user="seav"/>
+	<node id="457325598" lat="14.6260123" lon="120.9897764" version="9" timestamp="2012-03-02T01:00:56Z" changeset="10843731" uid="375654" user="peterwilt"/>
+	<node id="609483415" lat="14.6337981" lon="120.9570618" version="1" timestamp="2010-01-08T18:15:35Z" changeset="3572306" uid="11126" user="seav"/>
+	<node id="617741167" lat="14.5616801" lon="120.9985226" version="1" timestamp="2010-01-21T16:36:41Z" changeset="3676016" uid="11126" user="seav"/>
+	<node id="617741168" lat="14.5618205" lon="120.9988974" version="1" timestamp="2010-01-21T16:36:42Z" changeset="3676016" uid="11126" user="seav"/>
+	<node id="617741169" lat="14.5617318" lon="120.9987109" version="1" timestamp="2010-01-21T16:36:42Z" changeset="3676016" uid="11126" user="seav"/>
+	<node id="621837540" lat="14.6383218" lon="120.9856568" version="1" timestamp="2010-01-28T11:59:06Z" changeset="3735078" uid="11126" user="seav"/>
+	<node id="621837552" lat="14.6383907" lon="120.986021" version="1" timestamp="2010-01-28T11:59:07Z" changeset="3735078" uid="11126" user="seav"/>
+	<node id="622373984" lat="14.6369082" lon="120.9831009" version="1" timestamp="2010-01-29T14:01:48Z" changeset="3743352" uid="44938" user="ianlopez1115"/>
+	<node id="623797434" lat="14.5601799" lon="120.9929427" version="4" timestamp="2012-03-22T10:32:32Z" changeset="11061318" uid="44938" user="ianlopez1115"/>
+	<node id="636796935" lat="14.5928947" lon="120.9562856" version="4" timestamp="2011-03-08T06:32:13Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="642802720" lat="14.5907842" lon="120.9645901" version="2" timestamp="2011-03-08T06:32:10Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="705824172" lat="14.5648005" lon="120.9843887" version="2" timestamp="2011-03-08T06:32:03Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="800024124" lat="14.5963941" lon="120.9560304" version="1" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="800024126" lat="14.5982837" lon="120.9426301" version="1" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="800024127" lat="14.5987197" lon="120.9425443" version="1" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="800024128" lat="14.5987924" lon="120.9426301" version="1" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="800024129" lat="14.6022786" lon="120.9538923" version="2" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="800024130" lat="14.6013465" lon="120.9558695" version="1" timestamp="2010-07-04T05:42:59Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="800024730" lat="14.5963413" lon="120.9587036" version="2" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="800024731" lat="14.5964875" lon="120.9584444" version="1" timestamp="2010-07-04T05:44:30Z" changeset="5129777" uid="44938" user="ianlopez1115"/>
+	<node id="860960384" lat="14.5626024" lon="120.9853772" version="1" timestamp="2010-08-15T09:08:10Z" changeset="5497305" uid="44938" user="ianlopez1115"/>
+	<node id="962803082" lat="14.6172108" lon="121.0010288" version="1" timestamp="2010-10-24T03:56:57Z" changeset="6153155" uid="44938" user="ianlopez1115"/>
+	<node id="962803100" lat="14.6186313" lon="121.0002911" version="2" timestamp="2011-01-28T11:47:31Z" changeset="7112159" uid="44938" user="ianlopez1115"/>
+	<node id="1040521066" lat="14.5779462" lon="120.9747085" version="2" timestamp="2011-03-08T06:32:09Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="1132146846" lat="14.5934823" lon="120.9571609" version="2" timestamp="2011-03-08T06:32:13Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="1132146885" lat="14.5878586" lon="120.9562431" version="2" timestamp="2011-03-08T06:32:03Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="1132147204" lat="14.5912484" lon="120.9539728" version="3" timestamp="2011-05-05T12:07:47Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="1132151250" lat="14.5917958" lon="120.9544525" version="4" timestamp="2011-05-05T12:07:40Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="1140258131" lat="14.5787001" lon="121.0158428" version="2" timestamp="2013-06-22T04:35:52Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1140258136" lat="14.5778352" lon="121.0149773" version="2" timestamp="2013-06-22T04:35:52Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1140258145" lat="14.5784945" lon="121.015637" version="2" timestamp="2013-06-22T04:35:52Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1140258147" lat="14.5776137" lon="121.0147557" version="2" timestamp="2013-06-22T04:35:52Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1140258149" lat="14.5780198" lon="121.015162" version="2" timestamp="2013-06-22T04:35:52Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1192324746" lat="14.5820611" lon="120.9713822" version="1" timestamp="2011-03-08T06:31:55Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="1192324751" lat="14.5853" lon="120.9680401" version="2" timestamp="2012-07-06T14:32:53Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="1192324753" lat="14.5842631" lon="120.9687289" version="2" timestamp="2012-07-06T14:32:53Z" changeset="12131143" uid="44938" user="ianlopez1115"/>
+	<node id="1192324761" lat="14.584497" lon="120.9689105" version="1" timestamp="2011-03-08T06:31:56Z" changeset="7491305" uid="348706" user="lupen"/>
+	<node id="1192385370" lat="14.5594395" lon="120.9846364" version="2" timestamp="2012-10-26T01:17:51Z" changeset="13633462" uid="11126" user="seav"/>
+	<node id="1192385485" lat="14.5614125" lon="120.9852447" version="2" timestamp="2011-03-08T11:55:47Z" changeset="7493250" uid="44938" user="ianlopez1115"/>
+	<node id="1192385507" lat="14.5606025" lon="120.9856892" version="1" timestamp="2011-03-08T08:37:15Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="1192385548" lat="14.5617045" lon="120.9851173" version="2" timestamp="2011-03-08T11:55:47Z" changeset="7493250" uid="44938" user="ianlopez1115"/>
+	<node id="1192385659" lat="14.5607233" lon="120.9856328" version="1" timestamp="2011-03-08T08:37:17Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="1192385696" lat="14.5617463" lon="120.9850983" version="1" timestamp="2011-03-08T08:37:18Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="1192385722" lat="14.5619742" lon="120.9847771" version="1" timestamp="2011-03-08T08:37:19Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="1192385750" lat="14.5613722" lon="120.9852621" version="2" timestamp="2011-03-08T11:55:47Z" changeset="7493250" uid="44938" user="ianlopez1115"/>
+	<node id="1192385764" lat="14.5620015" lon="120.9848353" version="1" timestamp="2011-03-08T08:37:20Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="1192385784" lat="14.5611321" lon="120.9853735" version="2" timestamp="2011-03-08T11:55:47Z" changeset="7493250" uid="44938" user="ianlopez1115"/>
+	<node id="1192385789" lat="14.5617232" lon="120.9848875" version="1" timestamp="2011-03-08T08:37:21Z" changeset="7491982" uid="348706" user="lupen"/>
+	<node id="1270752182" lat="14.6366747" lon="120.982632" version="1" timestamp="2011-05-03T02:17:41Z" changeset="8035835" uid="44938" user="ianlopez1115"/>
+	<node id="1270752189" lat="14.6366785" lon="120.9824968" version="1" timestamp="2011-05-03T02:17:41Z" changeset="8035835" uid="44938" user="ianlopez1115"/>
+	<node id="1270752192" lat="14.6260444" lon="120.9897163" version="5" timestamp="2012-10-21T02:48:54Z" changeset="13575048" uid="24338" user="Rally"/>
+	<node id="1272925882" lat="14.5926139" lon="120.961739" version="1" timestamp="2011-05-05T09:47:10Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="1272925885" lat="14.5923124" lon="120.9617038" version="1" timestamp="2011-05-05T09:47:10Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="1272925887" lat="14.5925168" lon="120.9623902" version="1" timestamp="2011-05-05T09:47:11Z" changeset="8055973" uid="5541" user="Ian Haylock"/>
+	<node id="1272938113" lat="14.6196875" lon="120.9565728" version="1" timestamp="2011-05-05T10:17:22Z" changeset="8056133" uid="5541" user="Ian Haylock"/>
+	<node id="1272944052" lat="14.5860924" lon="120.9580361" version="1" timestamp="2011-05-05T10:37:56Z" changeset="8056254" uid="5541" user="Ian Haylock"/>
+	<node id="1272944061" lat="14.5847827" lon="120.9590858" version="1" timestamp="2011-05-05T10:37:56Z" changeset="8056254" uid="5541" user="Ian Haylock"/>
+	<node id="1272997184" lat="14.5911726" lon="120.9539539" version="1" timestamp="2011-05-05T12:07:39Z" changeset="8056925" uid="5541" user="Ian Haylock"/>
+	<node id="1272998209" lat="14.6096927" lon="120.94988" version="1" timestamp="2011-05-05T12:09:45Z" changeset="8056941" uid="5541" user="Ian Haylock"/>
+	<node id="1295372839" lat="14.5963145" lon="120.9567148" version="1" timestamp="2011-05-21T20:57:41Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372844" lat="14.5964275" lon="120.956685" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372845" lat="14.5962226" lon="120.9588902" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372847" lat="14.5961501" lon="120.9592722" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372850" lat="14.5963359" lon="120.9598972" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372852" lat="14.5962079" lon="120.9594732" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372854" lat="14.5964212" lon="120.9578962" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372857" lat="14.5961658" lon="120.9589996" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1295372858" lat="14.5962995" lon="120.9595212" version="1" timestamp="2011-05-21T20:57:42Z" changeset="8210758" uid="449569" user="Nautic"/>
+	<node id="1345725038" lat="14.6241962" lon="120.9917668" version="1" timestamp="2011-07-01T12:40:37Z" changeset="8599023" uid="375654" user="peterwilt"/>
+	<node id="1345725046" lat="14.625164" lon="120.9905434" version="1" timestamp="2011-07-01T12:40:38Z" changeset="8599023" uid="375654" user="peterwilt"/>
+	<node id="1347977725" lat="14.6257516" lon="120.989828" version="1" timestamp="2011-07-03T14:41:11Z" changeset="8619640" uid="11126" user="seav"/>
+	<node id="1351016975" lat="14.6034489" lon="121.0187758" version="3" timestamp="2011-09-30T02:03:12Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="1359191349" lat="14.6196085" lon="120.9977057" version="1" timestamp="2011-07-12T10:47:16Z" changeset="8701641" uid="375654" user="peterwilt"/>
+	<node id="1359191410" lat="14.6197248" lon="120.9975683" version="2" timestamp="2011-07-27T11:42:40Z" changeset="8844160" uid="375654" user="peterwilt"/>
+	<node id="1360084303" lat="14.6258109" lon="120.9897872" version="1" timestamp="2011-07-13T04:42:46Z" changeset="8708745" uid="375654" user="peterwilt"/>
+	<node id="1360334812" lat="14.6258512" lon="120.9897657" version="1" timestamp="2011-07-13T13:03:59Z" changeset="8711652" uid="375654" user="peterwilt"/>
+	<node id="1360334813" lat="14.6259378" lon="120.9897506" version="1" timestamp="2011-07-13T13:03:59Z" changeset="8711652" uid="375654" user="peterwilt"/>
+	<node id="1365439200" lat="14.5587974" lon="120.9834804" version="1" timestamp="2011-07-18T14:14:54Z" changeset="8758883" uid="11126" user="seav"/>
+	<node id="1449245300" lat="14.6038964" lon="121.0182332" version="1" timestamp="2011-09-30T02:02:45Z" changeset="9432029" uid="44938" user="ianlopez1115"/>
+	<node id="1467852491" lat="14.5924867" lon="121.0253792" version="2" timestamp="2012-08-18T10:36:10Z" changeset="12771517" uid="44938" user="ianlopez1115"/>
+	<node id="1467852518" lat="14.5928543" lon="121.0257022" version="1" timestamp="2011-10-15T06:13:00Z" changeset="9560730" uid="11126" user="seav"/>
+	<node id="1483733719" lat="14.5670461" lon="121.022242" version="2" timestamp="2013-06-22T04:35:55Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1580553897" lat="14.5792079" lon="121.016351" version="2" timestamp="2013-06-22T04:35:56Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1637353065" lat="14.5974914" lon="121.0248637" version="1" timestamp="2012-02-18T03:53:50Z" changeset="10716866" uid="44938" user="ianlopez1115"/>
+	<node id="1637353110" lat="14.5986948" lon="121.0241308" version="1" timestamp="2012-02-18T03:53:52Z" changeset="10716866" uid="44938" user="ianlopez1115"/>
+	<node id="1637353154" lat="14.5995028" lon="121.0235661" version="1" timestamp="2012-02-18T03:53:55Z" changeset="10716866" uid="44938" user="ianlopez1115"/>
+	<node id="1637353180" lat="14.5999563" lon="121.0230254" version="1" timestamp="2012-02-18T03:53:56Z" changeset="10716866" uid="44938" user="ianlopez1115"/>
+	<node id="1637353188" lat="14.6009974" lon="121.0212828" version="1" timestamp="2012-02-18T03:53:57Z" changeset="10716866" uid="44938" user="ianlopez1115"/>
+	<node id="1669635969" lat="14.5646013" lon="121.0017515" version="1" timestamp="2012-03-11T04:02:41Z" changeset="10938866" uid="44938" user="ianlopez1115"/>
+	<node id="1671447947" lat="14.575275" lon="121.0124282" version="2" timestamp="2013-06-22T04:35:57Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1671448085" lat="14.579342" lon="121.0171893" version="2" timestamp="2013-06-22T04:35:58Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="1812433619" lat="14.5816388" lon="120.9724694" version="1" timestamp="2012-07-04T12:24:35Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="1812433622" lat="14.581699" lon="120.9724384" version="1" timestamp="2012-07-04T12:24:35Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="1812433657" lat="14.5831927" lon="120.9725979" version="1" timestamp="2012-07-04T12:24:36Z" changeset="12110001" uid="44938" user="ianlopez1115"/>
+	<node id="1886842687" lat="14.6045867" lon="120.9509491" version="1" timestamp="2012-08-28T15:21:59Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="1886842689" lat="14.6041617" lon="120.9501687" version="1" timestamp="2012-08-28T15:21:59Z" changeset="12893048" uid="462835" user="G-eMapper"/>
+	<node id="1983770831" lat="14.5596651" lon="120.9850122" version="1" timestamp="2012-10-26T01:17:47Z" changeset="13633462" uid="11126" user="seav"/>
+	<node id="1983770832" lat="14.5598514" lon="120.9853808" version="1" timestamp="2012-10-26T01:17:47Z" changeset="13633462" uid="11126" user="seav"/>
+	<node id="2320343012" lat="14.5956703" lon="121.0257445" version="1" timestamp="2013-05-26T07:07:19Z" changeset="16288281" uid="11126" user="seav"/>
+	<node id="2328450815" lat="14.559254" lon="120.9893143" version="1" timestamp="2013-06-01T20:09:47Z" changeset="16382714" uid="11126" user="seav"/>
+	<node id="2328602763" lat="14.5601651" lon="120.9928817" version="1" timestamp="2013-06-01T22:28:09Z" changeset="16384358" uid="11126" user="seav"/>
+	<node id="2328696762" lat="14.5608349" lon="120.9956256" version="1" timestamp="2013-06-01T23:25:05Z" changeset="16384791" uid="11126" user="seav"/>
+	<node id="2328757372" lat="14.5569999" lon="120.98019" version="1" timestamp="2013-06-02T00:14:44Z" changeset="16385112" uid="11126" user="seav"/>
+	<node id="2355630633" lat="14.5673138" lon="121.0044151" version="1" timestamp="2013-06-22T04:35:18Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630640" lat="14.5675317" lon="121.0046224" version="1" timestamp="2013-06-22T04:35:18Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630686" lat="14.5703961" lon="121.0074865" version="1" timestamp="2013-06-22T04:35:19Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630696" lat="14.5711169" lon="121.0082103" version="1" timestamp="2013-06-22T04:35:20Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630730" lat="14.572815" lon="121.0098968" version="1" timestamp="2013-06-22T04:35:20Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630764" lat="14.5740442" lon="121.0111317" version="1" timestamp="2013-06-22T04:35:21Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630788" lat="14.5752293" lon="121.0123825" version="1" timestamp="2013-06-22T04:35:21Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630790" lat="14.5752643" lon="121.0124175" version="1" timestamp="2013-06-22T04:35:21Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630822" lat="14.5792372" lon="121.0165658" version="1" timestamp="2013-06-22T04:35:22Z" changeset="16651816" uid="11126" user="seav"/>
+	<node id="2355630824" lat="14.5796172" lon="121.0174307" version="1" timestamp="2013-06-22T04:35:22Z" changeset="16651816" uid="11126" user="seav"/>
+	<way id="15693880" version="17" timestamp="2013-06-22T04:35:36Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="156670624"/>
+		<nd ref="2355630788"/>
+	</way>
+	<way id="19805252" version="18" timestamp="2011-10-28T16:25:25Z" changeset="9678045" uid="11126" user="seav">
+		<nd ref="1483733719"/>
+		<nd ref="206411159"/>
+	</way>
+	<way id="27011012" version="22" timestamp="2012-03-11T04:03:48Z" changeset="10938866" uid="44938" user="ianlopez1115">
+		<nd ref="29025356"/>
+		<nd ref="79676552"/>
+		<nd ref="145172303"/>
+		<nd ref="225318969"/>
+		<nd ref="225212695"/>
+		<nd ref="225212670"/>
+		<nd ref="79677674"/>
+		<nd ref="225212638"/>
+		<nd ref="79674016"/>
+		<nd ref="1669635969"/>
+		<nd ref="225277853"/>
+		<nd ref="79674485"/>
+		<nd ref="79674348"/>
+		<nd ref="29025621"/>
+	</way>
+	<way id="32484215" version="13" timestamp="2013-06-22T04:35:51Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="414565343"/>
+		<nd ref="1671448085"/>
+		<nd ref="2355630822"/>
+		<nd ref="1580553897"/>
+	</way>
+	<way id="32484685" version="9" timestamp="2013-06-22T04:35:51Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="156670624"/>
+		<nd ref="365231546"/>
+		<nd ref="2355630764"/>
+		<nd ref="2355630730"/>
+		<nd ref="2355630696"/>
+	</way>
+	<way id="32484737" version="9" timestamp="2011-10-12T02:56:58Z" changeset="9535425" uid="44938" user="ianlopez1115">
+		<nd ref="365231619"/>
+		<nd ref="29025621"/>
+	</way>
+	<way id="32484781" version="11" timestamp="2010-01-08T18:21:25Z" changeset="3572335" uid="11126" user="seav">
+		<nd ref="21675185"/>
+		<nd ref="297191383"/>
+		<nd ref="297193447"/>
+		<nd ref="21834365"/>
+	</way>
+	<way id="32592636" version="16" timestamp="2011-09-30T02:03:07Z" changeset="9432029" uid="44938" user="ianlopez1115">
+		<nd ref="21675156"/>
+		<nd ref="371334355"/>
+		<nd ref="339070252"/>
+		<nd ref="297193700"/>
+		<nd ref="1351016975"/>
+		<nd ref="297193701"/>
+		<nd ref="1449245300"/>
+		<nd ref="371334354"/>
+		<nd ref="297193450"/>
+	</way>
+	<way id="32596671" version="9" timestamp="2012-07-21T01:22:01Z" changeset="12397875" uid="722137" user="OSMF Redaction Account">
+		<nd ref="96446775"/>
+		<nd ref="244130111"/>
+	</way>
+	<way id="32596927" version="9" timestamp="2011-04-07T08:42:05Z" changeset="7792355" uid="11126" user="seav">
+		<nd ref="315784771"/>
+		<nd ref="962803100"/>
+		<nd ref="297195320"/>
+		<nd ref="60446867"/>
+	</way>
+	<way id="32596934" version="6" timestamp="2011-05-11T02:53:13Z" changeset="8108184" uid="44938" user="ianlopez1115">
+		<nd ref="259425499"/>
+		<nd ref="297195319"/>
+		<nd ref="962803082"/>
+		<nd ref="315784771"/>
+	</way>
+	<way id="32978387" version="23" timestamp="2011-05-05T12:07:41Z" changeset="8056925" uid="5541" user="Ian Haylock">
+		<nd ref="266587282"/>
+		<nd ref="320824697"/>
+		<nd ref="320824698"/>
+		<nd ref="1132146846"/>
+		<nd ref="636796935"/>
+		<nd ref="14418029"/>
+		<nd ref="392535294"/>
+	</way>
+	<way id="35067450" version="3" timestamp="2010-01-08T18:21:27Z" changeset="3572335" uid="11126" user="seav">
+		<nd ref="21675184"/>
+		<nd ref="21675185"/>
+	</way>
+	<way id="35067526" version="7" timestamp="2013-08-01T04:11:36Z" changeset="17174344" uid="1417" user="maning">
+		<nd ref="414565343"/>
+		<nd ref="2355630824"/>
+		<nd ref="21834660"/>
+		<nd ref="21834225"/>
+		<nd ref="21834468"/>
+		<nd ref="21834625"/>
+		<nd ref="30119324"/>
+		<nd ref="411295136"/>
+	</way>
+	<way id="35067557" version="4" timestamp="2013-08-01T04:11:36Z" changeset="17174344" uid="1417" user="maning">
+		<nd ref="411295136"/>
+		<nd ref="297191321"/>
+		<nd ref="21834501"/>
+		<nd ref="21834532"/>
+		<nd ref="21834365"/>
+	</way>
+	<way id="35068156" version="4" timestamp="2011-11-13T07:05:26Z" changeset="9810903" uid="11126" user="seav">
+		<nd ref="29025356"/>
+		<nd ref="617741168"/>
+	</way>
+	<way id="35153286" version="6" timestamp="2011-08-01T05:53:58Z" changeset="8887367" uid="44938" user="ianlopez1115">
+		<nd ref="21675156"/>
+		<nd ref="21675158"/>
+		<nd ref="21675159"/>
+	</way>
+	<way id="35153288" version="4" timestamp="2011-10-15T06:13:08Z" changeset="9560730" uid="11126" user="seav">
+		<nd ref="340152559"/>
+		<nd ref="340152142"/>
+		<nd ref="340152137"/>
+		<nd ref="21675177"/>
+		<nd ref="1467852518"/>
+		<nd ref="1467852491"/>
+	</way>
+	<way id="35153433" version="4" timestamp="2011-05-11T02:53:13Z" changeset="8108184" uid="44938" user="ianlopez1115">
+		<nd ref="297193450"/>
+		<nd ref="322741588"/>
+		<nd ref="96446775"/>
+	</way>
+	<way id="35153469" version="8" timestamp="2011-05-03T02:17:50Z" changeset="8035835" uid="44938" user="ianlopez1115">
+		<nd ref="1270752182"/>
+		<nd ref="622373984"/>
+		<nd ref="621837540"/>
+		<nd ref="621837552"/>
+		<nd ref="68049469"/>
+		<nd ref="298953054"/>
+	</way>
+	<way id="37869853" version="5" timestamp="2011-05-16T03:38:22Z" changeset="8158730" uid="44938" user="ianlopez1115">
+		<nd ref="1270752192"/>
+		<nd ref="297195322"/>
+		<nd ref="315796218"/>
+	</way>
+	<way id="41499325" version="2" timestamp="2010-01-24T06:41:15Z" changeset="3698089" uid="11126" user="seav">
+		<nd ref="315794301"/>
+		<nd ref="298953054"/>
+	</way>
+	<way id="41499366" version="3" timestamp="2011-05-03T02:17:45Z" changeset="8035835" uid="44938" user="ianlopez1115">
+		<nd ref="297171835"/>
+		<nd ref="298953105"/>
+		<nd ref="320509276"/>
+		<nd ref="298952875"/>
+		<nd ref="298953106"/>
+		<nd ref="298952877"/>
+		<nd ref="298953107"/>
+		<nd ref="320506198"/>
+		<nd ref="320505502"/>
+		<nd ref="320502806"/>
+		<nd ref="320505695"/>
+		<nd ref="298952879"/>
+		<nd ref="1270752189"/>
+		<nd ref="1270752182"/>
+	</way>
+	<way id="47924328" version="2" timestamp="2011-05-05T10:17:24Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="130253606"/>
+		<nd ref="434290488"/>
+	</way>
+	<way id="47924336" version="7" timestamp="2011-05-05T10:17:24Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="14409450"/>
+		<nd ref="14384560"/>
+		<nd ref="14413163"/>
+		<nd ref="14420876"/>
+		<nd ref="14382819"/>
+		<nd ref="14410693"/>
+		<nd ref="14404115"/>
+		<nd ref="14423183"/>
+	</way>
+	<way id="47924339" version="2" timestamp="2011-04-02T07:35:44Z" changeset="7741542" uid="5541" user="Ian Haylock">
+		<nd ref="14383990"/>
+		<nd ref="412339864"/>
+		<nd ref="14409450"/>
+	</way>
+	<way id="48646536" version="2" timestamp="2011-11-13T07:05:32Z" changeset="9810903" uid="11126" user="seav">
+		<nd ref="617741169"/>
+		<nd ref="617741167"/>
+		<nd ref="241236623"/>
+	</way>
+	<way id="51187561" version="3" timestamp="2011-05-16T15:25:02Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14425730"/>
+		<nd ref="14385258"/>
+	</way>
+	<way id="82699041" version="5" timestamp="2011-07-01T12:40:41Z" changeset="8599023" uid="375654" user="peterwilt">
+		<nd ref="60446860"/>
+		<nd ref="1345725046"/>
+		<nd ref="60448223"/>
+		<nd ref="43081351"/>
+		<nd ref="1345725038"/>
+		<nd ref="43082809"/>
+	</way>
+	<way id="97084658" version="2" timestamp="2011-07-12T10:47:20Z" changeset="8701641" uid="375654" user="peterwilt">
+		<nd ref="60446864"/>
+		<nd ref="60446865"/>
+		<nd ref="60446866"/>
+		<nd ref="1359191410"/>
+		<nd ref="1359191349"/>
+		<nd ref="60446867"/>
+	</way>
+	<way id="99727529" version="1" timestamp="2011-02-14T16:49:52Z" changeset="7287253" uid="11126" user="seav">
+		<nd ref="291707798"/>
+		<nd ref="297171835"/>
+	</way>
+	<way id="103256108" version="3" timestamp="2011-05-16T15:25:05Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14413484"/>
+		<nd ref="14404473"/>
+		<nd ref="14410912"/>
+		<nd ref="14382717"/>
+		<nd ref="14401849"/>
+	</way>
+	<way id="106743305" version="4" timestamp="2011-05-05T10:38:00Z" changeset="8056254" uid="5541" user="Ian Haylock">
+		<nd ref="14386427"/>
+		<nd ref="1272944061"/>
+	</way>
+	<way id="106743307" version="3" timestamp="2011-05-05T12:07:47Z" changeset="8056925" uid="5541" user="Ian Haylock">
+		<nd ref="392535294"/>
+		<nd ref="1132151250"/>
+		<nd ref="14399584"/>
+		<nd ref="1132147204"/>
+		<nd ref="1272997184"/>
+		<nd ref="14411537"/>
+		<nd ref="1132146885"/>
+		<nd ref="1272944052"/>
+		<nd ref="14386427"/>
+	</way>
+	<way id="111562296" version="1" timestamp="2011-05-03T02:49:28Z" changeset="8035881" uid="44938" user="ianlopez1115">
+		<nd ref="1270752192"/>
+		<nd ref="457325598"/>
+	</way>
+	<way id="111795510" version="1" timestamp="2011-05-05T09:05:41Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="1192385750"/>
+		<nd ref="1192385784"/>
+		<nd ref="371451941"/>
+		<nd ref="1192385659"/>
+	</way>
+	<way id="111795512" version="1" timestamp="2011-05-05T09:05:42Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="1192385696"/>
+		<nd ref="1192385548"/>
+	</way>
+	<way id="111795521" version="2" timestamp="2011-05-05T11:13:37Z" changeset="8056551" uid="5541" user="Ian Haylock">
+		<nd ref="14425741"/>
+		<nd ref="403757034"/>
+	</way>
+	<way id="111795523" version="3" timestamp="2012-10-26T01:17:48Z" changeset="13633462" uid="11126" user="seav">
+		<nd ref="14399632"/>
+		<nd ref="1983770832"/>
+		<nd ref="1983770831"/>
+		<nd ref="1192385370"/>
+		<nd ref="1365439200"/>
+		<nd ref="14411989"/>
+	</way>
+	<way id="111795532" version="1" timestamp="2011-05-05T09:05:46Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="14411989"/>
+		<nd ref="14425741"/>
+	</way>
+	<way id="111795544" version="1" timestamp="2011-05-05T09:05:47Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="1192385548"/>
+		<nd ref="1192385485"/>
+	</way>
+	<way id="111795551" version="1" timestamp="2011-05-05T09:05:48Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="1192385507"/>
+		<nd ref="14399632"/>
+	</way>
+	<way id="111795553" version="1" timestamp="2011-05-05T09:05:48Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="1192385659"/>
+		<nd ref="1192385507"/>
+	</way>
+	<way id="111795557" version="1" timestamp="2011-05-05T09:05:48Z" changeset="8055675" uid="5541" user="Ian Haylock">
+		<nd ref="1192385485"/>
+		<nd ref="1192385750"/>
+	</way>
+	<way id="111798336" version="2" timestamp="2011-05-05T12:07:40Z" changeset="8056925" uid="5541" user="Ian Haylock">
+		<nd ref="14385431"/>
+		<nd ref="412349825"/>
+	</way>
+	<way id="111798341" version="1" timestamp="2011-05-05T09:47:11Z" changeset="8055973" uid="5541" user="Ian Haylock">
+		<nd ref="14403546"/>
+		<nd ref="14409582"/>
+	</way>
+	<way id="111798343" version="2" timestamp="2011-05-21T20:57:43Z" changeset="8210758" uid="449569" user="Nautic">
+		<nd ref="800024124"/>
+		<nd ref="14416497"/>
+		<nd ref="1295372844"/>
+		<nd ref="1295372839"/>
+		<nd ref="1295372854"/>
+		<nd ref="14423226"/>
+		<nd ref="800024731"/>
+		<nd ref="800024730"/>
+		<nd ref="1295372845"/>
+		<nd ref="1295372857"/>
+		<nd ref="14386841"/>
+		<nd ref="1295372847"/>
+		<nd ref="14411579"/>
+		<nd ref="1295372852"/>
+		<nd ref="14384874"/>
+		<nd ref="1295372858"/>
+		<nd ref="1295372850"/>
+		<nd ref="14385431"/>
+	</way>
+	<way id="111798344" version="3" timestamp="2012-07-04T12:24:40Z" changeset="12110001" uid="44938" user="ianlopez1115">
+		<nd ref="14409627"/>
+		<nd ref="14426427"/>
+		<nd ref="14411237"/>
+		<nd ref="1812433622"/>
+		<nd ref="1812433619"/>
+		<nd ref="14400764"/>
+		<nd ref="316820965"/>
+		<nd ref="163754153"/>
+		<nd ref="14382639"/>
+		<nd ref="14420613"/>
+		<nd ref="14412972"/>
+		<nd ref="14402304"/>
+		<nd ref="14384354"/>
+		<nd ref="14422578"/>
+		<nd ref="14403469"/>
+		<nd ref="14385857"/>
+		<nd ref="14424572"/>
+		<nd ref="14416901"/>
+		<nd ref="14408998"/>
+		<nd ref="14399471"/>
+		<nd ref="1040521066"/>
+		<nd ref="14426297"/>
+		<nd ref="14413066"/>
+		<nd ref="14402439"/>
+		<nd ref="14422685"/>
+		<nd ref="333601884"/>
+		<nd ref="14425638"/>
+		<nd ref="333603126"/>
+		<nd ref="14400160"/>
+		<nd ref="310163530"/>
+	</way>
+	<way id="111798345" version="2" timestamp="2011-05-05T11:21:50Z" changeset="8056599" uid="5541" user="Ian Haylock">
+		<nd ref="1192324746"/>
+		<nd ref="403754253"/>
+	</way>
+	<way id="111798349" version="1" timestamp="2011-05-05T09:47:15Z" changeset="8055973" uid="5541" user="Ian Haylock">
+		<nd ref="14401849"/>
+		<nd ref="33675354"/>
+	</way>
+	<way id="111798350" version="1" timestamp="2011-05-05T09:47:15Z" changeset="8055973" uid="5541" user="Ian Haylock">
+		<nd ref="14409582"/>
+		<nd ref="14420852"/>
+		<nd ref="14381961"/>
+		<nd ref="642802720"/>
+		<nd ref="14400947"/>
+		<nd ref="14401992"/>
+		<nd ref="14413484"/>
+	</way>
+	<way id="111798351" version="1" timestamp="2011-05-05T09:47:15Z" changeset="8055973" uid="5541" user="Ian Haylock">
+		<nd ref="14384496"/>
+		<nd ref="14415419"/>
+	</way>
+	<way id="111798352" version="2" timestamp="2011-05-16T15:25:02Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14423167"/>
+		<nd ref="14415880"/>
+		<nd ref="33675353"/>
+		<nd ref="14384719"/>
+	</way>
+	<way id="111798354" version="2" timestamp="2011-05-16T15:25:02Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="33675354"/>
+		<nd ref="261696144"/>
+		<nd ref="261696145"/>
+		<nd ref="14410975"/>
+		<nd ref="14418085"/>
+		<nd ref="14384496"/>
+	</way>
+	<way id="111798357" version="2" timestamp="2011-05-16T15:25:03Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14384719"/>
+		<nd ref="14410667"/>
+	</way>
+	<way id="111798360" version="2" timestamp="2011-05-16T15:24:58Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="1192324751"/>
+		<nd ref="14401120"/>
+		<nd ref="1192324761"/>
+		<nd ref="1192324753"/>
+		<nd ref="14423167"/>
+	</way>
+	<way id="111798363" version="3" timestamp="2012-07-04T12:24:40Z" changeset="12110001" uid="44938" user="ianlopez1115">
+		<nd ref="403754253"/>
+		<nd ref="14412797"/>
+		<nd ref="14402157"/>
+		<nd ref="14384251"/>
+		<nd ref="14417408"/>
+		<nd ref="1812433657"/>
+		<nd ref="14409627"/>
+	</way>
+	<way id="111798365" version="2" timestamp="2011-05-16T15:24:59Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14415419"/>
+		<nd ref="14423410"/>
+		<nd ref="14425450"/>
+		<nd ref="1192324751"/>
+	</way>
+	<way id="111798367" version="2" timestamp="2011-05-16T15:24:58Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14410667"/>
+		<nd ref="14383862"/>
+		<nd ref="14418264"/>
+		<nd ref="1192324746"/>
+	</way>
+	<way id="111799284" version="2" timestamp="2011-05-05T10:17:24Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="1272938113"/>
+		<nd ref="243985855"/>
+	</way>
+	<way id="111799286" version="1" timestamp="2011-05-05T10:04:07Z" changeset="8056061" uid="5541" user="Ian Haylock">
+		<nd ref="14419990"/>
+		<nd ref="14410787"/>
+	</way>
+	<way id="111799287" version="1" timestamp="2011-05-05T10:04:07Z" changeset="8056061" uid="5541" user="Ian Haylock">
+		<nd ref="14385258"/>
+		<nd ref="14401265"/>
+		<nd ref="14419695"/>
+	</way>
+	<way id="111799288" version="2" timestamp="2011-05-16T15:24:58Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14413252"/>
+		<nd ref="14400966"/>
+	</way>
+	<way id="111799289" version="2" timestamp="2011-05-05T12:09:46Z" changeset="8056941" uid="5541" user="Ian Haylock">
+		<nd ref="14419695"/>
+		<nd ref="14410728"/>
+		<nd ref="800024130"/>
+		<nd ref="1272998209"/>
+	</way>
+	<way id="111799290" version="2" timestamp="2011-05-16T15:25:06Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14385486"/>
+		<nd ref="14400287"/>
+	</way>
+	<way id="111799291" version="2" timestamp="2011-05-16T15:25:02Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14384233"/>
+		<nd ref="14425411"/>
+	</way>
+	<way id="111799292" version="2" timestamp="2011-05-16T15:25:05Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14425411"/>
+		<nd ref="14385486"/>
+	</way>
+	<way id="111799293" version="2" timestamp="2011-05-16T15:24:59Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14410787"/>
+		<nd ref="14424085"/>
+	</way>
+	<way id="111799295" version="2" timestamp="2011-05-16T15:24:57Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14400966"/>
+		<nd ref="14425730"/>
+	</way>
+	<way id="111799296" version="1" timestamp="2011-05-05T10:04:08Z" changeset="8056061" uid="5541" user="Ian Haylock">
+		<nd ref="14420174"/>
+		<nd ref="14386444"/>
+	</way>
+	<way id="111799297" version="2" timestamp="2011-05-16T15:24:58Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14386444"/>
+		<nd ref="14413252"/>
+	</way>
+	<way id="111799298" version="1" timestamp="2011-05-05T10:04:08Z" changeset="8056061" uid="5541" user="Ian Haylock">
+		<nd ref="14400287"/>
+		<nd ref="14415406"/>
+	</way>
+	<way id="111799300" version="1" timestamp="2011-05-05T10:04:09Z" changeset="8056061" uid="5541" user="Ian Haylock">
+		<nd ref="14424085"/>
+		<nd ref="14384233"/>
+	</way>
+	<way id="111799302" version="2" timestamp="2011-05-16T15:24:58Z" changeset="8163496" uid="11126" user="seav">
+		<nd ref="14415406"/>
+		<nd ref="14420174"/>
+	</way>
+	<way id="111800194" version="1" timestamp="2011-05-05T10:17:22Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="14382736"/>
+		<nd ref="14411065"/>
+		<nd ref="14419990"/>
+	</way>
+	<way id="111800195" version="1" timestamp="2011-05-05T10:17:22Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="434290488"/>
+		<nd ref="130253609"/>
+		<nd ref="14403651"/>
+		<nd ref="14415907"/>
+		<nd ref="14424765"/>
+		<nd ref="14381931"/>
+		<nd ref="14411847"/>
+		<nd ref="14420400"/>
+		<nd ref="14383233"/>
+		<nd ref="14402064"/>
+		<nd ref="14422248"/>
+		<nd ref="14383990"/>
+	</way>
+	<way id="111800196" version="1" timestamp="2011-05-05T10:17:22Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="14422002"/>
+		<nd ref="14422150"/>
+		<nd ref="14420365"/>
+		<nd ref="14382284"/>
+		<nd ref="14400486"/>
+		<nd ref="14418554"/>
+		<nd ref="14426047"/>
+		<nd ref="243985853"/>
+		<nd ref="1272938113"/>
+	</way>
+	<way id="111800198" version="1" timestamp="2011-05-05T10:17:22Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="243985855"/>
+		<nd ref="14403576"/>
+		<nd ref="14415593"/>
+		<nd ref="14382736"/>
+	</way>
+	<way id="111800202" version="1" timestamp="2011-05-05T10:17:23Z" changeset="8056133" uid="5541" user="Ian Haylock">
+		<nd ref="14423183"/>
+		<nd ref="14422002"/>
+	</way>
+	<way id="111801239" version="1" timestamp="2011-05-05T10:37:57Z" changeset="8056254" uid="5541" user="Ian Haylock">
+		<nd ref="1272944061"/>
+		<nd ref="14383362"/>
+		<nd ref="14411984"/>
+		<nd ref="1272925885"/>
+		<nd ref="1272925882"/>
+		<nd ref="14422525"/>
+		<nd ref="14385037"/>
+		<nd ref="14418557"/>
+		<nd ref="14425478"/>
+		<nd ref="14401184"/>
+		<nd ref="14419288"/>
+		<nd ref="1272925887"/>
+		<nd ref="14382222"/>
+		<nd ref="14413896"/>
+		<nd ref="14422609"/>
+		<nd ref="14383573"/>
+		<nd ref="14402432"/>
+		<nd ref="14424316"/>
+		<nd ref="14403546"/>
+	</way>
+	<way id="111804360" version="3" timestamp="2013-06-02T00:14:45Z" changeset="16385112" uid="11126" user="seav">
+		<nd ref="403757034"/>
+		<nd ref="2328757372"/>
+	</way>
+	<way id="111804365" version="1" timestamp="2011-05-05T11:13:20Z" changeset="8056551" uid="5541" user="Ian Haylock">
+		<nd ref="310163530"/>
+		<nd ref="57103930"/>
+		<nd ref="705824172"/>
+		<nd ref="340163851"/>
+		<nd ref="14426021"/>
+		<nd ref="860960384"/>
+		<nd ref="14386739"/>
+		<nd ref="14424877"/>
+		<nd ref="14416174"/>
+		<nd ref="1192385764"/>
+		<nd ref="1192385722"/>
+		<nd ref="1192385789"/>
+		<nd ref="371451846"/>
+		<nd ref="1192385696"/>
+	</way>
+	<way id="111805464" version="3" timestamp="2011-10-02T19:39:55Z" changeset="9453950" uid="437598" user="dmgroom_ct">
+		<nd ref="609483415"/>
+		<nd ref="130253606"/>
+	</way>
+	<way id="111805465" version="2" timestamp="2013-09-13T04:33:01Z" changeset="17811033" uid="1417" user="maning">
+		<nd ref="291707798"/>
+		<nd ref="291707796"/>
+		<nd ref="609483415"/>
+	</way>
+	<way id="111807844" version="1" timestamp="2011-05-05T12:07:39Z" changeset="8056925" uid="5541" user="Ian Haylock">
+		<nd ref="412349825"/>
+		<nd ref="266587282"/>
+	</way>
+	<way id="111807964" version="2" timestamp="2012-08-28T15:22:00Z" changeset="12893048" uid="462835" user="G-eMapper">
+		<nd ref="14404500"/>
+		<nd ref="14403266"/>
+		<nd ref="1886842689"/>
+		<nd ref="1886842687"/>
+		<nd ref="244106227"/>
+		<nd ref="244106228"/>
+		<nd ref="244106229"/>
+		<nd ref="800024129"/>
+		<nd ref="244106230"/>
+		<nd ref="57023062"/>
+		<nd ref="56921680"/>
+		<nd ref="14385482"/>
+		<nd ref="14410535"/>
+		<nd ref="800024128"/>
+		<nd ref="800024127"/>
+		<nd ref="800024126"/>
+		<nd ref="14419601"/>
+		<nd ref="800024124"/>
+	</way>
+	<way id="111807965" version="2" timestamp="2011-05-22T04:49:09Z" changeset="8212321" uid="11126" user="seav">
+		<nd ref="1272998209"/>
+		<nd ref="14404500"/>
+	</way>
+	<way id="112645692" version="1" timestamp="2011-05-11T02:53:03Z" changeset="8108184" uid="44938" user="ianlopez1115">
+		<nd ref="130167307"/>
+		<nd ref="244130111"/>
+	</way>
+	<way id="112645703" version="1" timestamp="2011-05-11T02:53:03Z" changeset="8108184" uid="44938" user="ianlopez1115">
+		<nd ref="72998151"/>
+		<nd ref="115080632"/>
+		<nd ref="130167307"/>
+	</way>
+	<way id="112645715" version="1" timestamp="2011-05-11T02:53:05Z" changeset="8108184" uid="44938" user="ianlopez1115">
+		<nd ref="72998151"/>
+		<nd ref="259425499"/>
+	</way>
+	<way id="113539232" version="1" timestamp="2011-05-16T03:38:14Z" changeset="8158730" uid="44938" user="ianlopez1115">
+		<nd ref="315796218"/>
+		<nd ref="297195323"/>
+		<nd ref="297195324"/>
+		<nd ref="315794301"/>
+	</way>
+	<way id="113539233" version="1" timestamp="2011-05-16T03:38:14Z" changeset="8158730" uid="44938" user="ianlopez1115">
+		<nd ref="43082809"/>
+		<nd ref="60446862"/>
+		<nd ref="60446863"/>
+		<nd ref="60446864"/>
+	</way>
+	<way id="121535413" version="4" timestamp="2011-07-22T01:41:47Z" changeset="8794148" uid="375654" user="peterwilt">
+		<nd ref="60446860"/>
+		<nd ref="1347977725"/>
+		<nd ref="1360084303"/>
+		<nd ref="1360334812"/>
+		<nd ref="60446859"/>
+		<nd ref="1360334813"/>
+		<nd ref="457325598"/>
+	</way>
+	<way id="124013061" version="3" timestamp="2013-05-26T07:07:32Z" changeset="16288281" uid="11126" user="seav">
+		<nd ref="21675159"/>
+		<nd ref="1637353188"/>
+		<nd ref="1637353180"/>
+		<nd ref="1637353154"/>
+		<nd ref="1637353110"/>
+		<nd ref="1637353065"/>
+		<nd ref="340152094"/>
+		<nd ref="2320343012"/>
+	</way>
+	<way id="126337525" version="3" timestamp="2013-06-22T04:35:36Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="79661127"/>
+		<nd ref="1140258147"/>
+		<nd ref="1140258136"/>
+		<nd ref="1140258149"/>
+		<nd ref="313122556"/>
+		<nd ref="1140258145"/>
+		<nd ref="1140258131"/>
+		<nd ref="159123711"/>
+		<nd ref="156670670"/>
+		<nd ref="1580553897"/>
+	</way>
+	<way id="132987349" version="2" timestamp="2011-11-10T17:02:47Z" changeset="9790328" uid="11126" user="seav">
+		<nd ref="316973470"/>
+		<nd ref="316963182"/>
+		<nd ref="79667854"/>
+		<nd ref="312104836"/>
+		<nd ref="25584084"/>
+	</way>
+	<way id="132987351" version="1" timestamp="2011-10-12T02:56:46Z" changeset="9535425" uid="44938" user="ianlopez1115">
+		<nd ref="316973470"/>
+		<nd ref="365231619"/>
+	</way>
+	<way id="133342133" version="1" timestamp="2011-10-15T06:13:02Z" changeset="9560730" uid="11126" user="seav">
+		<nd ref="1467852491"/>
+		<nd ref="21675178"/>
+		<nd ref="21675180"/>
+		<nd ref="21675181"/>
+		<nd ref="21675182"/>
+		<nd ref="21675183"/>
+		<nd ref="21675184"/>
+	</way>
+	<way id="135052892" version="1" timestamp="2011-10-28T16:25:17Z" changeset="9678045" uid="11126" user="seav">
+		<nd ref="206411159"/>
+		<nd ref="206411156"/>
+	</way>
+	<way id="135052900" version="1" timestamp="2011-10-28T16:25:18Z" changeset="9678045" uid="11126" user="seav">
+		<nd ref="206411155"/>
+		<nd ref="305107241"/>
+		<nd ref="1483733719"/>
+	</way>
+	<way id="135052901" version="2" timestamp="2012-03-10T23:52:43Z" changeset="10937932" uid="622703" user="rochure">
+		<nd ref="206411156"/>
+		<nd ref="21674225"/>
+		<nd ref="206411155"/>
+	</way>
+	<way id="136813287" version="1" timestamp="2011-11-13T07:05:25Z" changeset="9810903" uid="11126" user="seav">
+		<nd ref="296070621"/>
+		<nd ref="617741168"/>
+	</way>
+	<way id="136813288" version="1" timestamp="2011-11-13T07:05:25Z" changeset="9810903" uid="11126" user="seav">
+		<nd ref="296070621"/>
+		<nd ref="617741169"/>
+	</way>
+	<way id="156307596" version="4" timestamp="2013-06-02T00:14:45Z" changeset="16385112" uid="11126" user="seav">
+		<nd ref="2328757372"/>
+		<nd ref="296070634"/>
+	</way>
+	<way id="223096984" version="1" timestamp="2013-05-26T07:07:21Z" changeset="16288281" uid="11126" user="seav">
+		<nd ref="2320343012"/>
+		<nd ref="340152546"/>
+		<nd ref="340152559"/>
+	</way>
+	<way id="224015285" version="1" timestamp="2013-06-01T20:09:48Z" changeset="16382714" uid="11126" user="seav">
+		<nd ref="2328450815"/>
+		<nd ref="296070635"/>
+	</way>
+	<way id="224015304" version="2" timestamp="2013-06-01T23:48:40Z" changeset="16384924" uid="11126" user="seav">
+		<nd ref="296070634"/>
+		<nd ref="2328450815"/>
+	</way>
+	<way id="224015306" version="2" timestamp="2013-06-01T22:28:15Z" changeset="16384358" uid="11126" user="seav">
+		<nd ref="296070635"/>
+		<nd ref="2328602763"/>
+	</way>
+	<way id="224030417" version="2" timestamp="2013-06-01T23:25:09Z" changeset="16384791" uid="11126" user="seav">
+		<nd ref="2328602763"/>
+		<nd ref="623797434"/>
+		<nd ref="411300255"/>
+		<nd ref="296070476"/>
+		<nd ref="2328696762"/>
+	</way>
+	<way id="224035755" version="2" timestamp="2013-06-12T02:03:08Z" changeset="16518250" uid="11126" user="seav">
+		<nd ref="2328696762"/>
+		<nd ref="411300256"/>
+	</way>
+	<way id="225358596" version="1" timestamp="2013-06-12T02:02:48Z" changeset="16518250" uid="11126" user="seav">
+		<nd ref="411300256"/>
+		<nd ref="241236623"/>
+	</way>
+	<way id="226829286" version="1" timestamp="2013-06-22T04:35:23Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="2355630790"/>
+		<nd ref="1671447947"/>
+		<nd ref="156671818"/>
+		<nd ref="156671756"/>
+		<nd ref="156671009"/>
+		<nd ref="156671196"/>
+		<nd ref="156671434"/>
+		<nd ref="156671461"/>
+		<nd ref="156671606"/>
+		<nd ref="79661127"/>
+	</way>
+	<way id="226829317" version="1" timestamp="2013-06-22T04:35:26Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="322755693"/>
+		<nd ref="2355630790"/>
+	</way>
+	<way id="226829322" version="1" timestamp="2013-06-22T04:35:26Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="2355630788"/>
+		<nd ref="322755693"/>
+	</way>
+	<way id="226829324" version="1" timestamp="2013-06-22T04:35:26Z" changeset="16651816" uid="11126" user="seav">
+		<nd ref="2355630696"/>
+		<nd ref="2355630686"/>
+		<nd ref="2355630640"/>
+		<nd ref="2355630633"/>
+		<nd ref="25584084"/>
+	</way>
+</osm>

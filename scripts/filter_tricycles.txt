@@ -1,0 +1,11 @@
+--verbose
+
+--keep=
+amenity=tricycle
+amenity=tricycle_station
+amenity=tricycle_terminal
+amenity=toda
+
+--drop-relations
+
+-o=temp1.osm

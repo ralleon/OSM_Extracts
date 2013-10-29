@@ -1,0 +1,15 @@
+
+HOW TO CREATE POLY FORMAT BOUNDARY in JOSM (with poly plugin):
+
+1. load BOUNDARY_<iso>_<lgu>.osm to JOSM; delete any or ALL osm tags (key-value); 
+
+2. Select all connected ways, then convert to a polygon using JOSM's:
+   Tools>Combine-Way (or press C)
+   Do this to every boundary-polygons and/or islands
+
+3. Save the updated BOUNDARY_<iso>_<lgu>.osm for future use in Maperitive
+	by customizing the shape of BOUNDARY_<iso>_<lgu>.osm 
+	then saving it as "map_<iso>_<lgu>.poly" 
+	to create ..\Maperitive\maps\map_<iso>_<lgu>.osm
+   
+4. File-Save-As poly format as: "extract_<iso>_<lgu>.poly"

@@ -1,0 +1,17 @@
+--verbose
+
+--keep=
+amenity=
+shop=
+office=
+health_facility=
+health_amenity=
+emergency=
+building=
+leisure=
+sport=
+addr:
+
+--drop-relations
+
+-o=temp1.osm

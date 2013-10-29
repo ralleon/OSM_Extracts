@@ -1,0 +1,11 @@
+--verbose
+
+--keep=
+building= and leisure=pitch
+building= and sport=basketball
+building= and sport=multi
+building=roof and amenity=community_centre
+
+--drop-relations
+
+-o=temp1.osm

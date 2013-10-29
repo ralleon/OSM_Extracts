@@ -1,0 +1,6 @@
+﻿//add-web-map
+use-ruleset location=Rules/OSM_PH.mrules as-alias=osmph
+load-source maps/map_riz_taytay.osm
+load-source maps/map_riz_cainta.osm
+
+

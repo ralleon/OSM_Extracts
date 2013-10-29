@@ -1,0 +1,2594 @@
+// Default rendering rules for Maperitive resembling that of OSM Mapnik
+// http://maperitive.net
+
+// PH-Customized by Rally de Leon for OSMPH
+// Released under the Creative Commons Attribution-ShareAlike 3.0 License (http://creativecommons.org/licenses/by-sa/3.0/)
+// Updates by Michael <quelbs_at_gmail.com>
+// Icons used: Map icons CC-0 from SJJB Management (http://www.sjjb.co.uk/mapicons)
+
+// TODO - Customize the following:
+//		towns should be in different color, should show up only when zoomed out 
+//		attempt to make one for HOT
+//ok	increase width of service road to half-width of regular residential 
+//ok	make 1-lane roads as wide as service roads
+//ok	better rendering for private roads, thinner driveways
+//ok	approximate the major roads color scheme used by android apps "maps with me"
+//ok	show schools
+//ok	show multipurpose covered courts in different color
+//ok	show redcross, fire stations, police and barangays
+//		last known/updated addresses of the HOA offices
+//ok	tricycle
+//		show couriers, pawshops, business services
+//ok	show motorcycle, bicycle shops, taxi
+//ok	show events place (public & private community centers)
+//ok	show 24/7 shop=convenience with a different zoom level setting
+//ok	show place=neighborhood (node)
+//ok	show place=neighborhood (area)
+//ok	render none-christian churches
+//ok	show landuse (religious compounds)
+//ok	show barangay boundaries
+//ok	show garages
+//		barrier=gate access=no or barrier=block (black small solid circle or cube)
+//ok	show prison
+//ok	remove names of landuse=residential (area), but retain place=neighborhood node and areas
+//ok	if landuse=residential but only a large single-owner compound (no place=neighborhood), show name on polygon
+//ok	if landuse has other tags other than residential, commercial, industrial etc. process it first, then ignore landuse
+//ok	suppress name of buildings where icons-names already exist. eg. fuel, supermarket, convenience, pharmacy etc
+//ok	government office inside and/or stand-alone building
+//		process parking node "P", and parking area (no P) separately
+//		other health centers, clinic, lab, dentist, doctors, maternity, hilot
+//		community center that is just a node (temporary tag where no bing satt is available) 
+
+//		OSM WISH LIST
+//		develop a tag to filter out amenities offering other services: prepaid load, 
+//		palawan padala express, western union, bancnet megalink expressnet etc on atm, 
+//		fuel station that sells cooking gas
+
+// how is this thing working?? text : @if(name, name @if(ele, "\n(" ele ")"), ele)
+
+//BUILT-IN FLAGS FOR QUALITY ASSURANCE:
+// 
+//ok	flag all place=locality and place=hamlet (by red color)
+//		flag all place=subdivision by red color
+
+
+
+// ==========================================================================
+features
+
+	place city : node[place=city]
+	place town : node[place=town]
+	place barangay : node[place=village]
+	place suburb : node[place=suburb]
+	place neighbourhood : node[place=neighbourhood] area[place=neighbourhood]
+	
+	place hamlet : node[place=hamlet]		
+	place locality : node[place=locality]
+	place subdivision : place=subdivision
+////////////////////////////////////////////////
+	points
+		hairdresser : shop=hairdresser OR shop=beauty	
+		wellness : @isOneOf(shop, massage, herbalist, alternative_medicine)
+		fitness center : amenity=fitness_center
+		repair service : @isOneOf(craft, watchmaker, key_cutter, locksmith)
+		jeweller : shop=jeweller
+
+		telephone : amenity=telephone
+		atm : amenity=atm
+		info : information=guidepost OR tourism=information
+		fire hydrant : emergency=fire_hydrant
+
+		bollard : barrier=bollard
+		block : barrier=block OR (barrier=gate AND vehicle=no) OR (barrier=gate AND access=no)
+		gate : barrier=gate OR barrier=lift_gate
+
+		traffic lights : highway=traffic_signals
+		motorway_junction : highway=motorway_junction
+
+		powertower : power=tower OR power=pole
+		tree : natural=tree
+		peak : natural=peak
+		
+////////////////////////////////////////////////		
+	points, areas
+//////  	COMMUNITY
+		community center : node[amenity=community_cetre] area[@isOneOf(building, yes, roof) AND (leisure=pitch OR sport OR amenity=community_centre)]
+		public building : building=public OR amenity=townhall OR amenity=public_building
+		government office : office=government
+		building : building
+		church : amenity=place_of_worship
+		funeral service : funeral_directors
+		academic : @isOneOf(amenity, school, kindergarten, college, university)
+		postoffice : amenity=post_office
+		library : amenity=library
+		toilets : amenity=toilets
+
+		police station : amenity=police
+		courthouse : amenity=courthouse
+		social facility : amenity=social_facility
+		government office : office=government or office=administrative
+		ngo : office=ngo OR office=foundation or office=quango
+//		school office : office=educational_institution
+		fire station : amenity=fire_station		
+		sar volunteer : emergency=ses_station OR amenity=emergency_services
+		
+//////		BUSINESS OFFICES and PROFESSIONALS
+		company office : @isOneOf(office, insurance, lawyer, architect, accountant, newspaper, it)
+		realtor : @isOneOf(office, estate_agent, realtor, real_estate_agent)
+		employment agency : office=employment_agency
+		travel : office=travel_agent
+		
+//////		INDUSTRIAL PLANT (LARGE-SCALE FACTORIES/big land-footprint, the size of a neighborhood)
+//				eg. steel factories, car assembly plant, oil-refinery) - big buildings or large industrial land
+		industrial plant : man_made=works
+
+//////		MONEY & BUSINESS SERVICES		
+		bank : amenity=bank
+//		lending : shop=moneylender
+//		pawn shop : shop=pawnbroker
+		money transfer : amenity=money_transfer
+		
+//////  	HEALTH CARE 		
+		health_care : @isOneOf(amenity, hospital, clinic, doctors, dentist, health_center, health_centre, nursing_home)
+		pharmacy : amenity=pharmacy 
+		eye center : craft=optician or shop=optician	
+		veterinary : amenity=veterinary
+		red cross : "name:abbr"="Red Cross" OR name="Philippine Red Cross" OR name="Philippine National Red Cross" OR name="Red Cross"
+		
+//////  	EAT OUT
+		restaurant : amenity=restaurant
+		fast food : amenity=fast_food
+		cafe : amenity=cafe			
+		entertainment bar : amenity=bar
+		entertainment pub : amenity=pub or amenity=biergarten
+		deli : shop=deli 
+		
+//////  	KITCHEN SUPPLIES AND OTHER MERCHANDISE	
+
+		convenience : shop=convenience OR shop=kiosk 
+		drinking water : amenity=drinking_water OR shop=water_refilling		
+		supermarket : shop=supermarket
+		meat shop : shop=butcher OR shop=seafood		
+		greengrocer : shop=greengrocer OR shop=organic
+		beverages : shop=beverages OR shop=alcohol
+		caterer : craft=caterer
+		bakery : shop=bakery
+		sweets : craft=confectionary
+
+
+//////  	CLOTHES, ARTS, CRAFTS, HOBBIES
+		department store : shop=department_store
+		furnitures : @isOneOf(shop, furniture, antiques, curtains, bed, carpet, interior_decoration, kitchen)
+		personal attires : @isOneOf(shop, clothes, boutique, fabric, shoes, bag)
+		baby goods : shop=baby_goods
+		general merchandise: @isOneOf(shop, general, variety_store, newsagent, second_hand, erotic, religion)
+		flowershop : shop=florist
+		couturier : craft=dressmaker OR craft=tailor
+		bookstore : shop=books OR shop=stationery
+		souvenir : shop=gift
+		toys : shop=toys
+//		arts shop : @isOneOf(shop, art, craft, frame, anime) OR @isOneOf(craft, basket_maker, handicraft, glaziery, pottery, sculptor)
+		music instruments : shop=musical_instrument
+//		leatherman : @isOneOf(craft, shoemaker, upholsterer, bookbinder)
+		photographer : @isOneOf(craft, photographer, photographic_laboratory)
+		outdoor shop : @isOneOf(shop, fishing, dive, hunting, outdoor, sports)
+
+//////  	OTHER SHOPS & SERVICES
+//		ticket shop : shop=ticket
+//		print shop : shop=copyshop
+		laundry : shop=laundry OR shop=dry_cleaning
+//		vaciador : shop=chemist
+		pet shop : shop=pet
+
+//////  	GADGETS, HARDWARES, BUILDERS, FINE CRAFTSMAN
+
+		multimedia : shop=video OR shop=music OR shop=video_games
+		computer : shop=computer
+		electronics : @isOneOf(shop, electronics, radiotechics, hifi)
+		mobile phone : shop=mobile_phone 
+		telecom office: office=telecommunication
+
+		hardware : @isOneOf(shop, hardware, doityourself)
+		paint shop : shop=paint
+		construction supply : shop=trade
+		garden center : shop=garden_centre OR craft=gardener
+		junkshop : amenity=recycling
+//  	sun protection : shop=glass_and_aluminum OR @isOneOf(craft, roofer, sun_protection, window_construction, insulation, hvac)		
+//		metal works : @isOneOf(craft, blacksmith, tinsmith, metal_construction, scaffolder)
+//		wood works : @isOneOf(craft, carpenter, sawmill)
+//		stone works : @isOneOf(craft, stonemason, tiler)
+//		electrical works : craft=electrician
+//		industrial gas : shop=gas 
+
+//////  	MOBILITY & TRANSPORTATION		
+		fuel : amenity=fuel
+		parking : amenity=parking
+		car dealer : shop=car
+		car repair : shop=car_repair
+		car parts : shop=car_parts
+		car wash : amenity=car_wash
+		tire shop : shop=tyres
+		motorcycle : shop=motorcycle
+		bicycle : shop=bicycle
+		bus stop : highway=bus_stop
+		bus station : amenity=bus_station
+		taxi : amenity=taxi
+		tricycle : amenity=tricycle OR amenity=tricycle_station OR amenity=tricycle_terminal
+		railway station : railway=station
+		mini roundabout : highway=mini_roundabout
+
+//////  	TOURISM		
+		tourism accomodation : @isOneOf(tourism, hotel, motel, guest_house, hostel)
+		tourism viewpoint : tourism=viewpoint
+		tourism museum : tourism=museum
+//		leisure resort : leisure=resort
+		memorial : historic=memorial
+
+//////  	MISC
+		aerodrome : aeroway=aerodrome
+		housenumber : [addr:housenumber]
+
+////////////////////////////////////////////////
+	areas
+		swimming pool : leisure=swimming_pool
+		water : natural=water OR waterway=riverbank OR landuse=reservoir OR landuse=basin OR waterway=dock
+		beach : natural=beach
+		leisure stadium : leisure=stadium
+		track : leisure=track
+		leisure pitch : leisure=pitch
+		playground : leisure=playground
+		leisure garden : leisure=garden
+		village green : landuse=village_green
+		recreation ground : landuse=recreation_ground OR leisure=common
+		park : leisure=park
+		highway pedestrian : highway=pedestrian
+		car park: amenity=parking
+		landuse garages : landuse=garages
+
+		residential area : landuse=residential
+		landuse retail : landuse=retail
+		commercial area : landuse=commercial
+		landuse religious : landuse=religious OR landuse=religion
+		graveyard : amenity=grave_yard OR landuse=cemetery
+
+		landuse industrial : landuse=industrial 
+		water works : man_made=water_works
+		quarry : landuse=quarry
+		landfill : landuse=landfill
+		construction : landuse=construction
+		
+		prison : amenity=prison
+		military : landuse=military OR military=barracks
+		
+		farm : landuse=farm
+		farmyard:landuse=farmyard
+		orchard : landuse=orchard
+		farmland : landuse=farmland
+
+		forest : landuse=forest OR natural=wood
+		national park : boundary=national_park
+		meadow : natural=meadow OR landuse=meadow
+		wetland : natural=wetland
+		nature reserve : leisure=nature_reserve
+		grass : landuse=grass
+		fell : natural=fell
+		allotments : landuse=allotments
+
+		aeroway apron : aeroway=apron
+		aeroway terminal : aeroway=terminal
+
+
+////////////////////////////////////////////////
+	lines
+		
+		highway motorway : highway=motorway OR (highway=construction AND construction=motorway)
+		highway motorway link : highway=motorway_link OR (highway=construction AND construction=motorway_link)
+		highway trunk : highway=trunk OR (highway=construction AND construction=trunk)
+		highway trunk link: highway=trunk_link OR (highway=construction AND construction=trunk_link)
+		highway primary link : highway=primary_link OR (highway=construction AND construction=primary_link)
+		highway primary : highway=primary OR (highway=construction AND construction=primary)
+		highway secondary : highway=secondary OR highway=secondary_link OR (highway=construction AND construction=secondary)
+		highway tertiary : highway=tertiary OR highway=tertiary_link OR (highway=construction AND construction=tertiary)
+		highway unclassified : highway=unclassified OR (highway=construction AND construction=unclassified)
+		highway residential : highway=residential OR (highway=construction AND construction=residential)
+		highway living_street : highway=living_street OR (highway=construction AND construction=living_street)
+		highway construction : highway=construction
+		highway service : highway=service
+		highway pedestrian : highway=pedestrian
+		highway track : highway=track
+		highway footway : highway=footway
+		highway cycleway : highway=cycleway
+		highway path : highway=path
+		highway steps : highway=steps
+//		highway access private : access=private AND highway
+//		highway access destination : access=destination AND highway
+		oneway : oneway=yes OR oneway=true OR oneway=-1
+		bridge foot : bridge=yes AND (foot=yes OR highway=footway)
+		historic citywalls : historic=citywalls OR historic=city_wall
+		line barrier : barrier=wall OR barrier=fence
+		coastline : natural=coastline
+		river : waterway=river
+		stream : waterway=stream
+		canal : waterway=canal
+		drain : waterway=drain
+		dock : waterway=dock
+		pier : man_made=pier
+		railway rail : railway=rail
+		railway lightrail : railway=light_rail
+		platform : railway=platform OR public_transport=platform
+
+		power_line : power=line OR power=minor_line
+		aeroway runway : aeroway=runway
+		aeroway taxiway : aeroway=taxiway
+
+		boundary country : boundary=administrative AND (admin_level=2 OR admin_level=4) AND NOT natural=coastline
+		boundary province : boundary=administrative AND admin_level=6
+		boundary municipal : boundary=administrative AND admin_level=8
+		boundary barangay : boundary=administrative AND admin_level=10
+		
+		contour major : contour[@isMulti(elevation, 100)]
+		contour minor : contour[@isMulti(elevation, 20) and not @isMulti(elevation, 100)]
+
+		gps tracks : gpstrack[]
+		gps routes : gpsroute[]
+
+
+		
+// Routes
+//		route ncn : relation[type=route AND route=bicycle AND network=ncn]
+		route byway : relation[type=route AND route=bicycle AND network="National Byway"]
+		route foot : relation[type=route AND route=foot]
+
+		
+// ==========================================================================
+properties
+
+	map-background-color	: #F7F4ED
+	map-background-opacity	: 1
+	map-sea-color : #B5D0D0
+	font-weight : bold
+	font-family : Verdana
+	text-max-width : 7
+	text-halo-width : 25%
+	text-halo-opacity : 0.75
+	text-align-horizontal : center
+	text-align-vertical : center
+	font-stretch : 0.9
+	map.rendering.lflp.min-buffer-space : 5
+	map.rendering.lflp.max-allowed-corner-angle : 40
+
+
+
+
+	
+// ==========================================================================
+rules
+
+////// PLACES
+	target : place*
+		define	
+			font-weight : bold	
+			text-max-width : 9	
+			text-align-horizontal : center	
+		if : *city	
+			define	
+				font-size : 6:8;14:20	
+				min-zoom : 6	
+				max-zoom : 14	
+				placement-value : 1000	
+		elseif : *town	
+			define	
+				font-size : 9:10;12:15;20:25	
+				min-zoom : 9	
+				max-zoom : 15		
+				placement-value : 900	
+		elseif : *barangay	
+			define
+				text : @up(name)
+				text-color : white black 60%
+				font-family : Gill Sans MT
+				font-weight : bold
+				font-size : 12:9;14:12;18:18
+				min-zoom : 12
+				max-zoom : 18	
+				placement-value : 700	
+		elseif : *suburb	
+			define	
+				font-size : 13:10;20:20
+				min-zoom : 13	
+				text-color : white black 40%	
+				placement-value : 10	
+		elseif : *neighbourhood	
+			define	
+				font-size : 14:8;16:10;18:15;20:20
+				font-style : italic
+				min-zoom : 14
+				text-color : #8F5E5E
+//				text-color : green blue 50%	
+				placement-value : 1	
+		elseif : *locality	
+			define	
+				font-size : 14:8;20:16
+				text-color : red	
+				min-zoom : 14	
+				placement-value : 0.1
+		elseif : *hamlet	
+			define	
+				font-size : 14:8;20:16
+				text-color : red		
+				min-zoom : 14	
+				placement-value : 0.1			
+		elseif : *subdivision	
+			define	
+				font-size : 14:8;20:16
+				text-color : red	
+				min-zoom : 14	
+				placement-value : 0.1			
+		draw : text	
+
+		
+	
+		
+		
+////// HOUSENUMBER		
+	target : housenumber
+		define
+			min-zoom : 18
+			text : [[addr:housenumber]]
+			text-halo-width : 0
+			font-size : 8
+			placement-value : 0.01
+		draw : text
+
+///////	AREAS		
+	target : $featuretype(area)
+		define
+			line-style : none
+			line-width : 1
+		if : forest
+			define
+				min-zoom : 9
+				fill-color : #8DC56C
+				fill-opacity : 0.3
+		elseif : *pedestrian
+			for : area
+				define
+					min-zoom : 14
+					fill-color : #EDEDED
+					line-color : #C4C4C4
+					line-style : solid		
+		elseif : swimming pool
+			define
+				fill-color : #B5D0D0
+		elseif : beach
+			define
+				min-zoom : 10
+				fill-color : #FEFEC0				
+		elseif : playground
+			define
+				fill-color : #CCFEF0
+			define
+				icon-image : icons/SJJB/png/sport_playground.n.32.png
+				icon-width : 16:2;19:16
+				min-zoom : 16
+			draw : icon	
+		elseif : recreation ground
+			define
+				fill-color : #CCEEBB				
+		elseif : farmland
+			define
+				fill-color : #D6D6A6
+				fill-opacity : 0.4
+		elseif : farm
+			define
+				min-zoom : 9
+				fill-color : #DBDFB6
+				fill-opacity : 0.4
+		elseif : farmyard
+			define
+				min-zoom : 9
+				fill-color : #DBDFB6
+		elseif : orchard
+			define
+				fill-color : #9fd790
+				fill-opacity : 0.4
+		elseif : fell
+			define
+				fill-color : #C5FF5B black 10%
+		elseif : water
+			define
+				fill-color : #B5D0D0
+		elseif : grass
+			define
+				fill-color : #CFECA8
+		elseif : allotments
+			define
+				fill-color : #C8B084
+		elseif : meadow
+			define
+				fill-color : #CFECA8
+		elseif : wetland
+			define
+				fill-color : #C5E9E9
+				fill-opacity : 0
+				fill-hatch : diagonalcross
+				fill-hatch-color : #B5D0D0
+				fill-hatch-opacity : 0.5
+		elseif : nature reserve
+			define
+				fill-color : #ABDE96
+		elseif : car park
+			define
+				fill-color : #F2E9C2	
+//				fill-color : #FFFEFA  (lighter gray)
+//				fill-color : #F9F7F2 (light gray) 
+		elseif : park
+			define
+				fill-color : #CCEEBB
+		elseif : leisure pitch
+			define
+				fill-color : #89D2AE
+		elseif : leisure garden
+			define
+				fill-color : #CFECA8
+		elseif : graveyard
+			define
+				fill-color : #DDEECC
+		elseif : leisure stadium
+			define
+				fill-color : #33CC99
+		elseif : track
+			define
+				fill-color : #74DCBA
+		elseif : village green
+			define
+				fill-color : #CFECA8
+		elseif : landuse retail
+			define
+				fill-color : #F2E3D3
+			draw : line
+		elseif : commercial area
+			define
+				fill-color : #F2E3D3
+		elseif : landuse religious
+			define
+				fill-color : #EEFBE2
+		elseif : industrial plant 
+			define
+				fill-color : #D6D6D6				
+		elseif : landuse industrial 
+			define
+				fill-color : #D6D6D6
+		elseif : residential area
+			define
+				fill-color : #ECECE7
+		elseif : water works
+			define
+				fill-color : #CECECE
+		elseif : landuse garages
+			define
+				fill-color : #F9F7F2
+		elseif : prison
+			define
+				fill-color : #CECECE
+		elseif : military
+			define
+				fill-color : #D7DBBA
+		elseif : quarry
+			define
+				fill-color : white
+				fill-hatch : diagonalcross
+				fill-hatch-color : #cccccc
+		elseif : landfill
+			define
+				fill-color : yellow
+				fill-opacity : 0.2
+				fill-hatch : diagonalcross
+				fill-hatch-color : #DFD3C6			
+		elseif : construction			
+			define
+				fill-color : #e9e8e3
+				fill-hatch : swne
+				fill-hatch-color : #cccccc						
+		elseif : aeroway*
+			define
+				fill-color : #E9D1FE
+		elseif : aerodrome
+			define
+				fill-color : #e9e8e3
+				line-style : solid
+				line-color : #b3b3b0 black 10%
+		elseif: academic
+			define
+				fill-color : #EEEEC3
+				min-zoom : 16
+		elseif : community center
+			define
+				fill-color : #99B990
+		elseif : public building
+			define
+				fill-color : #CFAE37
+		elseif : building
+			define
+				fill-color : #D8CBBC
+		else
+			stop
+		draw : fill
+
+//////  ADD DEMARCATION LINES to polygons	
+		if : building
+			define
+				min-zoom : 18
+				line-style : solid
+				line-width : 1
+				line-color : #666
+		elseif : academic
+			define
+				min-zoom : 17
+				line-color : #E5D2CC
+				line-style : solid
+		elseif : industrial plant
+			define	
+				min-zoom : 16	
+				line-style : dot
+				line-width : 1.5
+				line-color : #F1EEE8				
+		elseif : landuse industrial
+			define	
+				min-zoom : 16	
+				line-style : dot
+				line-width : 1.5
+				line-color : #F1EEE8	
+		elseif : commercial area
+			define	
+				min-zoom : 16	
+				line-style : dot
+				line-width : 1.5
+				line-color : #F1EEE8					
+		elseif : residential area
+			define		
+				line-style : dot
+				line-width : 2
+				line-color : gray white 75%
+		elseif : graveyard
+			define
+				min-zoom : 16
+				line-style : solid
+				line-width : 1
+				line-color : #D6D6AB
+		elseif : quarry
+			define				
+				line-style : solid
+				line-color : #b3b3b0 black 10%
+		draw : line
+			
+//////	TEXT DECLUTTER: suppress name of buildings & landuse polygons at scale 1:250m
+		define
+			min-zoom : 17		
+//////  TEXT REMOVE / SUPPRESS: redundant-polygon-name or building tag, if a named-icon exist		
+		for : @isOneOf(amenity, school, kindergarten, university, college, library)
+			stop
+		for : @isOneOf(amenity, hospital, clinic, doctors, dentist, health_center, health_centre) 
+			stop
+		for : @isOneOf(amenity, pharmacy, nursing_home, veterinary, fitness_center)	
+			stop
+		for : @isOneOf(amenity, bank, place_of_worship, fuel, car_wash, recycling)
+			stop	
+		for : @isOneOf(shop, supermarket, convenience, bakery, butcher, seafood)
+			stop
+		for : @isOneOf(tourism, hotel, motel, guest_house, hostel, museum)
+			stop
+		for : @isOneOf(amenity, restaurant, fast_food, bar, pub) 
+			stop
+		for : @isOneOf(shop, car, car_repair, motorcycle, bicycle)
+			stop
+		for : @isOneOf(shop, hardware, doityourself, paint, trade, glass_and_aluminum, garden_centre)
+			stop
+		for : shop=mobile OR office=telecommunication
+			stop	
+		for : @isOneOf(office, government, ngo, telecommunication)
+			stop			
+		for : landuse=residential AND place=neighbourhood
+			stop
+		for : landuse=garages
+			stop
+		for : emergency=ses_station OR amenity=emergency_services
+			stop	
+//////  TEXT: CUSTOMIZE FONT of polygons
+		for : amenity=townhall
+			define
+				min-zoom : 15
+				font-weight : bold
+				font-size : 15:6;16:7;17:8;18:10
+				text-color : green blue 40%							
+		for : amenity=fuel
+			define
+				font-size : 10
+				text-color : #8888FF
+		for : shop=mall OR amenity=marketplace
+			define
+				min-zoom : 16
+				font-weight : bold
+				font-size : 16:8;17:9;18:10
+				text-color : brown
+		for : landuse=recreation_ground
+			define
+				min-zoom : 15
+				font-weight : bold
+				font-style : italic
+				font-size : 16:9;17:10;18:11
+				text-color : green blue 40%		
+		for : landuse=cemetery
+			define
+				min-zoom : 16
+				font-weight : bold
+				font-size : 8
+				text-color : black white 50%
+		for : man_made=works
+			define
+				min-zoom : 16
+				font-weight : bold
+				font-size : 9
+				font-style : italic
+				text-color : black white 40%				
+		for : power=sub_station
+			define
+				min-zoom : 16
+				font-weight : bold
+				font-size : 10
+				text-color : black
+		for : landuse=landfill
+			define
+				min-zoom : 15
+				font-weight : bold
+				font-size : 9
+				font-style : italic
+				text-color : black white 40%
+		for : landuse=garages
+			define
+				min-zoom : 17
+				font-weight : normal
+				font-size : 8
+				text-color : black white 50%				
+		draw : text
+
+//////  HUMANITARIAN:		
+
+	target : red cross
+		define
+			icon-image : icons/OSMPH/Red Cross.png
+			min-zoom : 16
+			icon-width : 17:10;18:18
+			placement-value : 1000
+		draw : icon
+		define
+			fill-color : gray
+			line-style : none
+		draw : fill
+		define
+			line-color : #ADCCB5
+			line-width : 1
+		draw : line
+
+	
+		
+			
+//////	LINES LINES LINES LINES LINES LINES
+
+	target : boundary*
+		define
+			line-color : #9E1A99
+			line-opacity : 0.2
+		if : boundary country
+			define
+				line-width : 6:1;9:3;10:6
+		elseif : boundary province
+			define
+				min-zoom : 4
+				line-opacity : 0.15
+				line-width : 4:1;11:3
+				line-style : dash
+		elseif : boundary municipal
+			define
+				min-zoom : 12
+				line-width : 12:1;14:2
+				line-style : dash
+		elseif : boundary barangay
+			define
+				min-zoom : 14
+				line-opacity : 0.25
+				line-width : 12:1;14:2
+				line-style : dash
+		draw : line	
+
+	target : national park
+		define
+			fill-color : #8DC56C
+			fill-opacity : 0.2
+			line-style : none
+		draw : fill
+		define
+			line-color : #8DC56C black 20%
+			line-opacity : 0.5
+			line-width : 3
+			line-style : dash
+			font-size : 3:3;12:12
+			text-color : green
+			font-weight : normal
+		draw : line
+		draw : text
+
+	target : peak
+		define
+			shape : triangle
+			shape-size : 12
+			fill-color : #D08F55
+			line-style : none
+			min-zoom : 11
+		draw : shape
+		define
+			text : @if(name, name @if(ele, "\n(" ele ")"), ele)
+			text-color : #ae4242
+			min-zoom : 13
+			font-size : 10
+			text-max-width : 10
+			text-offset-vertical : 100%
+			text-align-vertical : near
+		draw : text
+
+	target : info
+		define
+			min-zoom : 16
+			text : "i"
+			text-color : #734A08
+			font-size : 20
+			font-family : Times New Roman
+			text-halo-width : 0
+		draw : text
+		
+	target : fire hydrant
+		define
+			icon-image : icons/OSMPH/emergency_fire_hydrant.png
+			min-zoom : 16
+			icon-width : 16:16;18:20
+		draw : icon		
+
+
+	target : gate
+		define
+			min-zoom : 16
+			shape : custom
+			shape-def : f:#3E3E3E;p:#3E3E3E;-1,1;-1,-3;-3,-3;-3,3;-1,3;-1,2;4,2;4,1;Z
+			shape-size : 14:7;20:12
+			line-width : 1
+		draw : shape
+//	target : gate
+		define
+			icon-image : icons/SJJB/png/barrier_gate.p.32.png
+			min-zoom : 16
+			icon-width : 7
+		draw : icon			
+	target : bollard
+		define
+			min-zoom : 14
+			fill-color : #7D7D7D
+			line-style : none
+			shape-size : 16:1;18:2
+		draw : shape
+	target : block
+		define
+			icon-image : icons/OSMPH/barrier_block.n.32.png
+			min-zoom : 15
+			icon-width : 15:3;16:4;17:8;18:12
+		draw : icon	
+		
+		
+	target : powertower
+		define
+			min-zoom: 14
+			shape : custom
+			shape-def : m:-1,1;l:1,1,1,-1,-1,-1,-1,1,1,-1;m:-1,-1;l:1,1
+			shape-size : 14:2;20:9
+			line-width : 1
+		draw : shape
+	target : power_line
+		define
+			min-zoom: 16
+			line-width: 1
+			line-color : #5c5c5c white 50%
+		for : power=line
+			define
+				line-color : #5c5c5c
+				min-zoom : 14
+				line-width: 1
+		draw : line
+
+//	LINES (MISC.)		
+//		aeroway taxiway : aeroway=taxiway
+//		aeroway apron : aeroway=apron
+//		aeroway terminal : aeroway=terminal
+	target : pier
+		define
+			line-color : #F1EEE8
+			line-width : 1:1;20:8
+		draw : line
+
+	target : line barrier
+		define
+			min-zoom : 13
+			line-color : #C5C491
+			line-width : 1.5
+		for : barrier=fence
+			define
+				min-zoom:16
+		draw : line		
+		
+	target : historic citywalls
+		define
+			min-zoom : 13
+			line-color : #8D968D
+			line-width : 7:0.6;9:1;10:1.2;12:2.5;13:3;16:10
+		draw : line
+		draw : text
+
+	target : aeroway runway
+		define
+			min-zoom : 11
+			line-color : #BBBBCC
+			line-width : 11:2;15:20
+		draw : line
+
+	target : aeroway taxiway
+		define
+			min-zoom : 11
+			line-color : #BBBBCC
+			line-width : 11:1;15:6
+		draw : line
+
+	target : platform
+		define
+			min-zoom : 13
+			line-color : gray
+			line-width : 3
+		draw : line
+	target : railway rail
+		define
+			min-zoom : 13
+			line-style : dashlong
+			line-color : white
+			line-width : 2
+			border-style : solid
+			border-color : gray
+			border-width : 25%
+		draw : line
+		define
+			min-zoom : 6
+			max-zoom : 13
+			line-style : none
+			line-color : white black 30%
+			line-width : 6:1;8:1;12:1.5
+		draw : line
+	target : railway*
+		define
+			min-zoom : 13
+			line-color : gray
+			line-width : 2
+		draw : line
+		define
+			min-zoom : 15
+			text-align-horizontal : center
+			text-align-vertical : center
+		draw:text
+
+//////  ROADS (HIGHWAY RELATED LINES)
+	target : highway access*
+		define
+			min-zoom : 13
+			line-width : 13:1;15:2;18:4
+			line-style : dash
+			line-color : #F7D4D4
+		for : access=destination
+			define
+				line-color : lightblue white 50%
+		draw : line
+
+	target : highway construction
+		define
+			min-zoom : 15
+			line-width : 5:4;18:5
+			line-style : dot
+			line-color : #F6EEB7
+			border-style : solid
+			border-color : white black 10%
+			border-width : 20%
+		for : construction=tertiary OR construction=secondary OR construction=primary
+			define
+				line-color : white
+		draw : line
+
+	target : motorway_junction
+		define
+			font-size : 11 
+			min-zoom : 13
+			text-color : #849BBD
+			text-halo-width : 25%
+			text-offset-vertical : 150%
+		draw: text
+
+	target : highway*
+		define
+			font-size : 15:7;18:10
+			font-weight : bold
+//			font-family : News Gothic Regular
+		for : oneway=yes OR oneway=true
+			define				
+			for : highway=trunk
+				define
+					min-zoom : 17
+			else 
+				define
+					min-zoom : 16
+			define
+				shape : custom
+				shape-def : 60,0,20,-40,20,-15,-60,-15,-60,15,20,15,20,40;Z
+				shape-size : 10
+				shape-aspect : 0.75
+				shape-spacing : 25
+				fill-color : gray
+				line-style : none
+			for : oneway=-1
+				define
+					angle : 180
+			draw : shape
+
+		define
+			line-style : solid
+			line-join : round
+			line-start-cap : round
+			line-end-cap : round
+
+		if : *motorway*
+			if : *link
+				define
+					line-width : 7:1;12:3;13:4;16:5;18:6
+			else
+				define
+					line-width : 7:1;9:2;12:3;13:7;16:10;18:12
+			define
+				min-zoom : 12
+				line-color : #849BBD
+				border-style : solid
+				border-color : #849BBD black 20%
+				border-width : 15%
+			draw : line
+			define
+				min-zoom : 7
+				max-zoom : 12
+				border-style : none
+			draw : line
+			define
+				min-zoom : 10
+				max-zoom : 20
+				font-family : Tahoma
+				text-align-horizontal : center
+				text-align-vertical : center
+				text : ref
+				font-size : 12
+				text-color : #fcfcfb
+				text-halo-width : 0
+				shape : custom
+				shape-def : p:#809bc0;pw:5;f:#809bc0;m:-10,-10;l:10,-10;a:10,10,10,10;l:-10,10;a:10,10,-10,-10;z;p:#fcfcfb;pw:2;m:-10,-10;l:10,-10;a:10,10,10,10;l:-10,10;a:10,10,-10,-10;z
+				shield-padding-left : 5
+				shield-padding-right : 5
+				shield-padding-top : 7
+				shield-padding-bottom : 7
+				shield-resize-mode : free
+			draw : shield
+		elseif : *trunk*
+			define
+				min-zoom : 12
+				line-color : #FFCC44
+				line-width : 11:2;14:2;15:8;18:12
+				border-style : solid
+				border-color : #E6B365
+				border-width : 30%
+				
+			for : tunnel=yes
+				define
+					border-style : dot
+			draw : line
+			define
+				min-zoom : 7
+				max-zoom : 12
+				border-style : none
+			draw : line
+			define
+				min-zoom : 13
+				max-zoom : 20
+				text-color : black
+				font-size : 13:11;16:12;18:15				
+			draw : text
+		elseif : *primary*
+			define
+				min-zoom : 11
+				line-color : #FFE596
+				line-width : 11:2;14:2;15:8;18:12
+				border-style : solid
+				border-color : #E8C284
+				border-width : 30%
+			for : tunnel=yes
+				define
+					border-style : dot
+			draw : line
+			define
+				min-zoom : 7
+				max-zoom : 11
+				border-style : none
+			draw : line
+			define
+				min-zoom : 13
+				max-zoom : 20
+				text-color : black
+				font-size : 13:11;16:12;18:15
+				font-weight : bold				
+			draw : text
+		elseif : *secondary*
+			define
+				min-zoom : 12
+				line-color : #FEFED8
+				line-width : 10:1;11:1.5;13:1.5;15:8;18:12
+				border-style : solid
+				border-color : #E8C284	
+				border-width : 15%
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+					border-width : 8%
+			draw : line
+			define
+				min-zoom : 8.5
+				max-zoom : 12
+				border-style : none
+			draw : line
+			define
+				min-zoom : 13
+				max-zoom : 20
+				text-color : black
+				font-size : 13:8;16:12;18:15
+				font-weight : bold
+			draw : text
+		elseif : *tertiary
+			define
+				min-zoom : 13
+				line-color : #FEFED8				
+				line-width : 10:0.5;13:0.8;15:7;18:9
+				border-style : solid
+				border-color : #FEFEB2 black 30%
+				border-width : 15%
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			define
+				min-zoom : 10
+				max-zoom : 13
+				line-color : white black 25%
+				border-style : none
+			draw : line
+			define
+				min-zoom : 14
+				max-zoom : 20
+				font-size : 13:8;16:12;18:15
+				font-weight : normal
+			draw : text
+		elseif : $regex("(.*residential)|(.*unclassified)")
+			define
+				min-zoom : 13
+				line-color : white
+				line-width : 10:0.5;13:0.5;15:5;18:9
+				line-start-cap : none
+				line-end-cap : none
+				border-style : solid
+				border-color : white black 25%
+				border-width : 15%
+				font-size : 13:8;14:9;15:10;16:12;18:15
+				font-weight : normal
+				text-color : black
+			for : lanes=1 OR width<6
+				define
+					line-width : 12:1;13:1.5;15:4;18:7.5	
+					line-color : white
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			define
+				min-zoom : 10
+				max-zoom : 13
+				border-style : none
+				line-color : white black 25%
+			draw : line
+			define
+				min-zoom : 15
+				max-zoom : 20
+			draw : text
+		elseif : *living_street
+			define
+				min-zoom : 13
+				line-color : #EDEDED
+				line-width : 10:0.6;13:1;15:7;18:9
+				border-style : solid
+				border-color : white black 25%
+				border-width : 15%
+			for : lanes=1
+				define
+					line-width : 12:0.5;13:1;15:3;18:7.5		
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			define
+				min-zoom : 15
+				max-zoom : 20
+			draw : text
+		elseif : *service
+			define
+				min-zoom : 13
+				line-color : white
+				line-width : 12:0.6;13:1;15:2;18:8
+				border-style : solid
+				border-color : #FEFEB2 black 20%
+				border-width : 15%
+			for	: @isOneOf(service, driveway, alley, parking_aisle)
+				define
+					line-width : 13:0.5;15:0.8;18:6
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			draw : text
+		elseif : *pedestrian
+			for : not area
+				define
+					min-zoom : 13
+					line-color : #EDEDED
+					line-width : 7:0.5;9:0.8;10:1;12:2;13:2;16:3;18:4
+					border-style : solid
+					border-color : #B1B1B1 black 20%
+					border-width : 15%
+				for : tunnel=yes
+					define
+						border-style : dot
+				for : bridge=yes
+					define
+						border-color : #000
+				draw : line
+				draw : text	
+	
+		elseif : *track
+			define
+				min-zoom : 12.5
+				line-color : #9D7517
+				line-width : 12.5:0.3;13:0.5;15:1;18:1.5
+				line-style : dash
+				border-style : solid
+				border-color : white
+				border-width : 100%
+				border-opacity : 0.3
+			for : tracktype=grade1
+				define
+					line-style : solid
+					line-width : 12.5:0.5;13:1;15:1.5;18:2
+			for : tracktype=grade2
+				define
+					line-style: dashlong
+			for : tracktype=grade3
+				define
+					line-style: dash
+			for : tracktype=grade4
+				define
+					line-style: dashdot
+			for : tracktype=grade5
+				define
+					line-style: dashdotdot
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			draw : text
+		elseif : *footway
+			define
+				min-zoom : 13
+				line-color : #D1C4B8
+				line-width : 13:0.5;15:2;18:3
+				line-style : dot
+				border-style : solid
+				border-color : white
+				border-width :20%
+				border-opacity : 0.3
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			draw : text
+		elseif : *cycleway
+			define
+				min-zoom : 13
+				line-color : blue
+				line-width : 13:0.5;15:1;18:1.5
+				line-style : dot
+				border-style : solid
+				border-color : white
+				border-width : 100%
+				border-opacity : 0.3
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+					border-opacity : 1
+			draw : line
+			draw : text
+		elseif : *path
+			define
+				min-zoom : 13
+				line-color : #6E7C6D
+				line-width : 13:0.5;15:1;18:1.5
+				line-style : dash
+				border-style : solid
+				border-color : white
+				border-width : 100%
+				border-opacity : 0.3
+			for : tunnel=yes
+				define
+					border-style : dot
+			for : bridge=yes
+				define
+					border-color : #000
+			draw : line
+			draw : text
+		else
+			stop
+
+	target : highway steps
+		define
+			min-zoom : 16
+			shape : custom
+			shape-def : -1,1, -1,-1, 1,-1, 1,1;Z
+			shape-spacing : 2
+			shape-size : 16:1;20:3
+			shape-aspect : 3
+			fill-color : #B2ABA4
+			line-style : none
+		draw : shape
+
+	target : bridge foot
+		define
+			min-zoom : 13
+			line-color : white
+			line-width : 7:0.6;9:1;10:1.2;12:2.5;13:3;16:5;18:6
+			border-style : solid
+			border-color : #FEFEB2 black 20%
+			border-width : 15%
+		draw : line
+		draw : text
+
+////// LINES: RIVERS & STREAMS
+
+	target : river
+		define
+			line-color : #B5D0D0
+			line-width : 7:1;12:2;14:5
+		draw : line
+		define
+			min-zoom :13
+			font-size :13:9;16:12;18:15
+			font-style : italic
+			text-color : black
+			text-color : #627070
+//			font-weight : bold
+		draw:text
+	target : canal
+		define
+			min-zoom : 12
+			line-color : #B5D0D0
+			line-width : 12:1;17:8
+		draw : line
+		define
+			min-zoom:13
+			font-size:13:8;16:12
+			font-style : italic
+//			text-color : black
+			text-color : #627070
+			font-weight : bold
+		draw:text
+	target : stream
+		define
+			line-color : #B5D0D0
+			line-width : 13:1;15:2;18:4
+		draw : line
+		define
+			min-zoom:13
+			font-size:13:8;16:12
+			font-style : italic
+			text-color: #627070
+//			text-color : black
+			font-weight : bold
+		draw:text
+	target : drain
+		define
+			min-zoom : 13
+			line-color : #B5D0D0
+			line-width : 1
+		draw : line
+
+		
+		
+////// POINTS/NODES ////////////////////////////////////////////////////		
+		
+	target: parking
+		define
+			icon-image : icons/SJJB/png/transport_parking.p.32.png
+			min-zoom : 16
+			icon-width : 14
+//		draw : icon
+		define
+			min-zoom : 20
+			font-size : 9
+			text-color : #7981B0
+			text-offset-vertical : 150%
+		draw : text
+
+	target : car*
+		if : *dealer
+			define
+				icon-image : icons/SJJB/png/shopping_car.p.32.png
+				icon-width : 17:10;18:16
+				min-zoom : 17
+				text-color : #AA33AA
+				text-offset-vertical : 200%
+			draw : icon
+			draw : text
+		elseif : *repair
+			define
+				icon-image : icons/SJJB/png/shopping_car_repair.p.32.png
+				min-zoom : 18
+				icon-width : 16
+			draw : icon
+			define			
+				text-color : brown
+				text-offset-vertical : 200%
+				min-zoom : 19
+			draw : text	
+		elseif : *parts
+			define
+				icon-image : icons/SJJB/png/shopping_car_repair.p.32.png
+				min-zoom : 18
+				icon-width : 16
+			draw : icon
+			define			
+				text-color : black
+				text-offset-vertical : 200%
+				min-zoom : 19
+			draw : text				
+		elseif : *wash
+			define
+				icon-image : icons/OSMPH/amenity_car_wash.p.32.png
+				icon-width : 16
+				min-zoom : 18
+			draw : icon	
+			define	
+				text-color : black
+				text-offset-vertical : 150%
+				min-zoom : 19
+			draw : text	
+		else
+			stop
+			
+	target : tire shop		
+		define
+			icon-image : icons/OSMPH/shopping_tire_purple.p.32.png
+			icon-width : 17:12;18:15
+			min-zoom : 17
+		draw : icon	
+		define	
+			text-color : black
+			text-offset-vertical : 150%
+			min-zoom : 19
+		draw : text	
+		
+	target : motorcycle
+		define
+			icon-image : icons/SJJB/png/shopping_motorcycle.p.32.png
+			icon-width : 16
+			min-zoom : 18
+		draw : icon	
+		define	
+			text-color : #AA33AA
+			text-offset-vertical : 150%
+			min-zoom : 19
+		draw : text	
+
+	target : bicycle
+		define
+			icon-image : icons/SJJB/png/shopping_bicycle.p.32.png
+			icon-width : 16
+			min-zoom : 18
+		draw : icon	
+		define	
+			text-color : #AA33AA
+			text-offset-vertical : 180%
+			min-zoom : 19
+		draw : text
+		
+	target : taxi
+		define
+			icon-image : icons/SJJB/png/transport_taxi_rank.p.32.png
+			icon-width : 16
+			min-zoom : 18
+		draw : icon	
+		define	
+			text-color : #660099
+			text-offset-vertical : 150%
+			min-zoom : 19
+		draw : text	
+		
+	target : bus*
+		if : *station
+			define
+				min-zoom : 18
+				text-color : #2B80FE
+				text-offset-vertical : 180%
+			for : landuse=garages
+				define
+					min-zoom : 16
+			draw : text
+			define
+				min-zoom : 17
+				icon-image : icons/SJJB/png/transport_bus_station.p.32.png
+				icon-width : 15:11;18:17
+			for : landuse=garages
+				define
+					min-zoom : 16
+			draw : icon			
+		elseif : *stop
+			define
+				min-zoom : 18
+				text-color : #660099
+				text-offset-vertical : 150%
+			draw : text
+			define
+				min-zoom : 17
+				icon-image : icons/SJJB/png/transport_bus_stop.p.32.png
+				icon-width : 15:8;18:13
+			draw : icon	
+		else
+			stop		
+		
+	target: tricycle
+		define
+			icon-image : icons/OSMPH/Tricycle Station 32 color.png
+			min-zoom : 17
+			icon-width : 17:10;18:15
+		draw : icon
+		define
+			min-zoom : 18
+			text-color : #660099
+			text-max-width : 4
+			text-offset-vertical : 200%		
+		draw : text		
+
+	target: railway station
+		define
+			min-zoom : 12
+			shape : square
+			line-color : #7981B0
+			fill-color : #7981B0
+			shape-size : 12:5;18:8
+		draw : shape
+		define
+			min-zoom : 14
+			font-size : 12
+			text-color : #7981B0
+			text-offset-vertical : -150%
+		draw : text
+
+	target: postoffice
+		define
+			icon-image : icons/SJJB/png/amenity_post_office.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #856951
+		draw : text
+	
+	target: police station
+		define
+			icon-image : icons/SJJB/png/amenity_police.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon
+	target: courthouse
+		define
+			icon-image : icons/SJJB/png/amenity_court.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 200%
+			text-color : #856951
+		draw : text	
+	target: social facility
+		define
+			icon-image : icons/OSMPH/social_facility.32.png
+			min-zoom : 16 
+			icon-width : 16:12;19:16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 200%
+			text-color : #856951
+		draw : text		
+		
+	target: government office
+		define
+			icon-image : icons/OSMPH/office_government.32.png
+			min-zoom : 17
+			icon-width : 17:2;19:15
+		draw : icon
+		define
+			min-zoom : 19
+			text-offset-vertical : 180%
+			text-color : #856951
+		draw : text
+
+	target: ngo
+		define
+			icon-image : icons/HDM/icons/ngo-18.png
+			min-zoom : 18
+			icon-width : 18:16;19:22
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 180%
+			text-color : #856951
+		draw : text
+
+	target: fire station
+		define
+			icon-image : icons/SJJB/png/amenity_firestation.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #856951
+		draw : text		
+
+	target: sar volunteer
+		define
+			icon-image : icons/OSMPH/search_and_rescue.png
+			min-zoom : 16
+			icon-width : 16:11;19:16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 250%
+			text-color : blue
+		draw : text		
+		
+
+	target: funeral service
+		define
+			icon-image : icons/HDM/icons/funeral_directors-18.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 200%
+			text-color : #856951
+		draw : text		
+
+		
+//-------- PRIVATE COMPANIES and PROFESSIONALS
+	target: company office
+		define
+			icon-image : icons/OSMPH/office_company.32.png
+			min-zoom : 18
+			icon-width : 17:2;19:12
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 180%
+			text-color : #856951
+		draw : text			
+		
+	target: realtor
+		define
+			icon-image : icons/SJJB/png/shopping_estateagent2.p.32.png
+			min-zoom : 18
+			icon-width : 17:7;18:15;19:16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 180%
+			text-color : #856951
+		draw : text				
+
+	target: employment agency
+		define
+			icon-image : icons/SJJB/png/shopping_estateagent2.p.32.png
+			min-zoom : 18
+			icon-width : 17:2;19:15
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 180%
+			text-color : #856951
+		draw : text	
+
+		
+//---------- HOBBIES
+	target: music instruments
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_music.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon			
+
+	target: photographer
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_photo.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon			
+
+	target: outdoor shop
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_tackel.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon					
+
+	target: pet shop
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_pet.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon			
+		
+//----------
+	target: multimedia
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		for : shop=music
+			define
+				icon-image : icons/SJJB/png/shopping_video_rental.p.32.png
+		for : shop=video 
+			define
+				icon-image : icons/SJJB/png/shopping_music.p.32.png
+		for : shop=video_games	
+			define
+				icon-image : icons/SJJB/png/shopping_music.p.32.png	
+		define
+			min-zoom : 18
+			icon-width : 16
+		draw : icon	
+
+	target: computer
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/OSMPH/computer.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon	
+
+	target: mobile_phone
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_mobile_phone.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon	
+
+	target: telecom office
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			font-size : 10
+			font-weight : bold
+			text-color : brown
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_mobile_phone.n.32.png
+			min-zoom : 17
+			icon-width : 17:11;19:16
+		draw : icon			
+		
+	target: electronics
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_hifi.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon	
+//-----------		
+	target: hardware
+		define
+			icon-image : icons/SJJB/png/shopping_diy.p.32.png
+			min-zoom : 16
+			icon-width : 16:6;19:16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #856951
+		draw : text			
+		
+	target : construction supply	
+		define
+			icon-image : icons/SJJB/png/shopping_diy.n.32.png
+			min-zoom : 16
+			icon-width : 16:6;19:16
+		draw : icon
+		define
+			min-zoom : 18
+			text-offset-vertical : 280%
+			text-color : #856951
+		draw : text	
+
+	target: paint shop
+		define
+			icon-image : icons/OSMPH/shopping_paint.32.png
+			min-zoom : 17
+			icon-width : 18:12;19:16
+		draw : icon
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #856951
+		draw : text				
+		
+	target : garden center	
+		define
+			icon-image : icons/SJJB/png/shopping_garden_centre.n.32.png
+			min-zoom : 17
+			max-zoom : 19
+			icon-width : 17:6;19:16
+		draw : icon
+		define
+			min-zoom : 19
+			max-zoom : 20
+			text-offset-vertical : 150%
+			text-color : #856951
+		draw : text			
+
+	target: junkshop
+		define
+			icon-image : icons/SJJB/png/amenity_recycling.p.32.png
+			icon-width : 16
+			min-zoom : 17
+		for : name
+			define			
+				max-zoom : 18	
+		draw : icon
+		define
+			min-zoom : 18
+			max-zoom : 20
+			text-color : gray
+		draw : text
+		
+//-----------	
+	target: health_care
+		define
+			text-color : #DA0092
+		for : amenity=hospital
+			define
+				min-zoom : 17
+				text-offset-vertical : 250%
+			draw : text
+			define
+				min-zoom : 15
+				icon-image : icons/OSMPH/health_hospital_h.32.png
+				icon-width : 15:10;16:12;17:14
+		for : amenity=clinic OR amenity=health_centre OR amenity=health_center
+			define
+				min-zoom : 18
+				text-offset-vertical : 280%
+			draw : text	
+			define
+				min-zoom : 15
+				icon-image : icons/SJJB/png/health_doctors.n.32.png
+				icon-width : 15:7;16:7;17:7;19:15
+		for : amenity=doctors
+			define
+				min-zoom : 19
+				text-offset-vertical : 180%
+			draw : text
+			define
+				min-zoom : 17
+				icon-image : icons/SJJB/png/health_doctors.p.32.png
+				icon-width : 16
+		for : amenity=dentist
+			define
+				min-zoom : 19
+				text-offset-vertical : 200%
+			draw : text
+			define
+				min-zoom : 17
+				icon-image : icons/SJJB/png/health_dentist.p.32.png
+				icon-width : 17:13;18:16
+		draw : icon
+
+	target: eye center
+		define
+			icon-image : icons/SJJB/png/health_opticians.p.32.png
+			min-zoom : 18
+			icon-width : 16
+			text-offset-vertical : 180%
+			text-color : #DA0092
+		draw : text		
+		draw : icon		
+		
+	target: veterinary
+		define
+			icon-image : icons/SJJB/png/health_veterinary.p.32.png
+			min-zoom : 18
+			icon-width : 16
+			text-offset-vertical : 180%
+			text-color : #DA0092
+		draw : text		
+		draw : icon
+		
+//---------		
+	target: supermarket
+		define
+			icon-image : icons/SJJB/png/shopping_supermarket.p.32.png
+			min-zoom : 16
+			icon-width : 16:14;19:20
+		draw : icon
+		define
+			min-zoom : 16
+			text-color : #856951
+			text-offset-vertical : 200%
+		draw : text
+		
+	target: convenience
+		define
+			icon-image : icons/SJJB/png/shopping_convenience.p.32.png
+			icon-width : 16:11;18:14
+			text-color : #856951
+			text-offset-vertical : 150%
+		for : name="7-Eleven"		
+			define
+				min-zoom : 16
+				icon-image : icons/OSMPH/logo/shop_7eleven.32.png
+			draw : icon
+			define
+				min-zoom : 19
+			draw : text	
+			stop
+		for : @isOneOf(name, "MiniStop", "Ministop", "Mini Stop")		
+			define
+				min-zoom : 16
+				icon-width : 16:11;17:13;18:20
+				icon-image : icons/OSMPH/logo/shop_ministop.48.png
+			draw : icon
+			define
+				min-zoom : 18
+			draw : text	
+			stop			
+		for: opening_hours=24/7
+			define
+				min-zoom : 16
+				text-offset-vertical : 120%
+			draw : icon
+			draw : text
+		else
+			define
+				min-zoom : 18
+			draw : icon
+			draw : text
+
+	target: greengrocer
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_greengrocer.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon				
+		
+	target: bakery
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_bakery.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon		
+		
+	target: sweets
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_confectionary.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon	
+		
+	target: meat shop
+		for : shop=butcher
+			define
+				icon-image : icons/SJJB/png/shopping_butcher.p.32.png
+		for : shop=seafood
+			define
+				icon-image : icons/SJJB/png/shopping_fish.p.32.png
+		define
+			min-zoom : 17
+			icon-width : 16
+		draw : icon
+		define	
+			min-zoom : 18
+			text-offset-vertical : 180%
+			text-color : #734a08
+		draw : text
+
+	target: drinking water
+		define
+			icon-image : icons/SJJB/png/food_drinkingtap.p.32.png
+			min-zoom : 17
+			icon-width : 17:17;19:20
+		draw : icon
+		define
+			min-zoom : 19
+			text-color : #734a08
+			text-offset-vertical : 200%
+		draw : text
+
+	target: beverages
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/OSMPH/shopping_beverages.p.32.png
+			min-zoom : 18
+			icon-width : 14
+		draw : icon		
+		
+	target: caterer
+		define
+			min-zoom : 18
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/OSMPH/office_company.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon			
+		
+////	CLOTHES, ARTS & CRAFT
+
+	target: department store 		
+		define
+			min-zoom : 17
+			font-weight : bold
+			text-color : #AA33AA
+		draw : text
+
+	target: personal attires
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		for : shop=clothes
+			define
+				icon-image : icons/SJJB/png/shopping_clothes.p.32.png
+				min-zoom : 18
+				icon-width : 16
+		draw : icon			
+
+	target: baby goods
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		for : shop=clothes
+			define
+				icon-image : icons/OSMPH/shopping_baby_goods.n.32.png
+				min-zoom : 18
+				icon-width : 16
+		draw : icon				
+		
+	target: couturier
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		for : shop=clothes
+			define
+				icon-image : icons/SJJB/png/shopping_clothes.n.32.png
+				min-zoom : 18
+				icon-width : 16
+		draw : icon			
+		
+	target: furnitures 		
+		define
+			min-zoom : 18
+			text-color : #734a08
+		draw : text
+		
+	target: general merchandise 		
+		define
+			min-zoom : 18
+			text-color : #734a08
+		draw : text
+
+	target: bookstore
+		define
+			min-zoom : 18
+			text-offset-vertical : 180%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_book.p.32.png
+			min-zoom : 17
+			icon-width : 16
+		draw : icon				
+		
+	target: flowershop
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_garden_centre.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon		
+	
+	target: souvenir
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_gift.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon		
+
+	target: toys
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_gift.n.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon				
+
+		
+	target: church
+		define
+			min-zoom : 16
+			icon-width : 16
+		for : religion=christian
+			define
+				icon-image : icons/SJJB/png/place_of_worship_christian3.p.32.png
+			draw : icon
+		for : religion=muslim
+			define
+				icon-image : icons/SJJB/png/place_of_worship_islamic3.p.32.png
+			draw : icon
+		for	: NOT (religion=christian OR religion=muslim)
+			define
+				icon-image : icons/SJJB/png/place_of_worship_unknown3.p.32.png
+			draw : icon
+		define
+			min-zoom : 18
+			text-color : #856951
+			text-offset-vertical : 200%
+		draw : text		
+		
+	target: bank
+		define
+			min-zoom : 18
+			text-color : #000000
+//			text-max-width : 6
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/SJJB/png/money_bank2.p.32.png
+			min-zoom : 17
+			icon-width : 15
+		draw : icon
+	target: atm
+		define
+			min-zoom : 18
+			text-color : #000000
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/SJJB/png/money_atm2.p.32.png
+			min-zoom : 18
+			icon-width : 18
+		draw : icon
+
+	target: hairdresser
+		define
+			icon-image : icons/SJJB/png/shopping_hairdresser.p.32.png
+			min-zoom : 18
+			icon-width : 18:13;19:15
+			text-color : #856951
+			text-max-width : 6
+			text-offset-vertical : 200%
+		draw : icon
+		draw : text
+
+	target: wellness
+		define
+			min-zoom : 18
+			text-color : #856951
+			text-max-width : 7
+			text-offset-vertical : 150%
+		for : shop=massage
+		for : shop=herbalist
+		for : shop=alternative_medicine
+//		draw : icon
+		draw : text
+
+	target : fitness center
+		define
+			min-zoom : 18
+			text-color : green
+			text-max-width : 6
+			text-offset-vertical : 200%
+		draw : text	
+		define
+			min-zoom : 17
+			icon-image : icons/SJJB/png/sport_gym.p.32.png
+			min-zoom : 16
+			icon-width : 17:9;19:18
+		draw : icon			
+
+	target: laundry
+		define
+			min-zoom : 19
+			text-offset-vertical : 150%
+			text-color : #734a08
+		draw : text
+		define
+			icon-image : icons/SJJB/png/shopping_laundrette.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon				
+		
+	target: pharmacy
+		define
+			min-zoom : 17
+			font-weight : bold
+			text-color : green
+			text-max-width : 7
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/OSMPH/health_pharmacy_green.32.png
+			min-zoom : 16
+			icon-width : 12
+		draw : icon
+	target: library
+		define
+			icon-image : icons/SJJB/png/amenity_library.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		for : name
+			define			
+				max-zoom : 18
+		draw : icon
+		define
+			min-zoom : 18
+			max-zoom : 20
+			text-color : #856951
+		draw : text
+	target: telephone
+		define
+			icon-image : icons/SJJB/png/amenity_telephone.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon		
+	target: toilets
+		define
+			icon-image : icons/SJJB/png/amenity_toilets.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon		
+	target: tree
+		define
+			icon-image : http://svn.openstreetmap.org/applications/rendering/mapnik/symbols/tree2.png
+			min-zoom : 17
+			icon-width : 17:6;18:6;19:10
+		draw : icon
+		define
+			min-zoom : 19
+			text-color : green
+			text-offset-vertical : 100%
+		draw : text
+
+	target: academic
+		define
+			icon-image : icons/SJJB/png/education_school.p.32.png
+			min-zoom : 15
+			icon-width : 15:6;16:16
+		draw : icon
+		for : amenity=kindergarten
+			define
+				min-zoom : 18
+				text-color : green
+				font-weight : bold
+				text-offset-vertical : 200%
+		for : NOT amenity=kindergarten		
+			define
+				min-zoom : 17
+				font-size : 17:7;18:9;19:11
+				font-weight : bold
+				text-color : green
+				text-offset-vertical : 200%
+		draw : text
+
+	target : tourism*
+		define
+			min-zoom : 18
+			text-color : #2B80FE
+			text-offset-vertical : 150%
+		draw : text
+		if : *accomodation
+			define
+				icon-image : icons/SJJB/png/accommodation_hotel2.p.32.png
+				min-zoom : 17
+				icon-width :16
+		elseif : *viewpoint
+			define
+				icon-image : icons/SJJB/png/tourist_view_point.p.32.png
+				min-zoom : 16
+				icon-width : 16
+		elseif : *museum
+			define
+				icon-image : icons/SJJB/png/tourist_museum.p.32.png
+				min-zoom : 16
+				icon-width : 16
+		else
+			stop
+		draw : icon
+		
+	target: memorial
+		define
+			icon-image : icons/SJJB/png/tourist_memorial.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon	
+
+	target: fuel
+		define
+			min-zoom : 15
+			font-weight : bold
+			text-color : #2B80FE
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/SJJB/png/transport_fuel.p.32.png
+			min-zoom : 15
+			icon-width : 17:17;19:22
+		draw : icon
+
+	target: cafe
+		define
+			min-zoom : 18
+			text-color : #856951
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/SJJB/png/food_cafe.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon		
+		
+	target: restaurant
+		define
+			min-zoom : 18
+			text-color : #734a08
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/SJJB/png/food_restaurant.p.32.png
+			min-zoom : 18
+			icon-width : 16
+		draw : icon
+		
+	target: fast food
+		define
+			text-color : #734a08
+			text-offset-vertical : 170%
+			min-zoom : 18
+		for : @isOneOf(name, "Jollibee", "McDonalds", "McDonald's")
+			define
+				min-zoom : 19
+		draw : text
+		define
+			min-zoom : 17
+			icon-width : 17:13;18:16;19:20
+		for : name="Jollibee"		
+			define
+				icon-image : icons/OSMPH/logo/food_jollibee.32.png
+				icon-width : 17:13;18:20;19:22
+			draw : icon	
+			stop	
+		for : name="McDonalds" OR name="McDonald's"		
+			define
+				icon-image : icons/OSMPH/logo/food_mcdonalds.32.png
+			draw : icon
+			stop		
+		else
+			define
+				icon-image : icons/SJJB/png/food_fastfood.p.32.png
+		draw : icon
+
+	target: deli
+		define
+			min-zoom : 18
+			text-color : #734a08
+			text-offset-vertical : 150%
+		draw : text
+		define
+			icon-image : icons/OSMPH/food_restaurant_purple.p.32.png
+			min-zoom : 18
+			icon-width : 15
+		draw : icon		
+		
+	target : entertainment*
+		define
+			min-zoom : 19
+			text-color : #856951
+			text-offset-vertical : 180%
+		draw : text
+		define
+			min-zoom : 18
+			icon-width : 16
+		if : *pub
+			define
+				icon-image : icons/SJJB/png/food_pub.p.32.png
+		elseif : *bar
+			define
+				icon-image : icons/SJJB/png/food_bar.p.32.png
+		else
+			stop
+		draw : icon
+
+		
+		
+		
+	target : traffic lights
+		define
+			icon-image : icons/SJJB/png/transport_traffic_lights.p.32.png
+			min-zoom : 16
+			icon-width : 16
+		draw : icon
+		
+	target: mini roundabout
+		define
+			icon-image : icons/SJJB/png/transport_roundabout_anticlockwise.p.32.png
+			min-zoom : 16
+			icon-width : 14
+		draw : icon
+		
+	target: contour*
+		define
+			line-color : #7f3300
+			line-opacity : 0.35
+			curved : true
+		if : *major
+			define
+				map.rendering.contour.label : true
+				min-zoom : 9
+				line-width : 11:0.1;11.9:1;12:2
+				font-size : 10
+				font-style : italic
+				font-weight : normal
+				text-halo-width : 35%
+				text-halo-opacity : 1
+				text-halo-color : #F1EEE8
+		else
+			define
+				min-zoom : 12
+				line-width : 1
+		draw : contour
+
+	target: coastline
+		define
+			line-color : #B5D0D0
+			line-width : 2
+		draw : line
+		
+	

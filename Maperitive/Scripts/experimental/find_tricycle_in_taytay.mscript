@@ -1,0 +1,1 @@
+find [(amenity=tricycle_station OR amenity=tricycle) AND addr:city=Taytay]

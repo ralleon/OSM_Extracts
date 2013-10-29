@@ -1,0 +1,8 @@
+--verbose
+
+--keep=
+amenity=place_of_worship
+
+--drop-relations
+
+-o=temp1.osm

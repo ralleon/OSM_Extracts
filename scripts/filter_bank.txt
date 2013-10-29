@@ -1,0 +1,8 @@
+--verbose
+
+--keep=
+amenity=bank
+
+--drop-relations
+
+-o=temp1.osm

@@ -1,0 +1,21 @@
+﻿// clear-map
+
+// Source 1 - MAIN MAP
+load-source maps/map_boh_.osm
+
+// Source 2 - FIXME
+load-source Temp/update_boh__fixme.osm
+
+// Source 3 - SLOPES
+load-source maps/rasters/bohol/boh_slopes.png
+
+// Source 4 - HILLSHADING
+//load-source maps/rasters/bohol/boh_hillshading.png
+
+use-ruleset location=Rules/Crisis_Mapping.mrules as-alias=crisis
+apply-ruleset 1
+
+use-ruleset location=Rules/FixMe.mrules as-alias=fixme
+apply-ruleset 2
+set-source index=2 visible=False
+//set-source index=4 visible=False
